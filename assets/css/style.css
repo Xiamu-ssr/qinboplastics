@@ -29,6 +29,11 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
   transition:background .35s var(--ease),box-shadow .35s var(--ease);
 }
 .site-header.scrolled{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line)}
+/* 内页：导航始终白底 */
+body.inner .site-header{background:rgba(255,255,255,.95);backdrop-filter:blur(12px);box-shadow:0 1px 0 var(--line)}
+body.inner .brand{color:var(--ink)}
+body.inner .nav-menu a{color:var(--ink)}
+body.inner .nav-toggle span{background:var(--ink)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:78px}
 .brand{display:flex;align-items:center;gap:12px;color:#fff;transition:color .35s}
 .site-header.scrolled .brand{color:var(--ink)}
@@ -71,6 +76,17 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
 .hero-scroll{position:absolute;bottom:30px;left:50%;transform:translateX(-50%);font-size:12px;letter-spacing:.2em;opacity:.7;animation:bob 2s infinite}
 @keyframes bob{0%,100%{transform:translate(-50%,0)}50%{transform:translate(-50%,8px)}}
 
+/* ===== 内页顶部 banner ===== */
+.page-banner{position:relative;height:340px;display:flex;align-items:center;color:#fff;overflow:hidden;margin-top:0}
+.page-banner img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-1}
+.page-banner::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(8,16,28,.85),rgba(11,34,58,.5))}
+.page-banner .container{position:relative;z-index:1}
+.page-banner h1{font-size:clamp(30px,4vw,48px);margin-bottom:12px}
+.page-banner p{opacity:.85;font-size:16px}
+.breadcrumb{font-size:13px;opacity:.7;margin-bottom:18px}
+.breadcrumb a{color:#fff}
+.breadcrumb a:hover{text-decoration:underline}
+
 /* ===== 通用 section ===== */
 .section{padding:110px 0}
 .section-head{margin-bottom:56px;max-width:680px}
@@ -101,6 +117,21 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
 .product-body h3{font-size:19px;margin-bottom:10px}
 .product-body p{color:var(--gray);font-size:14.5px}
 
+/* 6列产品网格 */
+.product-grid-6{grid-template-columns:repeat(3,1fr)}
+
+/* ===== 国内外贸易 ===== */
+.section-trade{background:var(--bg)}
+.trade-grid{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center}
+.trade-media img{width:100%;border-radius:14px;box-shadow:0 30px 60px -28px rgba(11,22,34,.4)}
+.trade-text .eyebrow{margin-bottom:14px}
+.trade-text h2{font-size:clamp(26px,3vw,40px);margin-bottom:22px}
+.trade-text>p{color:var(--gray);margin-bottom:22px}
+.trade-list{list-style:none;margin-bottom:26px}
+.trade-list li{position:relative;padding:12px 0 12px 30px;border-bottom:1px solid var(--line);color:var(--gray);font-size:15px}
+.trade-list li::before{content:"\2192";position:absolute;left:0;top:12px;color:var(--accent);font-weight:700}
+.trade-list strong{color:var(--ink);margin-right:8px}
+
 /* ===== 实力 数字墙 ===== */
 .section-strength{background:var(--ink);background:linear-gradient(160deg,var(--ink),var(--ink-2))}
 .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;text-align:center;color:#fff}
@@ -127,6 +158,14 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
 .contact-card li{display:flex;gap:16px;padding:11px 0;color:var(--ink);font-size:15px}
 .contact-card li span{flex:none;width:48px;color:var(--accent);font-weight:600}
 
+/* ===== CTA ===== */
+.section-cta{position:relative;padding:120px 0;color:#fff;text-align:center;overflow:hidden}
+.cta-media{position:absolute;inset:0;z-index:-1}
+.cta-media img{width:100%;height:100%;object-fit:cover}
+.cta-overlay{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,16,28,.82),rgba(11,34,58,.88))}
+.cta-content h2{font-size:clamp(26px,3.4vw,40px);margin-bottom:16px}
+.cta-content p{opacity:.85;margin-bottom:32px;font-size:17px}
+
 /* ===== 页脚 ===== */
 .site-footer{background:var(--ink);color:#fff}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;padding:56px 28px;flex-wrap:wrap;gap:26px}
@@ -139,6 +178,43 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
 .footer-bottom{border-top:1px solid rgba(255,255,255,.1)}
 .footer-bottom .container{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;padding-top:22px;padding-bottom:22px;color:rgba(255,255,255,.5);font-size:13px}
 .footer-bottom a{color:rgba(255,255,255,.7)}
+
+/* ===== 内页：产品详情 ===== */
+.cat-block{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:center;padding:56px 0;border-bottom:1px solid var(--line)}
+.cat-block:nth-child(even) .cat-media{order:2}
+.cat-media img{width:100%;border-radius:14px;box-shadow:0 24px 48px -26px rgba(11,22,34,.4);aspect-ratio:16/9;max-height:320px;object-fit:cover}
+.cat-info h3{font-size:26px;margin-bottom:8px}
+.cat-info .cat-en{color:var(--accent);font-size:13px;letter-spacing:.15em;font-weight:600;margin-bottom:18px}
+.cat-info>p{color:var(--gray);margin-bottom:20px}
+.tag-list{display:flex;flex-wrap:wrap;gap:10px}
+.tag-list span{background:var(--bg-soft);border:1px solid var(--line);color:var(--ink);padding:7px 16px;border-radius:30px;font-size:13.5px}
+
+/* ===== 内页：关于我们 ===== */
+.about-intro{display:grid;grid-template-columns:1.1fr 1fr;gap:64px;align-items:center}
+.about-intro img{width:100%;border-radius:14px;box-shadow:0 24px 48px -26px rgba(11,22,34,.4)}
+.about-intro h2{font-size:clamp(24px,2.6vw,34px);margin-bottom:20px}
+.about-intro p{color:var(--gray);margin-bottom:16px}
+.timeline{max-width:760px;margin:0 auto}
+.tl-item{position:relative;padding:0 0 38px 36px;border-left:2px solid var(--line)}
+.tl-item:last-child{border-left-color:transparent;padding-bottom:0}
+.tl-item::before{content:"";position:absolute;left:-9px;top:2px;width:16px;height:16px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(28,109,208,.15)}
+.tl-item h4{font-size:18px;margin-bottom:6px}
+.tl-item p{color:var(--gray);font-size:14.5px}
+.subject-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.subject-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:36px 32px;transition:.3s var(--ease)}
+.subject-card:hover{border-color:var(--accent);transform:translateY(-4px)}
+.subject-card h3{font-size:21px;margin-bottom:10px}
+.subject-card .role{color:var(--accent);font-size:13px;font-weight:600;letter-spacing:.1em;margin-bottom:14px}
+.subject-card p{color:var(--gray);font-size:14.5px}
+
+/* ===== 内页：地图占位 ===== */
+.map-placeholder{height:360px;border-radius:14px;background:var(--bg-soft);border:1px dashed var(--line);display:grid;place-items:center;color:var(--gray);font-size:15px;text-align:center;padding:20px}
+.contact-form{background:#fff;border:1px solid var(--line);border-radius:14px;padding:40px 36px}
+.contact-form .fld{margin-bottom:18px}
+.contact-form label{display:block;font-size:14px;margin-bottom:7px;font-weight:500}
+.contact-form input,.contact-form textarea{width:100%;padding:13px 15px;border:1px solid var(--line);border-radius:8px;font-size:15px;font-family:inherit;transition:.2s}
+.contact-form input:focus,.contact-form textarea:focus{outline:none;border-color:var(--accent)}
+.form-note{font-size:12.5px;color:var(--gray);margin-top:14px}
 
 /* ===== 滚动动画（带安全兑底：无JS/减少动画时直接显示） ===== */
 .js .reveal{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
@@ -153,12 +229,16 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em}
   .nav-menu.open{transform:none}
   .nav-menu a{color:var(--ink);padding:15px 28px;width:100%}
   .nav-toggle{display:flex}
-  .about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
-  .product-grid,.stat-grid,.value-grid{grid-template-columns:repeat(2,1fr)}
+  .about-grid,.contact-grid,.trade-grid{grid-template-columns:1fr;gap:40px}
+  .trade-media{order:-1}
+  .product-grid,.product-grid-6,.stat-grid,.value-grid{grid-template-columns:repeat(2,1fr)}
+  .cat-block,.about-intro,.subject-grid{grid-template-columns:1fr;gap:32px}
+  .cat-block:nth-child(even) .cat-media{order:0}
+  .page-banner{height:260px}
   .section{padding:80px 0}
   .stat{border-left:0}
 }
 @media(max-width:560px){
-  .product-grid,.stat-grid,.value-grid{grid-template-columns:1fr}
+  .product-grid,.product-grid-6,.stat-grid,.value-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column;align-items:flex-start}
 }
