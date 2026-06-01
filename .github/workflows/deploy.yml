@@ -37,14 +37,17 @@ jobs:
             -k "${{ secrets.OSS_ACCESS_KEY_SECRET }}" \
             -L CH
 
-      # 4. 上传网站文件到 OSS
+      # 4. 整理出纯净的网站目录（只含要上线的文件）
+      #    避开 ossutil --exclude 不支持目录路径的限制
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          cp -r index.html about.html products.html trade.html contact.html assets _site/
+          echo "=== 待上传文件 ==="
+          find _site -type f | sort
+
+      # 5. 上传到 OSS
       #    cp -rf --update：递归上传，只覆盖有变化的文件（增量，快）
-      #    --exclude：排除非网站文件
       - name: Upload to OSS
         run: |
-          ./ossutil cp -rf --update ./ oss://${{ secrets.OSS_BUCKET }}/ \
-            --exclude ".git/*" \
-            --exclude ".github/*" \
-            --exclude "README.md" \
-            --exclude ".gitignore" \
-            --exclude "ossutil"
+          ./ossutil cp -rf --update _site/ oss://${{ secrets.OSS_BUCKET }}/
