@@ -14,10 +14,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. 下载阿里云官方 ossutil（固定 1.7.19 版本，稳定可靠）
+      # 2. 下载阿里云官方 ossutil（多版本容错，避免单一版本下线导致失败）
       - name: Download ossutil
         run: |
-          wget -q https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil64 -O ossutil
+          set -e
+          for v in 1.7.18 1.7.15 1.7.16; do
+            echo "尝试下载 ossutil $v ..."
+            if curl -fsSL "https://gosspublic.alicdn.com/ossutil/$v/ossutil64" -o ossutil; then
+              echo "✓ 下载成功：$v"
+              break
+            fi
+          done
           chmod +x ossutil
           ./ossutil --version
 
