@@ -1,0 +1,8 @@
+# robots.txt for www.qinboplastics.com
+# 允许所有搜索引擎抓取全站
+
+User-agent: *
+Allow: /
+
+# 网站地图位置（提交给百度/Bing/Google 时也会用到）
+Sitemap: https://www.qinboplastics.com/sitemap.xml
