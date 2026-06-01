@@ -1,0 +1,43 @@
+name: Deploy to Aliyun OSS
+
+# 每次推送到 main 分支自动部署；也可在 Actions 页面手动触发（workflow_dispatch）
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取仓库代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 下载阿里云官方 ossutil（固定 1.7.19 版本，稳定可靠）
+      - name: Download ossutil
+        run: |
+          wget -q https://gosspublic.alicdn.com/ossutil/1.7.19/ossutil64 -O ossutil
+          chmod +x ossutil
+          ./ossutil --version
+
+      # 3. 配置凭证（从 GitHub Secrets 读取，不会出现在日志里）
+      - name: Configure ossutil
+        run: |
+          ./ossutil config \
+            -e "${{ secrets.OSS_ENDPOINT }}" \
+            -i "${{ secrets.OSS_ACCESS_KEY_ID }}" \
+            -k "${{ secrets.OSS_ACCESS_KEY_SECRET }}" \
+            -L CH
+
+      # 4. 上传网站文件到 OSS
+      #    cp -rf --update：递归上传，只覆盖有变化的文件（增量，快）
+      #    --exclude：排除非网站文件
+      - name: Upload to OSS
+        run: |
+          ./ossutil cp -rf --update ./ oss://${{ secrets.OSS_BUCKET }}/ \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "README.md" \
+            --exclude ".gitignore" \
+            --exclude "ossutil"
