@@ -38,13 +38,17 @@ body.inner .nav-toggle span{background:var(--ink)}
 .brand{display:flex;align-items:center;gap:12px;color:#fff;transition:color .35s}
 .site-header.scrolled .brand{color:var(--ink)}
 .brand-mark{
-  width:42px;height:42px;border-radius:9px;flex:none;
-  background:#fff;box-shadow:0 1px 6px rgba(11,22,34,.12);
-  display:grid;place-items:center;padding:5px;
+  width:44px;height:44px;flex:none;
+  display:grid;place-items:center;position:relative;
 }
 .brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
-/* 页脚深色背景：用白色版 logo，去掉白底卡片 */
-.footer-brand .brand-mark{background:transparent;box-shadow:none;padding:0}
+/* 顶部导航：hero 上白字 logo，滚动后/内页白底切深色 logo */
+.brand-mark .logo-dark{position:absolute;inset:0;opacity:0;transition:opacity .35s}
+.brand-mark .logo-light{transition:opacity .35s}
+.site-header.scrolled .brand-mark .logo-light,body.inner .brand-mark .logo-light{opacity:0}
+.site-header.scrolled .brand-mark .logo-dark,body.inner .brand-mark .logo-dark{opacity:1}
+/* 页脚深色背景：白色版 logo（只一张，无切换） */
+.footer-brand .brand-mark{width:46px;height:46px}
 .brand-text strong{display:block;font-size:17px;line-height:1.2}
 .brand-text em{font-style:normal;font-size:10.5px;letter-spacing:.18em;opacity:.7}
 .nav-menu{display:flex;gap:38px}
@@ -260,19 +264,26 @@ body.inner .nav-toggle span{background:var(--ink)}
 .site-header.scrolled .lang-btn,body.inner .lang-btn{color:var(--ink);border-color:var(--line)}
 .site-header.scrolled .lang-btn:hover,body.inner .lang-btn:hover{background:var(--bg-soft)}
 .lang-panel{
-  position:absolute;top:calc(100% + 10px);right:0;min-width:210px;max-height:70vh;overflow-y:auto;
-  background:#fff;border:1px solid var(--line);border-radius:12px;
-  box-shadow:0 24px 48px -20px rgba(11,22,34,.35);padding:8px;
+  position:absolute;top:calc(100% + 12px);right:0;width:340px;max-height:74vh;overflow-y:auto;
+  background:#fff;border:1px solid var(--line);border-radius:14px;
+  box-shadow:0 24px 60px -24px rgba(11,22,34,.4);padding:14px;
   opacity:0;visibility:hidden;transform:translateY(-8px);transition:.22s var(--ease);z-index:200;
 }
 .lang-switch.open .lang-panel{opacity:1;visibility:visible;transform:none}
-.lang-group{font-size:11px;letter-spacing:.06em;color:var(--gray);text-transform:uppercase;padding:10px 12px 5px}
+.lang-group{
+  grid-column:1/-1;font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--gray);
+  text-transform:uppercase;padding:12px 6px 6px;margin:0;
+  border-top:1px solid var(--line);
+}
+.lang-group:first-child{border-top:0;padding-top:2px}
 .lang-opt{
-  display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;
-  font-family:inherit;font-size:14.5px;color:var(--ink);padding:9px 12px;border-radius:7px;transition:.15s;
+  display:flex;align-items:center;gap:8px;width:100%;text-align:left;background:none;border:0;cursor:pointer;
+  font-family:inherit;font-size:14px;color:var(--ink);padding:9px 10px;border-radius:8px;transition:.15s;
 }
 .lang-opt:hover{background:var(--bg-soft)}
 .lang-opt.active{color:var(--accent);font-weight:600;background:rgba(28,109,208,.08)}
+/* 两列网格：同一地区的语言并排，更紧凑 */
+.lang-opts-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px;margin-bottom:2px}
 
 /* ===== RTL（阿拉伯语） ===== */
 [dir="rtl"] .nav-menu a::after{left:auto;right:0}

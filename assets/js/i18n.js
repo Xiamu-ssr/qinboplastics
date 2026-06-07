@@ -139,6 +139,8 @@
       gl.className = "lang-group";
       gl.textContent = g.name;
       panel.appendChild(gl);
+      var grid = document.createElement("div");
+      grid.className = "lang-opts-grid";
       g.items.forEach(function (l) {
         var a = document.createElement("button");
         a.type = "button";
@@ -149,8 +151,9 @@
           setLang(l.code);
           close();
         });
-        panel.appendChild(a);
+        grid.appendChild(a);
       });
+      panel.appendChild(grid);
     });
 
     host.appendChild(btn);
