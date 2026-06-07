@@ -39,10 +39,12 @@ body.inner .nav-toggle span{background:var(--ink)}
 .site-header.scrolled .brand{color:var(--ink)}
 .brand-mark{
   width:42px;height:42px;border-radius:9px;flex:none;
-  background:linear-gradient(135deg,var(--accent),var(--ink-2));
-  color:#fff;font-weight:800;font-size:17px;letter-spacing:.5px;
-  display:grid;place-items:center;
+  background:#fff;box-shadow:0 1px 6px rgba(11,22,34,.12);
+  display:grid;place-items:center;padding:5px;
 }
+.brand-mark img{width:100%;height:100%;object-fit:contain;display:block}
+/* 页脚深色背景：用白色版 logo，去掉白底卡片 */
+.footer-brand .brand-mark{background:transparent;box-shadow:none;padding:0}
 .brand-text strong{display:block;font-size:17px;line-height:1.2}
 .brand-text em{font-style:normal;font-size:10.5px;letter-spacing:.18em;opacity:.7}
 .nav-menu{display:flex;gap:38px}
@@ -241,4 +243,46 @@ body.inner .nav-toggle span{background:var(--ink)}
 @media(max-width:560px){
   .product-grid,.product-grid-6,.stat-grid,.value-grid{grid-template-columns:1fr}
   .footer-inner{flex-direction:column;align-items:flex-start}
+}
+
+/* ===== 语言切换器 ===== */
+.lang-switch{position:relative;flex:none;margin-left:26px}
+.lang-btn{
+  display:flex;align-items:center;gap:7px;background:transparent;border:1px solid rgba(255,255,255,.4);
+  color:#fff;font-size:14px;font-family:inherit;padding:7px 12px;border-radius:8px;cursor:pointer;
+  transition:background .25s,border-color .25s,color .35s;white-space:nowrap;
+}
+.lang-btn:hover{background:rgba(255,255,255,.14)}
+.lang-globe{font-size:15px;line-height:1}
+.lang-caret{font-size:10px;opacity:.7;transition:transform .25s}
+.lang-switch.open .lang-caret{transform:rotate(180deg)}
+/* 滚动后/内页：白底导航 -> 深色切换器 */
+.site-header.scrolled .lang-btn,body.inner .lang-btn{color:var(--ink);border-color:var(--line)}
+.site-header.scrolled .lang-btn:hover,body.inner .lang-btn:hover{background:var(--bg-soft)}
+.lang-panel{
+  position:absolute;top:calc(100% + 10px);right:0;min-width:210px;max-height:70vh;overflow-y:auto;
+  background:#fff;border:1px solid var(--line);border-radius:12px;
+  box-shadow:0 24px 48px -20px rgba(11,22,34,.35);padding:8px;
+  opacity:0;visibility:hidden;transform:translateY(-8px);transition:.22s var(--ease);z-index:200;
+}
+.lang-switch.open .lang-panel{opacity:1;visibility:visible;transform:none}
+.lang-group{font-size:11px;letter-spacing:.06em;color:var(--gray);text-transform:uppercase;padding:10px 12px 5px}
+.lang-opt{
+  display:block;width:100%;text-align:left;background:none;border:0;cursor:pointer;
+  font-family:inherit;font-size:14.5px;color:var(--ink);padding:9px 12px;border-radius:7px;transition:.15s;
+}
+.lang-opt:hover{background:var(--bg-soft)}
+.lang-opt.active{color:var(--accent);font-weight:600;background:rgba(28,109,208,.08)}
+
+/* ===== RTL（阿拉伯语） ===== */
+[dir="rtl"] .nav-menu a::after{left:auto;right:0}
+[dir="rtl"] .lang-switch{margin-left:0;margin-right:26px}
+[dir="rtl"] .lang-panel{right:auto;left:0}
+[dir="rtl"] .lang-opt{text-align:right}
+[dir="rtl"] .trade-list,[dir="rtl"] .contact-card ul,[dir="rtl"] .hero-content{text-align:right}
+[dir="rtl"] .breadcrumb{direction:rtl}
+
+@media(max-width:900px){
+  .lang-switch{margin:0 0 0 auto;order:-1;margin-right:14px}
+  .lang-panel{right:0}
 }
