@@ -415,8 +415,11 @@ body.inner .nav-toggle span{background:var(--ink)}
 #qbMap{position:relative;width:100%;line-height:0}
 .qbmap-svg{width:100%;height:auto;display:block;overflow:visible}
 /* 点阵 */
-.qbmap-dots circle{fill:#5e7bb0;opacity:0;transition:opacity 1s ease}
-.qbmap-on .qbmap-dots circle{opacity:.22}
+/* 国家轮廓填充 + 点亮 */
+.qbmap-land .qbc{fill:rgba(120,150,200,.09);stroke:rgba(150,180,225,.28);stroke-width:.8;vector-effect:non-scaling-stroke;transition:fill .9s ease,stroke .9s ease,filter .9s ease}
+.qbmap-on .qbmap-land .qbc{fill:rgba(126,160,210,.14)}
+.qbc.lit-home{fill:rgba(255,90,77,.30);stroke:rgba(255,120,105,.85);filter:drop-shadow(0 0 6px rgba(255,90,77,.45))}
+.qbc.lit{fill:rgba(255,206,90,.28);stroke:rgba(255,216,120,.85);filter:drop-shadow(0 0 6px rgba(255,206,90,.4))}
 /* 弧线 */
 .qbmap-arc{fill:none;stroke-width:1.6;stroke-linecap:round}
 .qbmap-arc.dom{stroke:#5ad1e6;filter:drop-shadow(0 0 3px rgba(90,209,230,.6))}
