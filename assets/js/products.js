@@ -44,6 +44,11 @@
     return hay.join(" \u0001 ").toLowerCase().indexOf(q) !== -1;
   }
   function gradeCount(m) { var n = 0; (m.brands || []).forEach(function (b) { n += (b.g || []).length; }); return n; }
+  function topGrades(m, n) {
+    var out = [];
+    (m.brands || []).forEach(function (b) { (b.g || []).forEach(function (g) { if (out.indexOf(g) === -1) out.push(g); }); });
+    return out.slice(0, n);
+  }
 
   // ---- 卡片 ----
   var CAT_CLS = { commodity: "c-comm", engineering: "c-eng", special: "c-spec", modified: "c-mod" };
@@ -53,6 +58,10 @@
     el.className = "prod-card " + (CAT_CLS[m.cat] || "");
     el.setAttribute("data-id", m.id);
     var badge = m.abbr.length > 7 ? m.abbr.split(/[\s\/]/)[0] : m.abbr;
+    var gc = gradeCount(m);
+    var preview = topGrades(m, 6);
+    var chips = preview.map(function (g) { return '<code class="pc-g">' + esc(g) + '</code>'; }).join("");
+    var more = gc > preview.length ? '<code class="pc-g pc-more">+' + (gc - preview.length) + '</code>' : '';
     el.innerHTML =
       '<span class="pc-tile"><span class="pc-abbr">' + esc(badge) + '</span>' +
         (m.hot ? '<span class="pc-hot">' + t("hot") + '</span>' : '') + '</span>' +
@@ -60,8 +69,9 @@
         '<span class="pc-cat">' + esc(catName(m.cat)) + '</span>' +
         '<span class="pc-name">' + esc(m.abbr) + ' · ' + esc(pick(m)) + '</span>' +
         '<span class="pc-desc">' + esc(pick(m, "desc")) + '</span>' +
-        '<span class="pc-meta">' + (m.brands || []).length + ' ' + t("brands") +
-          ' · ' + gradeCount(m) + ' ' + t("grades") + '</span>' +
+        '<span class="pc-grades-prev">' + chips + more + '</span>' +
+        '<span class="pc-meta"><span>' + (m.brands || []).length + ' ' + t("brands") +
+          ' · ' + gc + ' ' + t("grades") + '</span><span class="pc-view">' + t("detail") + ' \u2192</span></span>' +
       '</span>';
     el.addEventListener("click", function () { openModal(m); });
     return el;
