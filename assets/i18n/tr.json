@@ -218,7 +218,10 @@
     "flow4d": "Uzun vadeli iş birliği için sürekli teknik ve tedarik güvencesi.",
     "ctaTitle": "İthal Malzeme veya Yurt İçi Tedarik mi Arıyorsunuz?",
     "ctaSub": "Qinbo'nun ticaret ekibi profesyonel destek sunmaya hazır.",
-    "ctaBtn": "Ticaret Ekibiyle İletişime Geçin"
+    "ctaBtn": "Ticaret Ekibiyle İletişime Geçin",
+    "clientsEyebrow": "Our Clients",
+    "clientsTitle": "Trusted by these companies",
+    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
   },
   "contact": {
     "salesEyebrow": "Satış Ekibi",

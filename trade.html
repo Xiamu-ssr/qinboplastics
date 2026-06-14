@@ -46,38 +46,6 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container trade-grid">
-    <div class="trade-media reveal"><img src="assets/img/photos/real/trade-domestic.jpg" alt="国内贸易" /></div>
-    <div class="trade-text reveal">
-      <p class="eyebrow" data-i18n="trade.domEyebrow">国内贸易</p>
-      <h2 data-i18n="trade.domTitle">覆盖核心区域的<br/>分销网络</h2>
-      <p data-i18n="trade.domP">依托上海与海口双基地，秦帛在华东、华南等核心市场建立了灵活高效的分销体系，快速响应客户的采购与配货需求。</p>
-      <ul class="trade-list">
-        <li data-i18n="trade.domLi1"><strong>区域覆盖</strong>华东、华南核心制造业集群</li>
-        <li data-i18n="trade.domLi2"><strong>灵活配货</strong>小批量到大宗采购，按需供应</li>
-        <li data-i18n="trade.domLi3"><strong>快速交付</strong>本地化库存与物流协同</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section section-products">
-  <div class="container trade-grid">
-    <div class="trade-text reveal">
-      <p class="eyebrow" data-i18n="trade.intlEyebrow">国际进出口</p>
-      <h2 data-i18n="trade.intlTitle">打通海外货源到<br/>国内客户的链路</h2>
-      <p data-i18n="trade.intlP">秦帛具备成熟的进出口业务能力，对接欧美、日韩、中东等海外优质供应商，提供正规渠道的进口树脂分销，单据齐全、品质可靠。</p>
-      <ul class="trade-list">
-        <li data-i18n="trade.intlLi1"><strong>进口分销</strong>原厂正品树脂，渠道正规可追溯</li>
-        <li data-i18n="trade.intlLi2"><strong>报关物流</strong>完整进出口流程与单证服务</li>
-        <li data-i18n="trade.intlLi3"><strong>稳定供应</strong>长期海外合作，货源持续稳定</li>
-      </ul>
-    </div>
-    <div class="trade-media reveal"><img src="assets/img/photos/real/trade-intl.jpg" alt="国际贸易" /></div>
-  </div>
-</section>
-
 <!-- 业务版图 · 沙盘动画 -->
 <section class="section-map">
   <div class="container">
@@ -105,18 +73,16 @@
   </div>
 </section>
 
-<section class="section">
+<!-- 合作客户 · 三行弹幕滚动 -->
+<section class="section section-products">
   <div class="container">
     <div class="section-head reveal" style="text-align:center;margin-left:auto;margin-right:auto">
-      <p class="eyebrow" data-i18n="trade.flowEyebrow">一站式服务</p><h2 data-i18n="trade.flowTitle">从选材到交付的全流程协同</h2>
-    </div>
-    <div class="value-grid">
-      <div class="value reveal"><div class="value-ico">①</div><h3 data-i18n="trade.flow1t">需求对接</h3><p data-i18n="trade.flow1d">了解应用场景与技术要求，精准匹配材料。</p></div>
-      <div class="value reveal"><div class="value-ico">②</div><h3 data-i18n="trade.flow2t">报价选型</h3><p data-i18n="trade.flow2d">提供型号建议与有竞争力的报价方案。</p></div>
-      <div class="value reveal"><div class="value-ico">③</div><h3 data-i18n="trade.flow3t">物流交付</h3><p data-i18n="trade.flow3d">国内配送与进口报关，按期稳定交付。</p></div>
-      <div class="value reveal"><div class="value-ico">④</div><h3 data-i18n="trade.flow4t">售后支持</h3><p data-i18n="trade.flow4d">持续的技术与供应保障，长期合作。</p></div>
+      <p class="eyebrow" data-i18n="trade.clientsEyebrow">合作客户</p>
+      <h2 data-i18n="trade.clientsTitle">他们都在与秦帛合作</h2>
+      <p data-i18n="trade.clientsDesc">部分历史合作客户，覆盖塑胶制品、电子电器、汽车、医药、包装等行业。</p>
     </div>
   </div>
+  <div class="clients-wall" id="clientsWall" aria-label="合作客户"></div>
 </section>
 
 <section class="section-cta">
@@ -133,12 +99,14 @@
     <div class="footer-brand"><span class="brand-mark"><img src="assets/img/logo-white.png" alt="秦帛新材料" /></span><div><strong>秦帛新材料</strong><p data-i18n="footer.subjects">上海秦帛新材料 · 海口秦帛新材料</p></div></div>
     <nav class="footer-nav"><a href="about.html" data-i18n="nav.about">关于我们</a><a href="products.html" data-i18n="nav.products">产品中心</a><a href="trade.html" data-i18n="nav.trade">国内外贸易</a><a href="contact.html" data-i18n="nav.contact">联系我们</a></nav>
   </div>
-  <div class="footer-bottom"><div class="container"><span data-i18n="footer.copyright">© 2026 秦帛新材料 版权所有</span><span>ICP备案号：____________（待补充） · <a href="http://www.qinboplastics.com">www.qinboplastics.com</a></span></div></div>
+  <div class="footer-bottom"><div class="container"><span data-i18n="footer.copyright">© 2026 秦帛新材料 版权所有</span><span><a href="http://www.qinboplastics.com">www.qinboplastics.com</a></span></div></div>
 </footer>
 
 <script src="assets/js/main.js"></script>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/map-data.js"></script>
 <script src="assets/js/map.js"></script>
+<script src="assets/data/clients.js"></script>
+<script src="assets/js/clients.js"></script>
 </body>
 </html>
