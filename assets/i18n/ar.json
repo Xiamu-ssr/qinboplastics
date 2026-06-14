@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "فريق المبيعات",
-    "salesTitle": "قسم المبيعات",
-    "salesDesc": "تواصل مباشرة مع مستشاري المبيعات لدينا للحصول على عروض الأسعار ومواعيد التسليم والمشورة في اختيار المواد.",
+    "salesTitle": "Sales Team · Direct Contact",
+    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
     "roleSales": "المبيعات",
     "labelWechat": "WeChat",
     "copyHint": "انقر للنسخ",
@@ -230,7 +230,15 @@
     "mapEyebrow": "خريطة الموقع",
     "mapTitle": "موقعنا",
     "mapDesc": "يمكن عند الإطلاق تضمين خريطة (Amap / Baidu Maps) لتحديد موقعي الكيانين بدقة.",
-    "mapPlaceholder": "مكان مخصص للخريطة<br/><small>(سيتم تضمين الخريطة فور توفير العناوين)</small>"
+    "mapPlaceholder": "مكان مخصص للخريطة<br/><small>(سيتم تضمين الخريطة فور توفير العناوين)</small>",
+    "addrEyebrow": "Our Offices",
+    "addrTitle": "Find Us",
+    "officeShTitle": "Shanghai HQ",
+    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
+    "officeKsTitle": "Jiangsu (Kunshan) Branch",
+    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
+    "labelFax": "Fax",
+    "labelZip": "Zip"
   },
   "cert": {
     "licenseSh": "رخصة تجارية (شنغهاي)",

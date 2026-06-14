@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "Отдел продаж",
-    "salesTitle": "Отдел продаж",
-    "salesDesc": "Свяжитесь напрямую с нашими менеджерами по продажам для получения цен, сроков поставки и помощи в подборе материалов.",
+    "salesTitle": "Sales Team · Direct Contact",
+    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
     "roleSales": "Продажи",
     "labelWechat": "WeChat",
     "copyHint": "Нажмите, чтобы скопировать",
@@ -230,7 +230,15 @@
     "mapEyebrow": "Карта расположения",
     "mapTitle": "Как нас найти",
     "mapDesc": "При запуске может быть встроена карта (Amap / Baidu Maps) с указанием точного расположения обоих юрлиц.",
-    "mapPlaceholder": "Заглушка карты<br/><small>(Карта будет встроена после предоставления адресов)</small>"
+    "mapPlaceholder": "Заглушка карты<br/><small>(Карта будет встроена после предоставления адресов)</small>",
+    "addrEyebrow": "Our Offices",
+    "addrTitle": "Find Us",
+    "officeShTitle": "Shanghai HQ",
+    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
+    "officeKsTitle": "Jiangsu (Kunshan) Branch",
+    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
+    "labelFax": "Fax",
+    "labelZip": "Zip"
   },
   "cert": {
     "licenseSh": "Лицензия (Шанхай)",

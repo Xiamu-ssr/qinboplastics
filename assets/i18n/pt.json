@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "Equipe de vendas",
-    "salesTitle": "Departamento de vendas",
-    "salesDesc": "Fale diretamente com nossos consultores de vendas para orçamentos, prazos de entrega e orientação na seleção de materiais.",
+    "salesTitle": "Sales Team · Direct Contact",
+    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
     "roleSales": "Vendas",
     "labelWechat": "WeChat",
     "copyHint": "Clique para copiar",
@@ -230,7 +230,15 @@
     "mapEyebrow": "Mapa de localização",
     "mapTitle": "Onde estamos",
     "mapDesc": "No lançamento, um mapa (Amap / Baidu Maps) poderá ser incorporado para marcar a localização exata de ambas as entidades.",
-    "mapPlaceholder": "Espaço reservado para mapa<br/><small>(O mapa será incorporado assim que os endereços forem informados)</small>"
+    "mapPlaceholder": "Espaço reservado para mapa<br/><small>(O mapa será incorporado assim que os endereços forem informados)</small>",
+    "addrEyebrow": "Our Offices",
+    "addrTitle": "Find Us",
+    "officeShTitle": "Shanghai HQ",
+    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
+    "officeKsTitle": "Jiangsu (Kunshan) Branch",
+    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
+    "labelFax": "Fax",
+    "labelZip": "Zip"
   },
   "cert": {
     "licenseSh": "Licença comercial (Xangai)",

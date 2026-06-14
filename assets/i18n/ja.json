@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "営業チーム",
-    "salesTitle": "営業部",
-    "salesDesc": "営業担当者に直接ご連絡いただき、見積もり・納期・素材選定のご相談を承ります。",
+    "salesTitle": "Sales Team · Direct Contact",
+    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
     "roleSales": "営業",
     "labelWechat": "WeChat",
     "copyHint": "クリックでコピー",
@@ -230,7 +230,15 @@
     "mapEyebrow": "所在地マップ",
     "mapTitle": "所在地",
     "mapDesc": "公開時に地図（Amap / Baidu Mapsなど）を埋め込み、両拠点の正確な位置を表示できます。",
-    "mapPlaceholder": "マップのプレースホルダー<br/><small>(住所確定後に地図を埋め込みます)</small>"
+    "mapPlaceholder": "マップのプレースホルダー<br/><small>(住所確定後に地図を埋め込みます)</small>",
+    "addrEyebrow": "Our Offices",
+    "addrTitle": "Find Us",
+    "officeShTitle": "Shanghai HQ",
+    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
+    "officeKsTitle": "Jiangsu (Kunshan) Branch",
+    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
+    "labelFax": "Fax",
+    "labelZip": "Zip"
   },
   "cert": {
     "licenseSh": "上海営業許可証",

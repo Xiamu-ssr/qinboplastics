@@ -47,31 +47,22 @@ const statIO = new IntersectionObserver((entries) => {
 }, { threshold: 0.6 });
 document.querySelectorAll('.stat-num').forEach(el => statIO.observe(el));
 
-// ===== 销售部名片轮播 =====
+// ===== 销售部名片 · 自动无缝滚动 =====
 (function () {
-  const vp = document.getElementById('salesViewport');
-  if (!vp) return;
-  const prev = document.getElementById('salesPrev');
-  const next = document.getElementById('salesNext');
-  const card = vp.querySelector('.namecard');
-  const step = () => (card ? card.getBoundingClientRect().width + 24 : 320);
-  const rtl = () => document.documentElement.getAttribute('dir') === 'rtl';
-
-  function updateArrows() {
-    const maxScroll = vp.scrollWidth - vp.clientWidth - 2;
-    const x = Math.abs(vp.scrollLeft);
-    if (prev) prev.disabled = x <= 2;
-    if (next) next.disabled = x >= maxScroll;
+  const track = document.getElementById('bcardsTrack');
+  if (track) {
+    // 克隆一份卡片实现无缝循环（translateX -50% 回到原点）
+    const originals = Array.prototype.slice.call(track.children);
+    originals.forEach(function (c) { track.appendChild(c.cloneNode(true)); });
+    // 速度按内容宽度自适应：约 60px/s
+    const setDur = function () {
+      const w = track.scrollWidth / 2; // 一组宽度
+      const dur = Math.max(18, Math.round(w / 60));
+      track.style.setProperty('--bc-dur', dur + 's');
+    };
+    setDur();
+    window.addEventListener('resize', setDur);
   }
-  function scrollBy(dir) {
-    // RTL 下 scrollLeft 为负，统一用方向乘法
-    vp.scrollBy({ left: dir * step() * (rtl() ? -1 : 1), behavior: 'smooth' });
-  }
-  prev?.addEventListener('click', () => scrollBy(-1));
-  next?.addEventListener('click', () => scrollBy(1));
-  vp.addEventListener('scroll', () => requestAnimationFrame(updateArrows), { passive: true });
-  window.addEventListener('resize', updateArrows);
-  updateArrows();
 
   // 微信号点击复制
   let toast;

@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "销售团队",
-    "salesTitle": "销售部",
-    "salesDesc": "直接联系我们的销售顾问，获取报价、货期与选型建议。",
+    "salesTitle": "销售部 · 直接联系",
+    "salesDesc": "点击电话直接拨打，点击微信号一键复制。获取报价、货期与选型建议。",
     "roleSales": "销售部",
     "labelWechat": "微信",
     "copyHint": "点击复制",
@@ -230,7 +230,15 @@
     "mapEyebrow": "位置地图",
     "mapTitle": "找到我们",
     "mapDesc": "上线时可嵌入高德 / 百度地图，标注两大主体的具体位置。",
-    "mapPlaceholder": "地图占位<br/><small>（待补充具体地址后嵌入地图）</small>"
+    "mapPlaceholder": "地图占位<br/><small>（待补充具体地址后嵌入地图）</small>",
+    "addrEyebrow": "公司地址",
+    "addrTitle": "找到我们",
+    "officeShTitle": "上海总部",
+    "officeShAddr": "上海市奉贤区南桥镇环城南路1338-1号632室",
+    "officeKsTitle": "江苏（昆山）分公司",
+    "officeKsAddr": "江苏省苏州市昆山开发区东城大道9号龙成国际23-4号",
+    "labelFax": "传真",
+    "labelZip": "邮编"
   },
   "cert": {
     "licenseSh": "上海营业执照",

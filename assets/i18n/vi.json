@@ -202,8 +202,8 @@
   },
   "contact": {
     "salesEyebrow": "Đội ngũ kinh doanh",
-    "salesTitle": "Phòng kinh doanh",
-    "salesDesc": "Liên hệ trực tiếp với chuyên viên kinh doanh của chúng tôi để nhận báo giá, thời gian giao hàng và tư vấn chọn vật liệu.",
+    "salesTitle": "Sales Team · Direct Contact",
+    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
     "roleSales": "Kinh doanh",
     "labelWechat": "WeChat",
     "copyHint": "Nhấp để sao chép",
@@ -230,7 +230,15 @@
     "mapEyebrow": "Bản đồ vị trí",
     "mapTitle": "Tìm chúng tôi",
     "mapDesc": "Có thể nhúng bản đồ (Amap / Baidu Maps) khi ra mắt để đánh dấu vị trí chính xác của cả hai đơn vị.",
-    "mapPlaceholder": "Trình giữ chỗ bản đồ<br/><small>(Bản đồ sẽ được nhúng khi địa chỉ được cung cấp)</small>"
+    "mapPlaceholder": "Trình giữ chỗ bản đồ<br/><small>(Bản đồ sẽ được nhúng khi địa chỉ được cung cấp)</small>",
+    "addrEyebrow": "Our Offices",
+    "addrTitle": "Find Us",
+    "officeShTitle": "Shanghai HQ",
+    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
+    "officeKsTitle": "Jiangsu (Kunshan) Branch",
+    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
+    "labelFax": "Fax",
+    "labelZip": "Zip"
   },
   "cert": {
     "licenseSh": "Giấy phép KD Thượng Hải",
