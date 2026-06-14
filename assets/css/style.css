@@ -302,6 +302,17 @@ body.inner .nav-toggle span{background:var(--ink)}
 .brand-chips span{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 15px;font-size:14px;font-weight:600;color:var(--ink-2);box-shadow:0 3px 10px rgba(10,20,40,.04)}
 .agent-certs{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:26px}
 .agent-certs .ac-badge{background:linear-gradient(135deg,#fff7e6,#ffeccc);border:1px solid #f0d49a;color:#8a5a12;border-radius:24px;padding:9px 20px;font-size:14px;font-weight:700}
+/* 关于页 · 仓储网格 */
+.wh-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;max-width:960px;margin:8px auto 0}
+.wh-item{position:relative;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 16px 18px 40px;font-size:14.5px;font-weight:600;color:var(--ink-2);box-shadow:0 4px 14px -10px rgba(11,22,34,.3);line-height:1.5}
+.wh-item::before{content:"";position:absolute;left:16px;top:50%;transform:translateY(-50%);width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(28,72,168,.12)}
+[dir=rtl] .wh-item{padding:18px 40px 18px 16px}[dir=rtl] .wh-item::before{left:auto;right:16px}
+@media(max-width:860px){.wh-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:460px){.wh-grid{grid-template-columns:1fr}}
+/* 关于页 · 资质药丸 */
+.cert-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:13px;max-width:880px;margin:8px auto 0}
+.cert-pill{display:inline-flex;align-items:center;gap:9px;background:linear-gradient(135deg,#fff,#f3f7ff);border:1px solid var(--line);border-radius:999px;padding:11px 22px;font-size:14.5px;font-weight:700;color:var(--ink-2);box-shadow:0 4px 14px -10px rgba(11,22,34,.3)}
+.cert-pill::before{content:"✓";display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--accent);color:#fff;font-size:12px;font-weight:700}
 @media(max-width:760px){.culture-grid{grid-template-columns:1fr;gap:14px}.section-culture{padding:64px 0}}
 
 /* ===== 产品中心 · 搜索+卡片 ===== */
