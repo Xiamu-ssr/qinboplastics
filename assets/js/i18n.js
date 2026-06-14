@@ -66,6 +66,8 @@
 
   function apply(dict, lang) {
     var m = meta(lang);
+    window.QB_LANG = lang;            // 暴露当前语言供动态组件(产品卡片等)使用
+    window.QB_DIR = m.dir;
     document.documentElement.setAttribute("lang", lang === "zh" ? "zh-CN" : lang);
     document.documentElement.setAttribute("dir", m.dir);
 

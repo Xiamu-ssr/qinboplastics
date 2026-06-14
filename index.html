@@ -69,9 +69,20 @@
     <p class="hero-eyebrow">SHANGHAI · HAIKOU QINBO NEW MATERIALS</p>
     <h1 data-i18n="home.heroTitle">以材料连接<br/>更好的未来</h1>
     <p class="hero-sub" data-i18n="home.heroSub">专注塑料原料的国内外贸易与服务<br/>通用塑料 · 工程塑料 · 改性料 · 进口料 · 橡胶</p>
-    <div class="hero-actions">
-      <a href="products.html" class="btn btn-primary" data-i18n="home.heroBtnProducts">探索产品</a>
-      <a href="contact.html" class="btn btn-ghost" data-i18n="nav.contact">联系我们</a>
+    <form class="hero-search" id="heroSearch" action="products.html" method="get" role="search">
+      <input type="search" name="q" id="heroSearchInput" autocomplete="off"
+        aria-label="搜索产品" data-i18n-attr="placeholder:home.searchPh"
+        placeholder="搜牌号 / 料种 / 品牌，如 PA66、8150、奇美、阻燃" />
+      <button type="submit" class="btn btn-primary" data-i18n="home.heroBtnProducts">探索产品</button>
+    </form>
+    <div class="hero-quick">
+      <span class="hq-label" data-i18n="home.hot">热门</span>
+      <a href="products.html?q=PA66">PA66</a>
+      <a href="products.html?q=POM">POM</a>
+      <a href="products.html?q=PC">PC</a>
+      <a href="products.html?q=POE">POE</a>
+      <a href="products.html?cat=modified" data-i18n="home.hqCustom">改性定制</a>
+      <a href="contact.html" class="hq-contact" data-i18n="nav.contact">联系我们</a>
     </div>
   </div>
   <div class="hero-scroll" data-i18n="home.scroll">向下滚动 ↓</div>
