@@ -33,6 +33,11 @@
   }
 
   function detectLang() {
+    // URL 参数 ?lang=xx 优先（便于 QA 与分享指定语言）
+    try {
+      var q = new URLSearchParams(window.location.search).get("lang");
+      if (q && codes().indexOf(q) !== -1) return q;
+    } catch (e) {}
     try {
       var saved = localStorage.getItem(STORAGE_KEY);
       if (saved && codes().indexOf(saved) !== -1) return saved;

@@ -2,3 +2,6 @@
 *.log
 node_modules/
 assets/img/photos/real/_replaced_bak/
+
+# 临时 QA 产物
+screenshots/
