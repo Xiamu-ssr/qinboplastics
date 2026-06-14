@@ -95,6 +95,17 @@
     "ctaBtn": "Kontakt aufnehmen"
   },
   "trade": {
+    "mapEyebrow": "Geschäftskarte",
+    "mapTitle": "Ein Handelsnetz von zwei Standorten in die ganze Welt",
+    "mapDesc": "Mit Shanghai und Haikou als Drehkreuzen deckt der Inlandsvertrieb zentrale Fertigungsregionen ab, während Import/Export Bezugsquellen in Japan, Korea, Südostasien und dem Nahen Osten verbindet.",
+    "mapLegBase": "Zwei Standorte",
+    "mapLegDom": "Inlandsvertrieb",
+    "mapLegIntl": "Import & Export",
+    "mapLegWh": "Lagerstandorte",
+    "mapStage1": "Zwei Standorte · Shanghai & Haikou",
+    "mapStage2": "Inlandsvertrieb · zentrale Fertigungsregionen",
+    "mapStage3": "Import & Export · Anbindung globaler Quellen",
+    "mapStage4": "Lagerstandorte · Suzhou + Hainan",
     "bannerTitle": "Handel",
     "bannerSub": "Nationaler Vertrieb + internationaler Import/Export, doppelt angetrieben",
     "domEyebrow": "Nationaler Handel",

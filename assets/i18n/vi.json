@@ -95,6 +95,17 @@
     "ctaBtn": "Liên hệ với chúng tôi"
   },
   "trade": {
+    "mapEyebrow": "Bản đồ kinh doanh",
+    "mapTitle": "Mạng lưới thương mại vươn ra toàn cầu từ hai cơ sở",
+    "mapDesc": "Lấy Thượng Hải và Hải Khẩu làm trụ cột, phân phối trong nước bao phủ các khu vực sản xuất trọng điểm, còn xuất nhập khẩu kết nối nguồn hàng từ Nhật Bản, Hàn Quốc, Đông Nam Á và Trung Đông.",
+    "mapLegBase": "Hai cơ sở",
+    "mapLegDom": "Phân phối nội địa",
+    "mapLegIntl": "Xuất nhập khẩu",
+    "mapLegWh": "Kho bãi",
+    "mapStage1": "Hai cơ sở · Thượng Hải & Hải Khẩu",
+    "mapStage2": "Phân phối nội địa · các vùng sản xuất trọng điểm",
+    "mapStage3": "Xuất nhập khẩu · kết nối nguồn hàng toàn cầu",
+    "mapStage4": "Kho bãi · Tô Châu + Hải Nam",
     "bannerTitle": "Thương mại",
     "bannerSub": "Phân phối trong nước + Xuất nhập khẩu quốc tế, thúc đẩy kép",
     "domEyebrow": "Thương mại trong nước",

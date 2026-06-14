@@ -95,6 +95,17 @@
     "ctaBtn": "Contact Us"
   },
   "trade": {
+    "mapEyebrow": "Business Footprint",
+    "mapTitle": "A trade network reaching from two bases to the world",
+    "mapDesc": "With Shanghai and Haikou as pivots, domestic distribution covers core manufacturing regions while import/export links overseas sources across Japan, Korea, Southeast Asia and the Middle East.",
+    "mapLegBase": "Dual Bases",
+    "mapLegDom": "Domestic Distribution",
+    "mapLegIntl": "Import & Export",
+    "mapLegWh": "Warehousing",
+    "mapStage1": "Dual bases · Shanghai & Haikou",
+    "mapStage2": "Domestic distribution · core manufacturing regions",
+    "mapStage3": "Import & export · linking global sources",
+    "mapStage4": "Warehousing · Suzhou + Hainan",
     "bannerTitle": "Trade",
     "bannerSub": "Domestic distribution + international import/export, dual-driven",
     "domEyebrow": "Domestic Trade",

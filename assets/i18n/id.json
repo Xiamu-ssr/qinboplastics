@@ -95,6 +95,17 @@
     "ctaBtn": "Hubungi Kami"
   },
   "trade": {
+    "mapEyebrow": "Peta Bisnis",
+    "mapTitle": "Jaringan perdagangan dari dua basis menuju dunia",
+    "mapDesc": "Dengan Shanghai dan Haikou sebagai poros, distribusi domestik mencakup wilayah manufaktur inti, sementara ekspor-impor menghubungkan sumber luar negeri di Jepang, Korea, Asia Tenggara, dan Timur Tengah.",
+    "mapLegBase": "Dua Basis",
+    "mapLegDom": "Distribusi Domestik",
+    "mapLegIntl": "Ekspor-Impor",
+    "mapLegWh": "Pergudangan",
+    "mapStage1": "Dua basis · Shanghai & Haikou",
+    "mapStage2": "Distribusi domestik · wilayah manufaktur inti",
+    "mapStage3": "Ekspor-impor · menghubungkan sumber global",
+    "mapStage4": "Pergudangan · Suzhou + Hainan",
     "bannerTitle": "Perdagangan",
     "bannerSub": "Distribusi domestik + ekspor/impor internasional, berpenggerak ganda",
     "domEyebrow": "Perdagangan Domestik",

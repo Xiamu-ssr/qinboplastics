@@ -95,6 +95,17 @@
     "ctaBtn": "Contactez-nous"
   },
   "trade": {
+    "mapEyebrow": "Réseau commercial",
+    "mapTitle": "Un réseau commercial reliant deux bases au monde entier",
+    "mapDesc": "Avec Shanghai et Haikou comme pivots, la distribution nationale couvre les régions manufacturières clés tandis que l’import-export relie des sources étrangères au Japon, en Corée, en Asie du Sud-Est et au Moyen-Orient.",
+    "mapLegBase": "Deux bases",
+    "mapLegDom": "Distribution nationale",
+    "mapLegIntl": "Import-export",
+    "mapLegWh": "Entrepôts",
+    "mapStage1": "Deux bases · Shanghai et Haikou",
+    "mapStage2": "Distribution nationale · régions manufacturières clés",
+    "mapStage3": "Import-export · connexion aux sources mondiales",
+    "mapStage4": "Entrepôts · Suzhou + Hainan",
     "bannerTitle": "Commerce",
     "bannerSub": "Distribution nationale + import/export international, double moteur",
     "domEyebrow": "Commerce national",

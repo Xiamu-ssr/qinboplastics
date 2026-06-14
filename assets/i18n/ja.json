@@ -95,6 +95,17 @@
     "ctaBtn": "お問い合わせ"
   },
   "trade": {
+    "mapEyebrow": "事業マップ",
+    "mapTitle": "二つの拠点から世界へ広がる貿易ネットワーク",
+    "mapDesc": "上海と海口を拠点に、国内流通は主要製造地域をカバーし、輸出入は日本・韓国・東南アジア・中東などの海外供給源とつながります。",
+    "mapLegBase": "二大拠点",
+    "mapLegDom": "国内流通",
+    "mapLegIntl": "輸出入",
+    "mapLegWh": "倉庫拠点",
+    "mapStage1": "二大拠点 · 上海と海口",
+    "mapStage2": "国内流通 · 主要製造地域をカバー",
+    "mapStage3": "輸出入 · 世界の供給源とつながる",
+    "mapStage4": "倉庫拠点 · 蘇州 + 海南",
     "bannerTitle": "貿易",
     "bannerSub": "国内流通 + 国際輸出入の双輪駆動",
     "domEyebrow": "国内貿易",

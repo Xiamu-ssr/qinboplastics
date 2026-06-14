@@ -95,6 +95,17 @@
     "ctaBtn": "Bize Ulaşın"
   },
   "trade": {
+    "mapEyebrow": "İş Haritası",
+    "mapTitle": "İki üsten dünyaya uzanan bir ticaret ağı",
+    "mapDesc": "Şanghay ve Haikou’yu eksen alarak yurt içi dağıtım temel üretim bölgelerini kapsar; ithalat-ihracat ise Japonya, Kore, Güneydoğu Asya ve Orta Doğu’daki tedarik kaynaklarını birbirine bağlar.",
+    "mapLegBase": "İki Üs",
+    "mapLegDom": "Yurt İçi Dağıtım",
+    "mapLegIntl": "İthalat-İhracat",
+    "mapLegWh": "Depolama",
+    "mapStage1": "İki üs · Şanghay ve Haikou",
+    "mapStage2": "Yurt içi dağıtım · temel üretim bölgeleri",
+    "mapStage3": "İthalat-ihracat · küresel kaynaklara bağlanma",
+    "mapStage4": "Depolama · Suzhou + Hainan",
     "bannerTitle": "Ticaret",
     "bannerSub": "Yurt içi dağıtım + uluslararası ithalat/ihracat, çift yönlü büyüme",
     "domEyebrow": "Yurt İçi Ticaret",

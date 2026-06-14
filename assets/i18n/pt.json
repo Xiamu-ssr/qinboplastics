@@ -95,6 +95,17 @@
     "ctaBtn": "Fale conosco"
   },
   "trade": {
+    "mapEyebrow": "Mapa de negócios",
+    "mapTitle": "Uma rede comercial que vai de duas bases para o mundo",
+    "mapDesc": "Com Xangai e Haikou como pontos de apoio, a distribuição nacional cobre as principais regiões industriais, enquanto a importação e exportação conecta fontes no Japão, Coreia, Sudeste Asiático e Oriente Médio.",
+    "mapLegBase": "Duas bases",
+    "mapLegDom": "Distribuição nacional",
+    "mapLegIntl": "Importação e exportação",
+    "mapLegWh": "Armazenagem",
+    "mapStage1": "Duas bases · Xangai e Haikou",
+    "mapStage2": "Distribuição nacional · principais regiões industriais",
+    "mapStage3": "Importação e exportação · conectando fontes globais",
+    "mapStage4": "Armazenagem · Suzhou + Hainan",
     "bannerTitle": "Comércio",
     "bannerSub": "Distribuição nacional + importação/exportação internacional, dupla força motriz",
     "domEyebrow": "Comércio nacional",

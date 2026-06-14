@@ -95,6 +95,17 @@
     "ctaBtn": "Contáctenos"
   },
   "trade": {
+    "mapEyebrow": "Mapa de negocio",
+    "mapTitle": "Una red comercial que se extiende desde dos bases al mundo",
+    "mapDesc": "Con Shanghái y Haikou como ejes, la distribución nacional cubre las regiones manufactureras clave, mientras que la importación y exportación conecta fuentes en Japón, Corea, el Sudeste Asiático y Oriente Medio.",
+    "mapLegBase": "Dos bases",
+    "mapLegDom": "Distribución nacional",
+    "mapLegIntl": "Importación y exportación",
+    "mapLegWh": "Almacenamiento",
+    "mapStage1": "Dos bases · Shanghái y Haikou",
+    "mapStage2": "Distribución nacional · regiones manufactureras clave",
+    "mapStage3": "Importación y exportación · conectando fuentes globales",
+    "mapStage4": "Almacenamiento · Suzhou + Hainan",
     "bannerTitle": "Comercio",
     "bannerSub": "Distribución nacional + importación/exportación internacional, doble motor",
     "domEyebrow": "Comercio nacional",

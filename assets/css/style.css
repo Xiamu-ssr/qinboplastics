@@ -260,6 +260,55 @@ body.inner .nav-toggle span{background:var(--ink)}
 
 /* ===== 内页：地图占位 ===== */
 .map-placeholder{height:360px;border-radius:14px;background:var(--bg-soft);border:1px dashed var(--line);display:grid;place-items:center;color:var(--gray);font-size:15px;text-align:center;padding:20px}
+
+/* ===== 业务版图 · 沙盘 ===== */
+.section-map{position:relative;padding:104px 0;background:linear-gradient(160deg,#0a1426,#0e1d33 60%,#0b1830);color:#fff;overflow:hidden}
+.section-map .section-head h2{color:#fff}
+.section-map .section-head .eyebrow{color:#7eb0ff}
+.section-map .section-head p{color:rgba(220,230,245,.6)}
+.qbmap-wrap{position:relative;max-width:1080px;margin:8px auto 0}
+#qbMap{position:relative;width:100%;line-height:0}
+.qbmap-svg{width:100%;height:auto;display:block;overflow:visible}
+/* 点阵 */
+.qbmap-dots circle{fill:#5e7bb0;opacity:0;transition:opacity 1s ease}
+.qbmap-on .qbmap-dots circle{opacity:.22}
+/* 弧线 */
+.qbmap-arc{fill:none;stroke-width:1.6;stroke-linecap:round}
+.qbmap-arc.dom{stroke:#5ad1e6;filter:drop-shadow(0 0 3px rgba(90,209,230,.6))}
+.qbmap-arc.intl{stroke:#ffce5a;filter:drop-shadow(0 0 3px rgba(255,206,90,.55))}
+.qbmap-travel{opacity:0}
+.qbmap-travel.dom{fill:#bff3fb}
+.qbmap-travel.intl{fill:#fff0c8}
+/* 节点 */
+.qbmap-node{opacity:0;transform-box:fill-box}
+.qbmap-node{transition:opacity .55s ease}
+.qbmap-node.on{opacity:1}
+.qbmap-pt{stroke:#0a1426;stroke-width:1}
+.qbmap-node.base .qbmap-pt{fill:#ff5a4d}
+.qbmap-node.wh .qbmap-pt{fill:#ffce5a}
+.qbmap-node.dom .qbmap-pt{fill:#5ad1e6}
+.qbmap-node.intl .qbmap-pt{fill:#ffd97a}
+.qbmap-halo{opacity:0;transition:opacity .8s ease}
+.qbmap-node.on .qbmap-halo{opacity:1}
+.qbmap-ring{fill:none;stroke-width:2;opacity:0}
+.qbmap-node.base .qbmap-ring{stroke:#ff5a4d}
+.qbmap-node.wh .qbmap-ring{stroke:#ffce5a}
+.qbmap-node.base.on .qbmap-ring,.qbmap-node.wh.on .qbmap-ring{animation:qbPulse 2.4s ease-out infinite}
+@keyframes qbPulse{0%{transform:scale(1);opacity:.85}70%{transform:scale(3);opacity:0}100%{transform:scale(3);opacity:0}}
+/* 标签 */
+.qbmap-lbl{fill:#eaf1fb;font-size:15px;font-weight:600;paint-order:stroke;stroke:#0a1426;stroke-width:3px;stroke-linejoin:round}
+.qbmap-lbl-sub{font-size:11px;font-weight:400;fill:#9fb6d6;stroke-width:2.4px}
+.qbmap-node.intl .qbmap-lbl{font-size:13px;font-weight:500}
+/* 图例 + 旁白 */
+.qbmap-caption{text-align:center;margin-top:26px;min-height:26px;font-size:17px;font-weight:600;color:#cfe0f7;letter-spacing:.02em;transition:opacity .3s}
+.qbmap-legend{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 26px;margin-top:18px}
+.qbmap-legend span{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;color:rgba(220,230,245,.78)}
+.qbmap-legend i{width:11px;height:11px;border-radius:50%;flex:none;box-shadow:0 0 8px currentColor}
+.qbmap-legend .lg-base{background:#ff5a4d;color:#ff5a4d}
+.qbmap-legend .lg-dom{background:#5ad1e6;color:#5ad1e6}
+.qbmap-legend .lg-intl{background:#ffce5a;color:#ffce5a}
+.qbmap-legend .lg-wh{background:#ffce5a;color:#ffce5a;box-shadow:0 0 0 2px rgba(255,206,90,.35)}
+@media(max-width:680px){.section-map{padding:72px 0}.qbmap-lbl{font-size:18px}.qbmap-lbl-sub{font-size:13px}.qbmap-node.intl .qbmap-lbl{font-size:16px}.qbmap-caption{font-size:15px}}
 .contact-form{background:#fff;border:1px solid var(--line);border-radius:14px;padding:40px 36px}
 .contact-form .fld{margin-bottom:18px}
 .contact-form label{display:block;font-size:14px;margin-bottom:7px;font-weight:500}
