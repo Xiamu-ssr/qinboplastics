@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Professioneller Anbieter von Kunststoffrohstoffen · Handel · Importierte und modifizierte Harze" },
+  "meta": {
+    "title": "Qinbo New Materials | Professioneller Anbieter von Kunststoffrohstoffen · Handel · Importierte und modifizierte Harze"
+  },
   "nav": {
     "home": "Startseite",
     "about": "Über uns",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Shanghai Qinbo New Materials · Haikou Qinbo New Materials",
-    "copyright": "© 2026 Qinbo New Materials. Alle Rechte vorbehalten."
+    "copyright": "© 2026 Qinbo New Materials. Alle Rechte vorbehalten.",
+    "certs": "Nachweise"
   },
   "home": {
     "heroTitle": "Eine bessere Zukunft verbinden<br/>durch Materialien",
@@ -39,21 +42,54 @@
     "whyTitle": "Stabil · Verlässlich · Professionell",
     "ctaTitle": "Auf der Suche nach einem zuverlässigen Partner für Kunststoffrohstoffe?",
     "ctaSub": "Ob nationale Beschaffung oder importierte Materialien — Qinbo bietet professionelle Unterstützung.",
-    "ctaBtn": "Jetzt kontaktieren"
+    "ctaBtn": "Jetzt kontaktieren",
+    "searchPh": "Suche nach Produkt, Typ oder Marke – z. B. PA66 / 8150 / Chimei",
+    "hot": "Beliebt",
+    "hqCustom": "Maßgeschneiderte Compounds"
   },
   "val": {
-    "source": { "t": "Stabile Versorgung", "d": "Mehrkanalige Lieferkette im In- und Ausland, mit stabilen Preisen und Lieferzeiten." },
-    "quality": { "t": "Qualitätskontrolle", "d": "Strenge Wareneingangsprüfung und lückenloses Qualitätsrückverfolgungssystem." },
-    "tech": { "t": "Technischer Support", "d": "Ein professionelles Team für Materialauswahl und Anwendungsunterstützung." },
-    "service": { "t": "Effizienter Service", "d": "Schnelle Angebote und Reaktionen, die Kundenbedürfnisse flexibel erfüllen." }
+    "source": {
+      "t": "Stabile Versorgung",
+      "d": "Mehrkanalige Lieferkette im In- und Ausland, mit stabilen Preisen und Lieferzeiten."
+    },
+    "quality": {
+      "t": "Qualitätskontrolle",
+      "d": "Strenge Wareneingangsprüfung und lückenloses Qualitätsrückverfolgungssystem."
+    },
+    "tech": {
+      "t": "Technischer Support",
+      "d": "Ein professionelles Team für Materialauswahl und Anwendungsunterstützung."
+    },
+    "service": {
+      "t": "Effizienter Service",
+      "d": "Schnelle Angebote und Reaktionen, die Kundenbedürfnisse flexibel erfüllen."
+    }
   },
   "cat": {
-    "general": { "name": "Standardkunststoffe", "brief": "Standardharze wie PP, PE, PVC, PS und ABS, eingesetzt in Verpackungen, Haushaltswaren und Haushaltsgeräten." },
-    "engineering": { "name": "Technische Kunststoffe", "brief": "Hochleistungsfähige technische Kunststoffe wie PA, PC, POM und PBT für Automobil, Elektronik und Maschinenbau." },
-    "modified": { "name": "Modifizierte Materialien", "brief": "Kundenspezifisch modifizierte Kunststoffe — verstärkt, flammgeschützt, schlagzäh — mit Rezepturen auf Anfrage." },
-    "import": { "name": "Importierte Harze", "brief": "Vertrieb importierter Harze aus Europa, den USA, Japan, Korea und dem Nahen Osten — stabile Versorgung und legitime Kanäle." },
-    "rubber": { "name": "Kautschukmaterialien", "brief": "Verschiedene Synthesekautschuke und Rohstoffe für Kautschukprodukte für Industrie, Automobil und Dichtungsanwendungen." },
-    "eco": { "name": "Ökologisch & recycelt", "brief": "Umweltfreundliche recycelte und biologisch abbaubare Materialien, die Kunden helfen, grüne und Nachhaltigkeitsziele zu erreichen." }
+    "general": {
+      "name": "Standardkunststoffe",
+      "brief": "Standardharze wie PP, PE, PVC, PS und ABS, eingesetzt in Verpackungen, Haushaltswaren und Haushaltsgeräten."
+    },
+    "engineering": {
+      "name": "Technische Kunststoffe",
+      "brief": "Hochleistungsfähige technische Kunststoffe wie PA, PC, POM und PBT für Automobil, Elektronik und Maschinenbau."
+    },
+    "modified": {
+      "name": "Modifizierte Materialien",
+      "brief": "Kundenspezifisch modifizierte Kunststoffe — verstärkt, flammgeschützt, schlagzäh — mit Rezepturen auf Anfrage."
+    },
+    "import": {
+      "name": "Importierte Harze",
+      "brief": "Vertrieb importierter Harze aus Europa, den USA, Japan, Korea und dem Nahen Osten — stabile Versorgung und legitime Kanäle."
+    },
+    "rubber": {
+      "name": "Kautschukmaterialien",
+      "brief": "Verschiedene Synthesekautschuke und Rohstoffe für Kautschukprodukte für Industrie, Automobil und Dichtungsanwendungen."
+    },
+    "eco": {
+      "name": "Ökologisch & recycelt",
+      "brief": "Umweltfreundliche recycelte und biologisch abbaubare Materialien, die Kunden helfen, grüne und Nachhaltigkeitsziele zu erreichen."
+    }
   },
   "products": {
     "bannerTitle": "Produkte",
@@ -72,7 +108,22 @@
     "descModified": "Funktionale modifizierte Kunststoffe nach Kundenbedarf — Verstärkung, Flammschutz, Schlagzähmodifikation, Witterungsbeständigkeit und weitere Modifizierungslösungen sowie Rezepturentwicklung.",
     "descImport": "Partnerschaften mit qualifizierten ausländischen Lieferanten in Europa, den USA, Japan, Korea und dem Nahen Osten; Vertrieb importierter Harze über legitime Kanäle mit verlässlicher Qualität und vollständiger Dokumentation.",
     "descRubber": "Verschiedene Synthesekautschuke und Rohstoffe für Kautschukprodukte für Industrieerzeugnisse, Automobilteile und Dichtungskomponenten.",
-    "descEco": "Umweltfreundliche recycelte und biologisch abbaubare Materialien im Einklang mit dem Trend zur grünen Entwicklung, die Kunden helfen, Nachhaltigkeits- und Umweltkonformitätsziele zu erreichen."
+    "descEco": "Umweltfreundliche recycelte und biologisch abbaubare Materialien im Einklang mit dem Trend zur grünen Entwicklung, die Kunden helfen, Nachhaltigkeits- und Umweltkonformitätsziele zu erreichen.",
+    "customEyebrow": "Maßgeschneiderte Compounds",
+    "customTitle": "Rezepturen passend zu Ihrer Anwendung – Neuware verfügbar",
+    "customDesc": "Glasfaserverstärkung, Flammschutz, Schlagzähmodifizierung, Witterungsbeständigkeit, leitfähig/antistatisch und Mineralfüllung – auf Basis von PP/PA/PC/ABS/PBT, mit 100 % Neuware-Optionen sowie Muster- und Rezepturservice.",
+    "customT1": "Glasfaserverstärkt",
+    "customT2": "Flammgeschützt",
+    "customT3": "Schlagzäh",
+    "customT4": "Leitfähig/antistatisch",
+    "customT5": "Neuware-Sonderlösung",
+    "customBtn": "Anforderung besprechen",
+    "case1t": "Sonder-Compound aus Neuware",
+    "case1d": "Basis aus 100 % Neuware für gleichbleibende Eigenschaften; ideal für qualitätskritische und Sichtbauteile.",
+    "case2t": "Glasfaserverstärktes PA66",
+    "case2d": "PA66 + 30 % Glasfaser: deutlich höhere Steifigkeit und Wärmebeständigkeit für Strukturhalter im Automobil.",
+    "case3t": "Flammgeschütztes PP / ABS",
+    "case3d": "Halogenfreier Flammschutz bis UL94 V-0, für Gehäuse von Haushalts- und Elektronikgeräten."
   },
   "about": {
     "bannerTitle": "Über Qinbo",
@@ -92,7 +143,22 @@
     "advTitle": "Warum Qinbo wählen",
     "ctaTitle": "Wir freuen uns auf eine langfristige Partnerschaft",
     "ctaSub": "Entdecken Sie, welche materielle Unterstützung Qinbo für Ihr Unternehmen bieten kann.",
-    "ctaBtn": "Kontakt aufnehmen"
+    "ctaBtn": "Kontakt aufnehmen",
+    "cultEyebrow": "Unternehmensphilosophie",
+    "cultTitle": "Fähigkeit kennt keine Größe – die Einstellung entscheidet alles",
+    "cultBiz": "<strong>Geschäftsprinzip</strong>Durch Qualität bestehen, durch Ruf wachsen",
+    "cultQuality": "<strong>Qualitätspolitik</strong>Qualität schafft Menge, Effizienz, Ruf und Bestand",
+    "cultMgmt": "<strong>Managementphilosophie</strong>Der Mensch zuerst – Integrität, Technik, Einheit und Pragmatismus",
+    "tenet1": "Das Wachstum der Kunden ist Qinbos Aufgabe",
+    "tenet2": "Die Zufriedenheit der Kunden ist Qinbos Ziel",
+    "tenet3": "Die Anerkennung der Kunden ist Qinbos Streben",
+    "tenet4": "Die Zusammenarbeit der Kunden ist Qinbos Erwartung",
+    "partnerEyebrow": "Partnermarken",
+    "partnerTitle": "Werkskanäle · Originalware ab Lager",
+    "partnerDesc": "Langfristige Partnerschaften mit führenden Harzherstellern sowie autorisierte Vertretung von Marken wie Bayer, Sumitomo und Ascend.",
+    "agentBayer": "🏅 Bayer (Deutschland) · Autorisierter Vertreter",
+    "agentSumitomo": "🏅 Sumitomo (Japan) · Autorisierter Vertreter",
+    "agentAscend": "🏅 Ascend (USA) · Autorisierter Vertreter"
   },
   "trade": {
     "mapEyebrow": "Geschäftskarte",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>Stabile Versorgung</strong> Langfristige Auslandspartnerschaften und kontinuierliche Lieferung",
     "flowEyebrow": "Komplettlösung",
     "flowTitle": "Prozessübergreifende Abstimmung von der Auswahl bis zur Lieferung",
-    "flow1t": "Bedarfsabstimmung", "flow1d": "Anwendungen und technische Anforderungen verstehen, um Materialien präzise zuzuordnen.",
-    "flow2t": "Angebot & Auswahl", "flow2d": "Empfehlungen zu Typen und wettbewerbsfähige Angebote.",
-    "flow3t": "Logistik & Lieferung", "flow3d": "Nationaler Vertrieb und Importzollabwicklung — termingerechte Lieferung.",
-    "flow4t": "After-Sales-Support", "flow4d": "Fortlaufende technische und liefertechnische Absicherung für langfristige Zusammenarbeit.",
+    "flow1t": "Bedarfsabstimmung",
+    "flow1d": "Anwendungen und technische Anforderungen verstehen, um Materialien präzise zuzuordnen.",
+    "flow2t": "Angebot & Auswahl",
+    "flow2d": "Empfehlungen zu Typen und wettbewerbsfähige Angebote.",
+    "flow3t": "Logistik & Lieferung",
+    "flow3d": "Nationaler Vertrieb und Importzollabwicklung — termingerechte Lieferung.",
+    "flow4t": "After-Sales-Support",
+    "flow4d": "Fortlaufende technische und liefertechnische Absicherung für langfristige Zusammenarbeit.",
     "ctaTitle": "Benötigen Sie importierte Materialien oder nationale Beschaffung?",
     "ctaSub": "Das Handelsteam von Qinbo steht für professionelle Unterstützung bereit.",
     "ctaBtn": "Handelsteam kontaktieren"
@@ -161,5 +231,11 @@
     "mapTitle": "Finden Sie uns",
     "mapDesc": "Eine Karte (Amap / Baidu Maps) kann beim Launch eingebettet werden, um die genauen Standorte beider Einheiten zu markieren.",
     "mapPlaceholder": "Karten-Platzhalter<br/><small>(Karte wird eingebettet, sobald die Adressen vorliegen)</small>"
+  },
+  "cert": {
+    "licenseSh": "Gewerbelizenz Shanghai",
+    "licenseHk": "Gewerbelizenz Haikou",
+    "customsSh": "Zollregistrierung Shanghai",
+    "customsHk": "Zollzertifikat Haikou"
   }
 }

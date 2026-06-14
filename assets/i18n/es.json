@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Proveedor profesional de materias primas plásticas · Comercio · Resinas importadas y modificadas" },
+  "meta": {
+    "title": "Qinbo New Materials | Proveedor profesional de materias primas plásticas · Comercio · Resinas importadas y modificadas"
+  },
   "nav": {
     "home": "Inicio",
     "about": "Sobre nosotros",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Shanghai Qinbo New Materials · Haikou Qinbo New Materials",
-    "copyright": "© 2026 Qinbo New Materials. Todos los derechos reservados."
+    "copyright": "© 2026 Qinbo New Materials. Todos los derechos reservados.",
+    "certs": "Credenciales"
   },
   "home": {
     "heroTitle": "Conectando un futuro mejor<br/>a través de los materiales",
@@ -39,21 +42,54 @@
     "whyTitle": "Estable · Fiable · Profesional",
     "ctaTitle": "¿Busca un socio fiable en materias primas plásticas?",
     "ctaSub": "Tanto para compras nacionales como para materiales importados, Qinbo ofrece soporte profesional.",
-    "ctaBtn": "Contáctenos ahora"
+    "ctaBtn": "Contáctenos ahora",
+    "searchPh": "Busca por producto, grado o marca — p. ej. PA66 / 8150 / Chimei",
+    "hot": "Destacado",
+    "hqCustom": "Compuestos a medida"
   },
   "val": {
-    "source": { "t": "Suministro estable", "d": "Cadena de suministro multicanal en el país y en el extranjero, con precios y plazos estables." },
-    "quality": { "t": "Control de calidad", "d": "Inspección de entrada rigurosa y sistema de trazabilidad de calidad." },
-    "tech": { "t": "Soporte técnico", "d": "Un equipo profesional que brinda selección de materiales y soporte de aplicación." },
-    "service": { "t": "Servicio eficiente", "d": "Cotización y respuesta rápidas, satisfaciendo con flexibilidad las necesidades del cliente." }
+    "source": {
+      "t": "Suministro estable",
+      "d": "Cadena de suministro multicanal en el país y en el extranjero, con precios y plazos estables."
+    },
+    "quality": {
+      "t": "Control de calidad",
+      "d": "Inspección de entrada rigurosa y sistema de trazabilidad de calidad."
+    },
+    "tech": {
+      "t": "Soporte técnico",
+      "d": "Un equipo profesional que brinda selección de materiales y soporte de aplicación."
+    },
+    "service": {
+      "t": "Servicio eficiente",
+      "d": "Cotización y respuesta rápidas, satisfaciendo con flexibilidad las necesidades del cliente."
+    }
   },
   "cat": {
-    "general": { "name": "Plásticos commodity", "brief": "Resinas commodity como PP, PE, PVC, PS y ABS, utilizadas en envases, artículos de uso diario y electrodomésticos." },
-    "engineering": { "name": "Plásticos de ingeniería", "brief": "Plásticos de ingeniería de alto rendimiento como PA, PC, POM y PBT para automoción, electrónica y maquinaria." },
-    "modified": { "name": "Materiales modificados", "brief": "Plásticos modificados a medida — reforzados, ignífugos, tenaces — con formulaciones bajo demanda." },
-    "import": { "name": "Resinas importadas", "brief": "Distribución de resinas importadas desde Europa, EE. UU., Japón, Corea y Oriente Medio, con suministro estable y canales legítimos." },
-    "rubber": { "name": "Materiales de caucho", "brief": "Diversos cauchos sintéticos y materias primas para productos de caucho destinados a industria, automoción y aplicaciones de sellado." },
-    "eco": { "name": "Ecológicos y reciclados", "brief": "Materiales reciclados y biodegradables respetuosos con el medio ambiente, ayudando a los clientes a alcanzar objetivos verdes y de sostenibilidad." }
+    "general": {
+      "name": "Plásticos commodity",
+      "brief": "Resinas commodity como PP, PE, PVC, PS y ABS, utilizadas en envases, artículos de uso diario y electrodomésticos."
+    },
+    "engineering": {
+      "name": "Plásticos de ingeniería",
+      "brief": "Plásticos de ingeniería de alto rendimiento como PA, PC, POM y PBT para automoción, electrónica y maquinaria."
+    },
+    "modified": {
+      "name": "Materiales modificados",
+      "brief": "Plásticos modificados a medida — reforzados, ignífugos, tenaces — con formulaciones bajo demanda."
+    },
+    "import": {
+      "name": "Resinas importadas",
+      "brief": "Distribución de resinas importadas desde Europa, EE. UU., Japón, Corea y Oriente Medio, con suministro estable y canales legítimos."
+    },
+    "rubber": {
+      "name": "Materiales de caucho",
+      "brief": "Diversos cauchos sintéticos y materias primas para productos de caucho destinados a industria, automoción y aplicaciones de sellado."
+    },
+    "eco": {
+      "name": "Ecológicos y reciclados",
+      "brief": "Materiales reciclados y biodegradables respetuosos con el medio ambiente, ayudando a los clientes a alcanzar objetivos verdes y de sostenibilidad."
+    }
   },
   "products": {
     "bannerTitle": "Productos",
@@ -72,7 +108,22 @@
     "descModified": "Plásticos modificados funcionales personalizados según las necesidades del cliente, con soluciones de refuerzo, ignifugación, tenacidad, resistencia a la intemperie y otros servicios de formulación.",
     "descImport": "Alianzas con proveedores internacionales de calidad en Europa, EE. UU., Japón, Corea y Oriente Medio, distribución de resinas importadas por canales legítimos, con calidad fiable y documentación completa.",
     "descRubber": "Diversos cauchos sintéticos y materias primas para productos de caucho al servicio de productos industriales, piezas de automoción y componentes de sellado.",
-    "descEco": "Materiales reciclados y biodegradables respetuosos con el medio ambiente, alineados con las tendencias de desarrollo sostenible, ayudando a los clientes a alcanzar sus metas de sostenibilidad y cumplimiento ambiental."
+    "descEco": "Materiales reciclados y biodegradables respetuosos con el medio ambiente, alineados con las tendencias de desarrollo sostenible, ayudando a los clientes a alcanzar sus metas de sostenibilidad y cumplimiento ambiental.",
+    "customEyebrow": "Compuestos a medida",
+    "customTitle": "Formulaciones a la medida de su aplicación — resina virgen disponible",
+    "customDesc": "Refuerzo con fibra de vidrio, retardancia a la llama, tenacidad, resistencia a la intemperie, conductividad/antiestático y carga mineral — sobre bases PP/PA/PC/ABS/PBT, con opciones de resina 100% virgen, muestreo y formulación.",
+    "customT1": "Reforzado con fibra de vidrio",
+    "customT2": "Retardante de llama",
+    "customT3": "Tenacidad",
+    "customT4": "Conductivo/antiestático",
+    "customT5": "Personalizado en resina virgen",
+    "customBtn": "Hablemos de su necesidad",
+    "case1t": "Compuesto a medida en resina virgen",
+    "case1d": "Base de resina 100% virgen para propiedades constantes; ideal para piezas sensibles a calidad y estéticas.",
+    "case2t": "PA66 reforzado con fibra de vidrio",
+    "case2d": "PA66 + 30% fibra de vidrio: rigidez y resistencia al calor muy superiores, para soportes estructurales de automoción.",
+    "case3t": "PP / ABS retardante de llama",
+    "case3d": "Retardancia a la llama sin halógenos hasta UL94 V-0, para carcasas de electrodomésticos y electrónica."
   },
   "about": {
     "bannerTitle": "Sobre Qinbo",
@@ -92,7 +143,22 @@
     "advTitle": "Por qué elegir Qinbo",
     "ctaTitle": "Esperamos una relación a largo plazo",
     "ctaSub": "Descubra el soporte de materiales que Qinbo puede ofrecer a su negocio.",
-    "ctaBtn": "Contáctenos"
+    "ctaBtn": "Contáctenos",
+    "cultEyebrow": "Nuestra filosofía",
+    "cultTitle": "La capacidad no tiene tamaño; la actitud lo decide todo",
+    "cultBiz": "<strong>Principio empresarial</strong>Sobrevivir con calidad, crecer con reputación",
+    "cultQuality": "<strong>Política de calidad</strong>La calidad impulsa volumen, eficiencia, reputación y permanencia",
+    "cultMgmt": "<strong>Filosofía de gestión</strong>Las personas primero: integridad, tecnología, unidad y pragmatismo",
+    "tenet1": "El crecimiento de los clientes es el trabajo de Qinbo",
+    "tenet2": "La satisfacción de los clientes es la misión de Qinbo",
+    "tenet3": "El reconocimiento de los clientes es la meta de Qinbo",
+    "tenet4": "La colaboración de los clientes es la expectativa de Qinbo",
+    "partnerEyebrow": "Marcas asociadas",
+    "partnerTitle": "Canales de fábrica · stock original",
+    "partnerDesc": "Alianzas a largo plazo con los principales productores de resina y representación autorizada de marcas como Bayer, Sumitomo y Ascend.",
+    "agentBayer": "🏅 Bayer (Alemania) · Agente autorizado",
+    "agentSumitomo": "🏅 Sumitomo (Japón) · Agente autorizado",
+    "agentAscend": "🏅 Ascend (EE. UU.) · Agente autorizado"
   },
   "trade": {
     "mapEyebrow": "Mapa de negocio",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>Suministro estable</strong> Alianzas internacionales a largo plazo y suministro continuo",
     "flowEyebrow": "Servicio integral",
     "flowTitle": "Coordinación de extremo a extremo, desde la selección hasta la entrega",
-    "flow1t": "Adecuación de requisitos", "flow1d": "Comprender las aplicaciones y los requisitos técnicos para hacer coincidir los materiales con precisión.",
-    "flow2t": "Cotización y selección", "flow2d": "Ofrecemos recomendaciones de grado y cotizaciones competitivas.",
-    "flow3t": "Logística y entrega", "flow3d": "Distribución nacional y despacho aduanero de importación, entregado en plazo.",
-    "flow4t": "Soporte posventa", "flow4d": "Garantía técnica y de suministro continua para una cooperación a largo plazo.",
+    "flow1t": "Adecuación de requisitos",
+    "flow1d": "Comprender las aplicaciones y los requisitos técnicos para hacer coincidir los materiales con precisión.",
+    "flow2t": "Cotización y selección",
+    "flow2d": "Ofrecemos recomendaciones de grado y cotizaciones competitivas.",
+    "flow3t": "Logística y entrega",
+    "flow3d": "Distribución nacional y despacho aduanero de importación, entregado en plazo.",
+    "flow4t": "Soporte posventa",
+    "flow4d": "Garantía técnica y de suministro continua para una cooperación a largo plazo.",
     "ctaTitle": "¿Necesita materiales importados o compras nacionales?",
     "ctaSub": "El equipo comercial de Qinbo está listo para brindarle soporte profesional.",
     "ctaBtn": "Contactar al equipo comercial"
@@ -161,5 +231,11 @@
     "mapTitle": "Encuéntrenos",
     "mapDesc": "En el lanzamiento se podrá incrustar un mapa (Amap / Baidu Maps) para señalar la ubicación exacta de ambas entidades.",
     "mapPlaceholder": "Marcador de mapa<br/><small>(El mapa se incrustará una vez se proporcionen las direcciones)</small>"
+  },
+  "cert": {
+    "licenseSh": "Licencia comercial (Shanghái)",
+    "licenseHk": "Licencia comercial (Haikou)",
+    "customsSh": "Registro aduanero (Shanghái)",
+    "customsHk": "Certificado aduanero (Haikou)"
   }
 }

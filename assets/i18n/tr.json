@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Profesyonel Plastik Hammadde Tedarikçisi · Ticaret · İthal ve Modifiye Reçineler" },
+  "meta": {
+    "title": "Qinbo New Materials | Profesyonel Plastik Hammadde Tedarikçisi · Ticaret · İthal ve Modifiye Reçineler"
+  },
   "nav": {
     "home": "Ana Sayfa",
     "about": "Hakkımızda",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Shanghai Qinbo New Materials · Haikou Qinbo New Materials",
-    "copyright": "© 2026 Qinbo New Materials. Tüm hakları saklıdır."
+    "copyright": "© 2026 Qinbo New Materials. Tüm hakları saklıdır.",
+    "certs": "Belgeler"
   },
   "home": {
     "heroTitle": "Daha İyi Bir Geleceği<br/>Malzemelerle Birlikte Bağlıyoruz",
@@ -39,21 +42,54 @@
     "whyTitle": "İstikrarlı · Güvenilir · Profesyonel",
     "ctaTitle": "Güvenilir Bir Plastik Hammadde Ortağı mı Arıyorsunuz?",
     "ctaSub": "İster yurt içi tedarik ister ithal malzeme ihtiyacınız olsun, Qinbo profesyonel destek sunar.",
-    "ctaBtn": "Hemen İletişime Geçin"
+    "ctaBtn": "Hemen İletişime Geçin",
+    "searchPh": "Ürün, tip veya marka ara — örn. PA66 / 8150 / Chimei",
+    "hot": "Popüler",
+    "hqCustom": "Özel Modifiye"
   },
   "val": {
-    "source": { "t": "İstikrarlı Tedarik", "d": "Yurt içi ve dışında çok kanallı tedarik zinciri; sabit fiyatlar ve teslim süreleri." },
-    "quality": { "t": "Kalite Kontrolü", "d": "Sıkı gelen malzeme kontrolü ve kalite izlenebilirlik sistemi." },
-    "tech": { "t": "Teknik Destek", "d": "Malzeme seçimi ve uygulama desteği sağlayan profesyonel ekip." },
-    "service": { "t": "Verimli Hizmet", "d": "Hızlı teklif ve yanıt; müşteri ihtiyaçlarına esnek çözümler." }
+    "source": {
+      "t": "İstikrarlı Tedarik",
+      "d": "Yurt içi ve dışında çok kanallı tedarik zinciri; sabit fiyatlar ve teslim süreleri."
+    },
+    "quality": {
+      "t": "Kalite Kontrolü",
+      "d": "Sıkı gelen malzeme kontrolü ve kalite izlenebilirlik sistemi."
+    },
+    "tech": {
+      "t": "Teknik Destek",
+      "d": "Malzeme seçimi ve uygulama desteği sağlayan profesyonel ekip."
+    },
+    "service": {
+      "t": "Verimli Hizmet",
+      "d": "Hızlı teklif ve yanıt; müşteri ihtiyaçlarına esnek çözümler."
+    }
   },
   "cat": {
-    "general": { "name": "Genel Amaçlı Plastikler", "brief": "PP, PE, PVC, PS ve ABS gibi genel amaçlı reçineler; ambalaj, günlük kullanım ürünleri ve ev aletlerinde kullanılır." },
-    "engineering": { "name": "Mühendislik Plastikleri", "brief": "PA, PC, POM ve PBT gibi yüksek performanslı mühendislik plastikleri; otomotiv, elektronik ve makine sektörlerine yönelik." },
-    "modified": { "name": "Modifiye Malzemeler", "brief": "Takviyeli, alev geciktirici, darbe dayanımı artırılmış özel formülasyonlu modifiye plastikler." },
-    "import": { "name": "İthal Reçineler", "brief": "Avrupa, ABD, Japonya, Kore ve Orta Doğu'dan ithal reçine dağıtımı; istikrarlı tedarik ve yasal kanallar." },
-    "rubber": { "name": "Kauçuk Malzemeler", "brief": "Endüstri, otomotiv ve sızdırmazlık uygulamalarına yönelik çeşitli sentetik kauçuklar ve kauçuk ürün hammaddeleri." },
-    "eco": { "name": "Ekolojik ve Geri Dönüştürülmüş", "brief": "Çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin yeşil ve sürdürülebilirlik hedeflerine ulaşmasına destek." }
+    "general": {
+      "name": "Genel Amaçlı Plastikler",
+      "brief": "PP, PE, PVC, PS ve ABS gibi genel amaçlı reçineler; ambalaj, günlük kullanım ürünleri ve ev aletlerinde kullanılır."
+    },
+    "engineering": {
+      "name": "Mühendislik Plastikleri",
+      "brief": "PA, PC, POM ve PBT gibi yüksek performanslı mühendislik plastikleri; otomotiv, elektronik ve makine sektörlerine yönelik."
+    },
+    "modified": {
+      "name": "Modifiye Malzemeler",
+      "brief": "Takviyeli, alev geciktirici, darbe dayanımı artırılmış özel formülasyonlu modifiye plastikler."
+    },
+    "import": {
+      "name": "İthal Reçineler",
+      "brief": "Avrupa, ABD, Japonya, Kore ve Orta Doğu'dan ithal reçine dağıtımı; istikrarlı tedarik ve yasal kanallar."
+    },
+    "rubber": {
+      "name": "Kauçuk Malzemeler",
+      "brief": "Endüstri, otomotiv ve sızdırmazlık uygulamalarına yönelik çeşitli sentetik kauçuklar ve kauçuk ürün hammaddeleri."
+    },
+    "eco": {
+      "name": "Ekolojik ve Geri Dönüştürülmüş",
+      "brief": "Çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin yeşil ve sürdürülebilirlik hedeflerine ulaşmasına destek."
+    }
   },
   "products": {
     "bannerTitle": "Ürünler",
@@ -72,7 +108,22 @@
     "descModified": "Müşteri ihtiyaçlarına göre özelleştirilmiş fonksiyonel modifiye plastikler; takviye, alev geciktirme, darbe dayanımı, hava koşullarına dayanıklılık ve diğer modifikasyon çözümleri.",
     "descImport": "Avrupa, ABD, Japonya, Kore ve Orta Doğu'daki nitelikli yurt dışı tedarikçilerle ortaklık; yasal kanallar üzerinden güvenilir kalite ve eksiksiz belgelerle ithal reçine dağıtımı.",
     "descRubber": "Endüstriyel ürünler, otomotiv parçaları ve sızdırmazlık bileşenlerine yönelik çeşitli sentetik kauçuklar ve kauçuk ürün hammaddeleri.",
-    "descEco": "Yeşil kalkınma trendleriyle uyumlu, çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin sürdürülebilirlik ve çevre uyum hedeflerine ulaşmasına destek."
+    "descEco": "Yeşil kalkınma trendleriyle uyumlu, çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin sürdürülebilirlik ve çevre uyum hedeflerine ulaşmasına destek.",
+    "customEyebrow": "Özel Modifiye",
+    "customTitle": "Uygulamanıza özel formülasyon — virgin reçine mevcut",
+    "customDesc": "Cam elyaf takviyesi, alev geciktirme, toklaştırma, hava koşullarına dayanım, iletken/antistatik ve mineral dolgu — PP/PA/PC/ABS/PBT bazlı, %100 virgin reçine seçenekleri ile numune ve formülasyon hizmeti.",
+    "customT1": "Cam elyaf takviyeli",
+    "customT2": "Alev geciktirici",
+    "customT3": "Toklaştırılmış",
+    "customT4": "İletken/antistatik",
+    "customT5": "Virgin reçine özel",
+    "customBtn": "İhtiyacınızı görüşün",
+    "case1t": "Virgin reçine özel compound",
+    "case1d": "Tutarlı özellikler için %100 virgin reçine bazı; kalite hassasiyeti olan ve görünür parçalar için ideal.",
+    "case2t": "Cam elyaf takviyeli PA66",
+    "case2d": "PA66 + %30 cam elyaf: rijitlik ve ısı dayanımı belirgin artar; otomotiv yapısal braketleri için.",
+    "case3t": "Alev geciktirici PP / ABS",
+    "case3d": "Halojensiz alev geciktirme UL94 V-0’a kadar; beyaz eşya ve elektronik muhafazaları için."
   },
   "about": {
     "bannerTitle": "Qinbo Hakkında",
@@ -92,7 +143,22 @@
     "advTitle": "Neden Qinbo?",
     "ctaTitle": "Uzun Vadeli Bir Ortaklığı Dört Gözle Bekliyoruz",
     "ctaSub": "Qinbo'nun işinize sunabileceği malzeme desteğini keşfedin.",
-    "ctaBtn": "Bize Ulaşın"
+    "ctaBtn": "Bize Ulaşın",
+    "cultEyebrow": "Kurumsal Felsefe",
+    "cultTitle": "Yeteneğin büyüğü küçüğü olmaz; her şeyi tutum belirler",
+    "cultBiz": "<strong>İş İlkesi</strong>Kaliteyle var ol, itibarla büyü",
+    "cultQuality": "<strong>Kalite Politikası</strong>Kalite; hacmi, verimi, itibarı ve kalıcılığı getirir",
+    "cultMgmt": "<strong>Yönetim Felsefesi</strong>Önce insan — dürüstlük, teknoloji, birlik ve gerçekçilik",
+    "tenet1": "Müşterilerin gelişimi Qinbo'nun işidir",
+    "tenet2": "Müşterilerin memnuniyeti Qinbo'nun ilkesidir",
+    "tenet3": "Müşterilerin takdiri Qinbo'nun hedefidir",
+    "tenet4": "Müşterilerin iş birliği Qinbo'nun beklentisidir",
+    "partnerEyebrow": "İş Ortağı Markalar",
+    "partnerTitle": "Fabrika kanalları · orijinal stok",
+    "partnerDesc": "Önde gelen reçine üreticileriyle uzun vadeli iş birliği ve Bayer, Sumitomo, Ascend gibi markaların yetkili temsilciliği.",
+    "agentBayer": "🏅 Bayer (Almanya) · Yetkili Temsilci",
+    "agentSumitomo": "🏅 Sumitomo (Japonya) · Yetkili Temsilci",
+    "agentAscend": "🏅 Ascend (ABD) · Yetkili Temsilci"
   },
   "trade": {
     "mapEyebrow": "İş Haritası",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>İstikrarlı tedarik</strong> Uzun vadeli yurt dışı ortaklıkları ve sürekli arz",
     "flowEyebrow": "Uçtan Uca Hizmet",
     "flowTitle": "Seçimden Teslimata Tam Süreç Koordinasyonu",
-    "flow1t": "İhtiyaç Eşleştirme", "flow1d": "Uygulamaları ve teknik gereksinimleri anlayarak malzemeleri hassas biçimde eşleştirmek.",
-    "flow2t": "Teklif ve Seçim", "flow2d": "Tip önerileri ve rekabetçi teklifler sunmak.",
-    "flow3t": "Lojistik ve Teslimat", "flow3d": "Yurt içi dağıtım ve ithalat gümrüklemesi ile zamanında teslimat.",
-    "flow4t": "Satış Sonrası Destek", "flow4d": "Uzun vadeli iş birliği için sürekli teknik ve tedarik güvencesi.",
+    "flow1t": "İhtiyaç Eşleştirme",
+    "flow1d": "Uygulamaları ve teknik gereksinimleri anlayarak malzemeleri hassas biçimde eşleştirmek.",
+    "flow2t": "Teklif ve Seçim",
+    "flow2d": "Tip önerileri ve rekabetçi teklifler sunmak.",
+    "flow3t": "Lojistik ve Teslimat",
+    "flow3d": "Yurt içi dağıtım ve ithalat gümrüklemesi ile zamanında teslimat.",
+    "flow4t": "Satış Sonrası Destek",
+    "flow4d": "Uzun vadeli iş birliği için sürekli teknik ve tedarik güvencesi.",
     "ctaTitle": "İthal Malzeme veya Yurt İçi Tedarik mi Arıyorsunuz?",
     "ctaSub": "Qinbo'nun ticaret ekibi profesyonel destek sunmaya hazır.",
     "ctaBtn": "Ticaret Ekibiyle İletişime Geçin"
@@ -161,5 +231,11 @@
     "mapTitle": "Bizi Bulun",
     "mapDesc": "Lansmanda her iki tüzel kişiliğin konumlarını işaretleyen bir harita (Amap / Baidu Maps) gömülebilir.",
     "mapPlaceholder": "Harita alanı<br/><small>(Harita, adresler paylaşıldıktan sonra gömülecektir)</small>"
+  },
+  "cert": {
+    "licenseSh": "İş Ruhsatı (Şanghay)",
+    "licenseHk": "İş Ruhsatı (Haikou)",
+    "customsSh": "Gümrük Kaydı (Şanghay)",
+    "customsHk": "Gümrük Belgesi (Haikou)"
   }
 }

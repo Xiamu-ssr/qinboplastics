@@ -273,6 +273,44 @@ body.inner .nav-toggle span{background:var(--ink)}
 /* ===== 内页：地图占位 ===== */
 .map-placeholder{height:360px;border-radius:14px;background:var(--bg-soft);border:1px dashed var(--line);display:grid;place-items:center;color:var(--gray);font-size:15px;text-align:center;padding:20px}
 
+/* ===== 页脚资质证照 + 灯箱 ===== */
+.footer-certs{display:block;margin-top:10px;font-size:12.5px;color:rgba(255,255,255,.5);line-height:1.9}
+.footer-certs .fc-label{margin-right:8px;opacity:.8}
+.footer-certs .fc-link{color:rgba(255,255,255,.62);text-decoration:none;border-bottom:1px dotted rgba(255,255,255,.35);margin:0 9px}
+.footer-certs .fc-link:hover{color:#fff;border-bottom-color:#fff}
+[dir=rtl] .footer-certs .fc-label{margin-right:0;margin-left:8px}
+.cert-lb{position:fixed;inset:0;z-index:300;display:none;align-items:center;justify-content:center;gap:8px;background:rgba(6,12,24,.88);padding:20px;backdrop-filter:blur(4px)}
+.cert-lb.open{display:flex}
+.cert-lb .clb-fig{margin:0;max-width:92vw;max-height:90vh;display:flex;flex-direction:column;align-items:center;gap:12px}
+.cert-lb img{max-width:88vw;max-height:80vh;border-radius:8px;box-shadow:0 20px 60px rgba(0,0,0,.5);background:#fff}
+.cert-lb figcaption{color:#fff;font-size:15px;font-weight:600}
+.cert-lb .clb-close{position:absolute;top:20px;right:24px;width:44px;height:44px;border:none;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:26px;cursor:pointer}
+.cert-lb .clb-close:hover{background:rgba(255,255,255,.26)}
+.cert-lb .clb-nav{flex:none;width:52px;height:52px;border:none;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:30px;line-height:1;cursor:pointer;transition:background .2s}
+.cert-lb .clb-nav:hover{background:rgba(255,255,255,.28)}
+@media(max-width:600px){.cert-lb .clb-nav{position:absolute;bottom:24px}.cert-lb .clb-prev{left:30%}.cert-lb .clb-next{right:30%}}
+
+/* ===== 关于页 · 企业理念/品牌 ===== */
+.section-culture{padding:96px 0;background:linear-gradient(160deg,#0a1426,#0e1d33 60%,#0b1830);color:#fff}
+.section-culture .section-head h2{color:#fff;font-weight:800;letter-spacing:.01em}
+.section-culture .section-head .eyebrow{color:#7eb0ff}
+.culture-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:14px}
+.culture-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:30px 26px;text-align:center}
+.culture-card .cc-ch{display:inline-block;font-size:34px;font-weight:800;color:#fff;letter-spacing:.12em;margin-bottom:4px}
+.culture-card .cc-en{font-size:11px;letter-spacing:.3em;color:#7eb0ff;margin-bottom:16px}
+.culture-card p:last-child{font-size:14.5px;line-height:1.7;color:rgba(220,230,245,.82);margin:0}
+.culture-card strong{display:block;color:#fff;font-size:13px;margin-bottom:5px;font-weight:700}
+.culture-tenets{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 18px;margin-top:30px}
+.culture-tenets span{position:relative;font-size:14px;color:rgba(220,230,245,.7);padding-left:18px}
+.culture-tenets span::before{content:"※";position:absolute;left:0;color:#ff5a4d}
+[dir=rtl] .culture-tenets span{padding-left:0;padding-right:18px}
+[dir=rtl] .culture-tenets span::before{left:auto;right:0}
+.brand-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;max-width:920px;margin:8px auto 0}
+.brand-chips span{background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 15px;font-size:14px;font-weight:600;color:var(--ink-2);box-shadow:0 3px 10px rgba(10,20,40,.04)}
+.agent-certs{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:26px}
+.agent-certs .ac-badge{background:linear-gradient(135deg,#fff7e6,#ffeccc);border:1px solid #f0d49a;color:#8a5a12;border-radius:24px;padding:9px 20px;font-size:14px;font-weight:700}
+@media(max-width:760px){.culture-grid{grid-template-columns:1fr;gap:14px}.section-culture{padding:64px 0}}
+
 /* ===== 产品中心 · 搜索+卡片 ===== */
 .section-prod{padding-top:64px}
 .prod-search{position:relative;max-width:680px;margin:0 auto 26px}

@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Pemasok Profesional Bahan Baku Plastik · Perdagangan · Resin Impor & Modifikasi" },
+  "meta": {
+    "title": "Qinbo New Materials | Pemasok Profesional Bahan Baku Plastik · Perdagangan · Resin Impor & Modifikasi"
+  },
   "nav": {
     "home": "Beranda",
     "about": "Tentang Kami",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Shanghai Qinbo New Materials · Haikou Qinbo New Materials",
-    "copyright": "© 2026 Qinbo New Materials. Hak cipta dilindungi undang-undang."
+    "copyright": "© 2026 Qinbo New Materials. Hak cipta dilindungi undang-undang.",
+    "certs": "Sertifikat & Izin"
   },
   "home": {
     "heroTitle": "Menghubungkan Masa Depan yang Lebih Baik<br/>Melalui Material",
@@ -39,21 +42,54 @@
     "whyTitle": "Stabil · Andal · Profesional",
     "ctaTitle": "Mencari Mitra Bahan Baku Plastik yang Andal?",
     "ctaSub": "Baik pengadaan domestik maupun material impor, Qinbo menyediakan dukungan profesional.",
-    "ctaBtn": "Hubungi Kami Sekarang"
+    "ctaBtn": "Hubungi Kami Sekarang",
+    "searchPh": "Cari produk, grade, atau merek — mis. PA66 / 8150 / Chimei",
+    "hot": "Populer",
+    "hqCustom": "Compound Kustom"
   },
   "val": {
-    "source": { "t": "Pasokan Stabil", "d": "Rantai pasok multi-salur di dalam dan luar negeri, dengan harga dan lead time yang stabil." },
-    "quality": { "t": "Kontrol Kualitas", "d": "Pemeriksaan masuk yang ketat dan sistem ketertelusuran kualitas." },
-    "tech": { "t": "Dukungan Teknis", "d": "Tim profesional yang menyediakan pemilihan material dan dukungan aplikasi." },
-    "service": { "t": "Layanan Efisien", "d": "Penawaran harga dan respons yang cepat, secara fleksibel memenuhi kebutuhan pelanggan." }
+    "source": {
+      "t": "Pasokan Stabil",
+      "d": "Rantai pasok multi-salur di dalam dan luar negeri, dengan harga dan lead time yang stabil."
+    },
+    "quality": {
+      "t": "Kontrol Kualitas",
+      "d": "Pemeriksaan masuk yang ketat dan sistem ketertelusuran kualitas."
+    },
+    "tech": {
+      "t": "Dukungan Teknis",
+      "d": "Tim profesional yang menyediakan pemilihan material dan dukungan aplikasi."
+    },
+    "service": {
+      "t": "Layanan Efisien",
+      "d": "Penawaran harga dan respons yang cepat, secara fleksibel memenuhi kebutuhan pelanggan."
+    }
   },
   "cat": {
-    "general": { "name": "Plastik Komoditas", "brief": "Resin komoditas seperti PP, PE, PVC, PS, dan ABS, digunakan dalam pengemasan, barang kebutuhan sehari-hari, dan peralatan rumah tangga." },
-    "engineering": { "name": "Plastik Teknik", "brief": "Plastik teknik berkinerja tinggi seperti PA, PC, POM, dan PBT untuk otomotif, elektronik, dan permesinan." },
-    "modified": { "name": "Material Modifikasi", "brief": "Plastik modifikasi yang disesuaikan — diperkuat, tahan api, diperkuat ketangguhan — dengan formulasi sesuai permintaan." },
-    "import": { "name": "Resin Impor", "brief": "Distribusi resin impor dari Eropa, Amerika Serikat, Jepang, Korea, dan Timur Tengah, dengan pasokan stabil dan saluran resmi." },
-    "rubber": { "name": "Material Karet", "brief": "Berbagai karet sintetis dan bahan baku produk karet untuk industri, otomotif, dan aplikasi penyegelan." },
-    "eco": { "name": "Ramah Lingkungan & Daur Ulang", "brief": "Material daur ulang ramah lingkungan dan biodegradable, membantu pelanggan mencapai target hijau dan keberlanjutan." }
+    "general": {
+      "name": "Plastik Komoditas",
+      "brief": "Resin komoditas seperti PP, PE, PVC, PS, dan ABS, digunakan dalam pengemasan, barang kebutuhan sehari-hari, dan peralatan rumah tangga."
+    },
+    "engineering": {
+      "name": "Plastik Teknik",
+      "brief": "Plastik teknik berkinerja tinggi seperti PA, PC, POM, dan PBT untuk otomotif, elektronik, dan permesinan."
+    },
+    "modified": {
+      "name": "Material Modifikasi",
+      "brief": "Plastik modifikasi yang disesuaikan — diperkuat, tahan api, diperkuat ketangguhan — dengan formulasi sesuai permintaan."
+    },
+    "import": {
+      "name": "Resin Impor",
+      "brief": "Distribusi resin impor dari Eropa, Amerika Serikat, Jepang, Korea, dan Timur Tengah, dengan pasokan stabil dan saluran resmi."
+    },
+    "rubber": {
+      "name": "Material Karet",
+      "brief": "Berbagai karet sintetis dan bahan baku produk karet untuk industri, otomotif, dan aplikasi penyegelan."
+    },
+    "eco": {
+      "name": "Ramah Lingkungan & Daur Ulang",
+      "brief": "Material daur ulang ramah lingkungan dan biodegradable, membantu pelanggan mencapai target hijau dan keberlanjutan."
+    }
   },
   "products": {
     "bannerTitle": "Produk",
@@ -72,7 +108,22 @@
     "descModified": "Plastik modifikasi fungsional yang disesuaikan dengan kebutuhan klien, menawarkan solusi modifikasi penguatan, tahan api, peningkatan ketangguhan, ketahanan cuaca, dan layanan formulasi.",
     "descImport": "Bermitra dengan pemasok luar negeri berkualitas di Eropa, Amerika Serikat, Jepang, Korea, dan Timur Tengah, menyediakan distribusi resin impor melalui saluran resmi dengan kualitas andal dan dokumentasi lengkap.",
     "descRubber": "Berbagai karet sintetis dan bahan baku produk karet yang melayani produk industri, komponen otomotif, dan komponen penyegelan.",
-    "descEco": "Material daur ulang ramah lingkungan dan biodegradable yang sejalan dengan tren pembangunan hijau, membantu pelanggan memenuhi tujuan keberlanjutan dan kepatuhan lingkungan."
+    "descEco": "Material daur ulang ramah lingkungan dan biodegradable yang sejalan dengan tren pembangunan hijau, membantu pelanggan memenuhi tujuan keberlanjutan dan kepatuhan lingkungan.",
+    "customEyebrow": "Compound Kustom",
+    "customTitle": "Formula disesuaikan dengan aplikasi — tersedia resin virgin",
+    "customDesc": "Penguatan serat kaca, tahan api, peliatan, tahan cuaca, konduktif/anti-statis, dan pengisian mineral — berbasis PP/PA/PC/ABS/PBT, dengan opsi resin virgin 100% serta layanan sampling dan formulasi.",
+    "customT1": "Penguatan serat kaca",
+    "customT2": "Tahan api",
+    "customT3": "Diperkuat (toughened)",
+    "customT4": "Konduktif/anti-statis",
+    "customT5": "Kustom resin virgin",
+    "customBtn": "Diskusikan kebutuhan Anda",
+    "case1t": "Compound kustom resin virgin",
+    "case1d": "Basis resin virgin 100% untuk properti yang stabil dan konsisten; ideal untuk komponen sensitif mutu dan estetika.",
+    "case2t": "PA66 dengan serat kaca",
+    "case2d": "PA66 + 30% serat kaca: kekakuan dan ketahanan panas meningkat pesat untuk braket struktural otomotif.",
+    "case3t": "PP / ABS tahan api",
+    "case3d": "Tahan api bebas halogen hingga UL94 V-0, untuk casing peralatan rumah tangga dan elektronik."
   },
   "about": {
     "bannerTitle": "Tentang Qinbo",
@@ -92,7 +143,22 @@
     "advTitle": "Mengapa Memilih Qinbo",
     "ctaTitle": "Menantikan Kemitraan Jangka Panjang",
     "ctaSub": "Temukan dukungan material yang dapat diberikan Qinbo untuk bisnis Anda.",
-    "ctaBtn": "Hubungi Kami"
+    "ctaBtn": "Hubungi Kami",
+    "cultEyebrow": "Filosofi Perusahaan",
+    "cultTitle": "Kemampuan tak diukur besar kecil; sikap menentukan segalanya",
+    "cultBiz": "<strong>Prinsip Bisnis</strong>Bertahan dengan kualitas, berkembang dengan reputasi",
+    "cultQuality": "<strong>Kebijakan Mutu</strong>Mutu mendorong volume, efisiensi, reputasi, dan kelangsungan",
+    "cultMgmt": "<strong>Filosofi Manajemen</strong>Mengutamakan manusia — integritas, teknologi, kesatuan, dan kepraktisan",
+    "tenet1": "Pertumbuhan pelanggan adalah pekerjaan Qinbo",
+    "tenet2": "Kepuasan pelanggan adalah tujuan Qinbo",
+    "tenet3": "Pengakuan pelanggan adalah upaya Qinbo",
+    "tenet4": "Kerja sama pelanggan adalah harapan Qinbo",
+    "partnerEyebrow": "Merek Mitra",
+    "partnerTitle": "Kanal resmi pabrik · stok asli",
+    "partnerDesc": "Kemitraan jangka panjang dengan produsen resin terkemuka di dalam dan luar negeri, serta keagenan resmi merek seperti Bayer, Sumitomo, dan Ascend.",
+    "agentBayer": "🏅 Bayer (Jerman) · Agen Resmi",
+    "agentSumitomo": "🏅 Sumitomo (Jepang) · Agen Resmi",
+    "agentAscend": "🏅 Ascend (AS) · Agen Resmi"
   },
   "trade": {
     "mapEyebrow": "Peta Bisnis",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>Pasokan Stabil</strong> Kemitraan luar negeri jangka panjang dan pasokan berkelanjutan",
     "flowEyebrow": "Layanan Satu Atap",
     "flowTitle": "Koordinasi Proses Penuh dari Pemilihan hingga Pengiriman",
-    "flow1t": "Pencocokan Kebutuhan", "flow1d": "Memahami aplikasi dan persyaratan teknis untuk mencocokkan material secara tepat.",
-    "flow2t": "Penawaran & Pemilihan", "flow2d": "Menawarkan rekomendasi tipe dan penawaran harga yang kompetitif.",
-    "flow3t": "Logistik & Pengiriman", "flow3d": "Distribusi domestik dan penyelesaian bea cukai impor, dikirim sesuai jadwal.",
-    "flow4t": "Dukungan Purna Jual", "flow4d": "Jaminan teknis dan pasokan berkelanjutan untuk kerja sama jangka panjang.",
+    "flow1t": "Pencocokan Kebutuhan",
+    "flow1d": "Memahami aplikasi dan persyaratan teknis untuk mencocokkan material secara tepat.",
+    "flow2t": "Penawaran & Pemilihan",
+    "flow2d": "Menawarkan rekomendasi tipe dan penawaran harga yang kompetitif.",
+    "flow3t": "Logistik & Pengiriman",
+    "flow3d": "Distribusi domestik dan penyelesaian bea cukai impor, dikirim sesuai jadwal.",
+    "flow4t": "Dukungan Purna Jual",
+    "flow4d": "Jaminan teknis dan pasokan berkelanjutan untuk kerja sama jangka panjang.",
     "ctaTitle": "Butuh Material Impor atau Pengadaan Domestik?",
     "ctaSub": "Tim perdagangan Qinbo siap memberikan dukungan profesional.",
     "ctaBtn": "Hubungi Tim Perdagangan"
@@ -161,5 +231,11 @@
     "mapTitle": "Temukan Kami",
     "mapDesc": "Peta (Amap / Baidu Maps) dapat disematkan saat peluncuran untuk menandai lokasi pasti kedua entitas.",
     "mapPlaceholder": "Placeholder peta<br/><small>(Peta akan disematkan setelah alamat diberikan)</small>"
+  },
+  "cert": {
+    "licenseSh": "Izin Usaha Shanghai",
+    "licenseHk": "Izin Usaha Haikou",
+    "customsSh": "Registrasi Bea Cukai Shanghai",
+    "customsHk": "Sertifikat Bea Cukai Haikou"
   }
 }

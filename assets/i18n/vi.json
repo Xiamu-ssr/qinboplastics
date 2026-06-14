@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Nhà cung cấp nguyên liệu nhựa chuyên nghiệp · Thương mại · Nhựa nhập khẩu & biến tính" },
+  "meta": {
+    "title": "Qinbo New Materials | Nhà cung cấp nguyên liệu nhựa chuyên nghiệp · Thương mại · Nhựa nhập khẩu & biến tính"
+  },
   "nav": {
     "home": "Trang chủ",
     "about": "Giới thiệu",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Qinbo Vật liệu mới Thượng Hải · Qinbo Vật liệu mới Hải Khẩu",
-    "copyright": "© 2026 Qinbo New Materials. All rights reserved."
+    "copyright": "© 2026 Qinbo New Materials. All rights reserved.",
+    "certs": "Chứng nhận"
   },
   "home": {
     "heroTitle": "Kết nối tương lai tốt đẹp hơn<br/>thông qua vật liệu",
@@ -39,21 +42,54 @@
     "whyTitle": "Ổn định · Đáng tin cậy · Chuyên nghiệp",
     "ctaTitle": "Đang tìm kiếm đối tác nguyên liệu nhựa đáng tin cậy?",
     "ctaSub": "Dù mua hàng trong nước hay vật liệu nhập khẩu, Qinbo cung cấp hỗ trợ chuyên nghiệp.",
-    "ctaBtn": "Liên hệ ngay"
+    "ctaBtn": "Liên hệ ngay",
+    "searchPh": "Tìm theo sản phẩm, mã hạt hoặc thương hiệu — vd: PA66 / 8150 / Chimei",
+    "hot": "Nổi bật",
+    "hqCustom": "Cải tính theo yêu cầu"
   },
   "val": {
-    "source": { "t": "Nguồn cung ổn định", "d": "Chuỗi cung ứng đa kênh trong nước và quốc tế, với giá cả và thời gian giao hàng ổn định." },
-    "quality": { "t": "Kiểm soát chất lượng", "d": "Hệ thống kiểm tra đầu vào nghiêm ngặt và truy xuất nguồn gốc chất lượng." },
-    "tech": { "t": "Hỗ trợ kỹ thuật", "d": "Đội ngũ chuyên nghiệp cung cấp lựa chọn vật liệu và hỗ trợ ứng dụng." },
-    "service": { "t": "Dịch vụ hiệu quả", "d": "Báo giá và phản hồi nhanh chóng, đáp ứng linh hoạt nhu cầu khách hàng." }
+    "source": {
+      "t": "Nguồn cung ổn định",
+      "d": "Chuỗi cung ứng đa kênh trong nước và quốc tế, với giá cả và thời gian giao hàng ổn định."
+    },
+    "quality": {
+      "t": "Kiểm soát chất lượng",
+      "d": "Hệ thống kiểm tra đầu vào nghiêm ngặt và truy xuất nguồn gốc chất lượng."
+    },
+    "tech": {
+      "t": "Hỗ trợ kỹ thuật",
+      "d": "Đội ngũ chuyên nghiệp cung cấp lựa chọn vật liệu và hỗ trợ ứng dụng."
+    },
+    "service": {
+      "t": "Dịch vụ hiệu quả",
+      "d": "Báo giá và phản hồi nhanh chóng, đáp ứng linh hoạt nhu cầu khách hàng."
+    }
   },
   "cat": {
-    "general": { "name": "Nhựa thông dụng", "brief": "Các loại nhựa thông dụng như PP, PE, PVC, PS và ABS, được sử dụng trong bao bì, hàng tiêu dùng và đồ gia dụng." },
-    "engineering": { "name": "Nhựa kỹ thuật", "brief": "Nhựa kỹ thuật hiệu suất cao như PA, PC, POM và PBT cho ngành ô tô, điện tử và cơ khí." },
-    "modified": { "name": "Vật liệu biến tính", "brief": "Nhựa biến tính tùy chỉnh — gia cường, chống cháy, tăng dai — với công thức theo yêu cầu." },
-    "import": { "name": "Nhựa nhập khẩu", "brief": "Phân phối nhựa nhập khẩu từ châu Âu, Mỹ, Nhật Bản, Hàn Quốc và Trung Đông, với nguồn cung ổn định và kênh chính hãng." },
-    "rubber": { "name": "Vật liệu cao su", "brief": "Các loại cao su tổng hợp và nguyên liệu sản phẩm cao su cho công nghiệp, ô tô và ứng dụng làm kín." },
-    "eco": { "name": "Thân thiện môi trường & Tái chế", "brief": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường, giúp khách hàng đạt mục tiêu xanh và bền vững." }
+    "general": {
+      "name": "Nhựa thông dụng",
+      "brief": "Các loại nhựa thông dụng như PP, PE, PVC, PS và ABS, được sử dụng trong bao bì, hàng tiêu dùng và đồ gia dụng."
+    },
+    "engineering": {
+      "name": "Nhựa kỹ thuật",
+      "brief": "Nhựa kỹ thuật hiệu suất cao như PA, PC, POM và PBT cho ngành ô tô, điện tử và cơ khí."
+    },
+    "modified": {
+      "name": "Vật liệu biến tính",
+      "brief": "Nhựa biến tính tùy chỉnh — gia cường, chống cháy, tăng dai — với công thức theo yêu cầu."
+    },
+    "import": {
+      "name": "Nhựa nhập khẩu",
+      "brief": "Phân phối nhựa nhập khẩu từ châu Âu, Mỹ, Nhật Bản, Hàn Quốc và Trung Đông, với nguồn cung ổn định và kênh chính hãng."
+    },
+    "rubber": {
+      "name": "Vật liệu cao su",
+      "brief": "Các loại cao su tổng hợp và nguyên liệu sản phẩm cao su cho công nghiệp, ô tô và ứng dụng làm kín."
+    },
+    "eco": {
+      "name": "Thân thiện môi trường & Tái chế",
+      "brief": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường, giúp khách hàng đạt mục tiêu xanh và bền vững."
+    }
   },
   "products": {
     "bannerTitle": "Sản phẩm",
@@ -72,7 +108,22 @@
     "descModified": "Nhựa biến tính chức năng được tùy chỉnh theo nhu cầu khách hàng, cung cấp các giải pháp biến tính và dịch vụ công thức gia cường, chống cháy, tăng dai, chịu thời tiết và các giải pháp khác.",
     "descImport": "Hợp tác với các nhà cung cấp nước ngoài chất lượng tại châu Âu, Mỹ, Nhật Bản, Hàn Quốc và Trung Đông, cung cấp phân phối nhựa nhập khẩu thông qua kênh chính hãng với chất lượng đáng tin cậy và đầy đủ tài liệu.",
     "descRubber": "Các loại cao su tổng hợp và nguyên liệu sản phẩm cao su phục vụ cho sản phẩm công nghiệp, phụ tùng ô tô và linh kiện làm kín.",
-    "descEco": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường phù hợp với xu hướng phát triển xanh, giúp khách hàng đạt được mục tiêu bền vững và tuân thủ môi trường."
+    "descEco": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường phù hợp với xu hướng phát triển xanh, giúp khách hàng đạt được mục tiêu bền vững và tuân thủ môi trường.",
+    "customEyebrow": "Cải tính theo yêu cầu",
+    "customTitle": "Công thức tùy theo điều kiện sử dụng — hỗ trợ nhựa nguyên sinh",
+    "customDesc": "Gia cường sợi thủy tinh, chống cháy, tăng dai, kháng thời tiết, dẫn điện/chống tĩnh điện và độn khoáng — trên nền PP/PA/PC/ABS/PBT, có thể chỉ định nhựa nguyên sinh 100%, kèm dịch vụ làm mẫu và xây dựng công thức.",
+    "customT1": "Gia cường sợi thủy tinh",
+    "customT2": "Chống cháy",
+    "customT3": "Tăng dai",
+    "customT4": "Dẫn điện/chống tĩnh điện",
+    "customT5": "Tùy chỉnh nhựa nguyên sinh",
+    "customBtn": "Trao đổi nhu cầu cải tính",
+    "case1t": "Compound tùy chỉnh nhựa nguyên sinh",
+    "case1d": "Nền nhựa nguyên sinh 100% cho tính chất ổn định, đồng nhất; lý tưởng cho chi tiết yêu cầu chất lượng và bề mặt.",
+    "case2t": "PA66 gia cường sợi thủy tinh",
+    "case2d": "PA66 + 30% sợi thủy tinh: độ cứng và khả năng chịu nhiệt tăng mạnh, dùng cho giá đỡ kết cấu ô tô.",
+    "case3t": "PP / ABS chống cháy",
+    "case3d": "Chống cháy không halogen đạt UL94 V-0, dùng cho vỏ thiết bị gia dụng và điện tử."
   },
   "about": {
     "bannerTitle": "Về Qinbo",
@@ -92,7 +143,22 @@
     "advTitle": "Tại sao chọn Qinbo",
     "ctaTitle": "Mong đợi một quan hệ đối tác dài hạn",
     "ctaSub": "Khám phá sự hỗ trợ vật liệu mà Qinbo có thể cung cấp cho doanh nghiệp của bạn.",
-    "ctaBtn": "Liên hệ với chúng tôi"
+    "ctaBtn": "Liên hệ với chúng tôi",
+    "cultEyebrow": "Triết lý doanh nghiệp",
+    "cultTitle": "Năng lực không phân lớn nhỏ, thái độ quyết định tất cả",
+    "cultBiz": "<strong>Triết lý kinh doanh</strong>Tồn tại bằng chất lượng, phát triển bằng uy tín",
+    "cultQuality": "<strong>Chính sách chất lượng</strong>Chất lượng tạo sản lượng, hiệu quả, uy tín và sự tồn tại",
+    "cultMgmt": "<strong>Triết lý quản lý</strong>Lấy con người làm gốc — chính trực, công nghệ, đoàn kết và thực tế",
+    "tenet1": "Sự phát triển của khách hàng là công việc của Qinbo",
+    "tenet2": "Sự hài lòng của khách hàng là tôn chỉ của Qinbo",
+    "tenet3": "Sự ghi nhận của khách hàng là mục tiêu của Qinbo",
+    "tenet4": "Sự hợp tác của khách hàng là kỳ vọng của Qinbo",
+    "partnerEyebrow": "Thương hiệu hợp tác",
+    "partnerTitle": "Kênh chính hãng · hàng thật có sẵn",
+    "partnerDesc": "Hợp tác lâu dài với các nhà sản xuất nhựa hàng đầu trong và ngoài nước, đồng thời là đại lý ủy quyền của các thương hiệu như Bayer, Sumitomo và Ascend.",
+    "agentBayer": "🏅 Bayer (Đức) · Đại lý ủy quyền",
+    "agentSumitomo": "🏅 Sumitomo (Nhật Bản) · Đại lý ủy quyền",
+    "agentAscend": "🏅 Ascend (Hoa Kỳ) · Đại lý ủy quyền"
   },
   "trade": {
     "mapEyebrow": "Bản đồ kinh doanh",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>Nguồn cung ổn định</strong> Quan hệ đối tác nước ngoài dài hạn và cung cấp liên tục",
     "flowEyebrow": "Dịch vụ trọn gói",
     "flowTitle": "Phối hợp toàn quy trình từ lựa chọn đến giao hàng",
-    "flow1t": "Khớp yêu cầu", "flow1d": "Hiểu các yêu cầu ứng dụng và kỹ thuật để khớp vật liệu chính xác.",
-    "flow2t": "Báo giá & Lựa chọn", "flow2d": "Cung cấp đề xuất grade và báo giá cạnh tranh.",
-    "flow3t": "Hậu cần & Giao hàng", "flow3d": "Phân phối trong nước và thông quan nhập khẩu, giao hàng đúng hẹn.",
-    "flow4t": "Hỗ trợ sau bán hàng", "flow4d": "Hỗ trợ kỹ thuật và cung ứng liên tục cho hợp tác dài hạn.",
+    "flow1t": "Khớp yêu cầu",
+    "flow1d": "Hiểu các yêu cầu ứng dụng và kỹ thuật để khớp vật liệu chính xác.",
+    "flow2t": "Báo giá & Lựa chọn",
+    "flow2d": "Cung cấp đề xuất grade và báo giá cạnh tranh.",
+    "flow3t": "Hậu cần & Giao hàng",
+    "flow3d": "Phân phối trong nước và thông quan nhập khẩu, giao hàng đúng hẹn.",
+    "flow4t": "Hỗ trợ sau bán hàng",
+    "flow4d": "Hỗ trợ kỹ thuật và cung ứng liên tục cho hợp tác dài hạn.",
     "ctaTitle": "Cần vật liệu nhập khẩu hoặc mua hàng trong nước?",
     "ctaSub": "Đội ngũ thương mại của Qinbo sẵn sàng cung cấp hỗ trợ chuyên nghiệp.",
     "ctaBtn": "Liên hệ đội ngũ thương mại"
@@ -161,5 +231,11 @@
     "mapTitle": "Tìm chúng tôi",
     "mapDesc": "Có thể nhúng bản đồ (Amap / Baidu Maps) khi ra mắt để đánh dấu vị trí chính xác của cả hai đơn vị.",
     "mapPlaceholder": "Trình giữ chỗ bản đồ<br/><small>(Bản đồ sẽ được nhúng khi địa chỉ được cung cấp)</small>"
+  },
+  "cert": {
+    "licenseSh": "Giấy phép KD Thượng Hải",
+    "licenseHk": "Giấy phép KD Hải Khẩu",
+    "customsSh": "Đăng ký Hải quan Thượng Hải",
+    "customsHk": "Chứng nhận Hải quan Hải Khẩu"
   }
 }

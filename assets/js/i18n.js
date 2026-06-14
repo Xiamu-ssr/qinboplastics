@@ -24,7 +24,9 @@
 
   var STORAGE_KEY = "qinbo_lang";
   var DEFAULT_LANG = "zh";
+  var FALLBACK_LANG = "en";   // 长尾细节只维护 zh+en：其他语言缺 key 时回退英文
   var BASE = "assets/i18n/";
+  var _fallbackDict = null;   // 缓存的英文兜底字典
 
   function codes() { return LANGS.map(function (l) { return l.code; }); }
   function meta(code) {
@@ -53,7 +55,7 @@
     return DEFAULT_LANG;
   }
 
-  function get(dict, key) {
+  function rawGet(dict, key) {
     // 支持点号路径
     var parts = key.split(".");
     var cur = dict;
@@ -62,6 +64,15 @@
       cur = cur[parts[i]];
     }
     return cur;
+  }
+
+  // 取值：当前语言缺失则回退到英文字典（界面主体全语言，长尾细节仅中英）
+  function get(dict, key) {
+    var v = rawGet(dict, key);
+    if (v == null && _fallbackDict && dict !== _fallbackDict) {
+      v = rawGet(_fallbackDict, key);
+    }
+    return v;
   }
 
   function apply(dict, lang) {
@@ -109,11 +120,22 @@
       .then(function (r) { if (!r.ok) throw new Error("404"); return r.json(); });
   }
 
+  // 先确保英文兜底字典就绪，再加载目标语言并应用
+  function ensureFallback() {
+    if (_fallbackDict) return Promise.resolve(_fallbackDict);
+    return load(FALLBACK_LANG).then(function (d) { _fallbackDict = d; return d; })
+      .catch(function () { _fallbackDict = null; return null; });
+  }
+
   function setLang(lang) {
     if (codes().indexOf(lang) === -1) lang = DEFAULT_LANG;
-    load(lang).then(function (dict) {
-      apply(dict, lang);
-      try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    var prep = (lang === FALLBACK_LANG) ? Promise.resolve() : ensureFallback();
+    prep.then(function () {
+      return load(lang).then(function (dict) {
+        if (lang === FALLBACK_LANG) _fallbackDict = dict;
+        apply(dict, lang);
+        try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+      });
     }).catch(function () {
       if (lang !== DEFAULT_LANG) setLang(DEFAULT_LANG);
     });

@@ -1,5 +1,7 @@
 {
-  "meta": { "title": "Qinbo New Materials | Professional Plastic Raw Material Supplier · Trade · Imported & Modified Resins" },
+  "meta": {
+    "title": "Qinbo New Materials | Professional Plastic Raw Material Supplier · Trade · Imported & Modified Resins"
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",
@@ -9,7 +11,8 @@
   },
   "footer": {
     "subjects": "Shanghai Qinbo New Materials · Haikou Qinbo New Materials",
-    "copyright": "© 2026 Qinbo New Materials. All rights reserved."
+    "copyright": "© 2026 Qinbo New Materials. All rights reserved.",
+    "certs": "Credentials"
   },
   "home": {
     "heroTitle": "Connecting a Better Future<br/>Through Materials",
@@ -39,21 +42,54 @@
     "whyTitle": "Stable · Reliable · Professional",
     "ctaTitle": "Looking for a Reliable Plastic Raw Material Partner?",
     "ctaSub": "Whether domestic procurement or imported materials, Qinbo provides professional support.",
-    "ctaBtn": "Contact Us Now"
+    "ctaBtn": "Contact Us Now",
+    "searchPh": "Search by product, grade or brand — e.g. PA66 / 8150 / Chimei",
+    "hot": "Hot",
+    "hqCustom": "Custom Compounds"
   },
   "val": {
-    "source": { "t": "Stable Supply", "d": "Multi-channel supply chain at home and abroad, with stable prices and lead times." },
-    "quality": { "t": "Quality Control", "d": "Strict incoming inspection and quality-traceability system." },
-    "tech": { "t": "Technical Support", "d": "A professional team providing material selection and application support." },
-    "service": { "t": "Efficient Service", "d": "Fast quotation and response, flexibly meeting customer needs." }
+    "source": {
+      "t": "Stable Supply",
+      "d": "Multi-channel supply chain at home and abroad, with stable prices and lead times."
+    },
+    "quality": {
+      "t": "Quality Control",
+      "d": "Strict incoming inspection and quality-traceability system."
+    },
+    "tech": {
+      "t": "Technical Support",
+      "d": "A professional team providing material selection and application support."
+    },
+    "service": {
+      "t": "Efficient Service",
+      "d": "Fast quotation and response, flexibly meeting customer needs."
+    }
   },
   "cat": {
-    "general": { "name": "Commodity Plastics", "brief": "Commodity resins such as PP, PE, PVC, PS and ABS, used in packaging, daily goods and appliances." },
-    "engineering": { "name": "Engineering Plastics", "brief": "High-performance engineering plastics such as PA, PC, POM and PBT for automotive, electronics and machinery." },
-    "modified": { "name": "Modified Materials", "brief": "Customized modified plastics — reinforced, flame-retardant, toughened — with formulations on demand." },
-    "import": { "name": "Imported Resins", "brief": "Imported resin distribution from Europe, the US, Japan, Korea and the Middle East, with stable supply and legitimate channels." },
-    "rubber": { "name": "Rubber Materials", "brief": "Various synthetic rubbers and rubber-product raw materials for industry, automotive and sealing applications." },
-    "eco": { "name": "Eco & Recycled", "brief": "Eco-friendly recycled and biodegradable materials, helping customers reach green and sustainability goals." }
+    "general": {
+      "name": "Commodity Plastics",
+      "brief": "Commodity resins such as PP, PE, PVC, PS and ABS, used in packaging, daily goods and appliances."
+    },
+    "engineering": {
+      "name": "Engineering Plastics",
+      "brief": "High-performance engineering plastics such as PA, PC, POM and PBT for automotive, electronics and machinery."
+    },
+    "modified": {
+      "name": "Modified Materials",
+      "brief": "Customized modified plastics — reinforced, flame-retardant, toughened — with formulations on demand."
+    },
+    "import": {
+      "name": "Imported Resins",
+      "brief": "Imported resin distribution from Europe, the US, Japan, Korea and the Middle East, with stable supply and legitimate channels."
+    },
+    "rubber": {
+      "name": "Rubber Materials",
+      "brief": "Various synthetic rubbers and rubber-product raw materials for industry, automotive and sealing applications."
+    },
+    "eco": {
+      "name": "Eco & Recycled",
+      "brief": "Eco-friendly recycled and biodegradable materials, helping customers reach green and sustainability goals."
+    }
   },
   "products": {
     "bannerTitle": "Products",
@@ -72,7 +108,22 @@
     "descModified": "Functional modified plastics customized to client needs, offering reinforcement, flame-retardant, toughening, weathering and other modification solutions and formulation services.",
     "descImport": "Partnering with quality overseas suppliers in Europe, the US, Japan, Korea and the Middle East, providing imported resin distribution through legitimate channels with reliable quality and complete documentation.",
     "descRubber": "Various synthetic rubbers and rubber-product raw materials serving industrial products, automotive parts and sealing components.",
-    "descEco": "Eco-friendly recycled and biodegradable materials in line with green-development trends, helping customers meet sustainability and environmental-compliance goals."
+    "descEco": "Eco-friendly recycled and biodegradable materials in line with green-development trends, helping customers meet sustainability and environmental-compliance goals.",
+    "customEyebrow": "Custom Compounds",
+    "customTitle": "Formulations tailored to your application — virgin resin available",
+    "customDesc": "Glass-fiber reinforcement, flame retardancy, toughening, weathering, conductive/anti-static and mineral filling — built on PP/PA/PC/ABS/PBT bases, with 100% virgin-resin options plus sampling and formulation support.",
+    "customT1": "Glass-fiber reinforced",
+    "customT2": "Flame-retardant",
+    "customT3": "Toughened",
+    "customT4": "Conductive / anti-static",
+    "customT5": "Virgin-resin custom",
+    "customBtn": "Discuss your compound",
+    "case1t": "Virgin-resin custom compound",
+    "case1d": "100% virgin-resin base for consistent properties; ideal for quality-sensitive and cosmetic parts.",
+    "case2t": "GF-reinforced PA66",
+    "case2d": "PA66 + 30% glass fiber: greatly improved stiffness and heat resistance for automotive structural brackets.",
+    "case3t": "Flame-retardant PP / ABS",
+    "case3d": "Halogen-free flame retardancy up to UL94 V-0, for appliance and electronics housings."
   },
   "about": {
     "bannerTitle": "About Qinbo",
@@ -92,7 +143,22 @@
     "advTitle": "Why Choose Qinbo",
     "ctaTitle": "Looking Forward to a Long-Term Partnership",
     "ctaSub": "Discover the material support Qinbo can provide for your business.",
-    "ctaBtn": "Contact Us"
+    "ctaBtn": "Contact Us",
+    "cultEyebrow": "Our Philosophy",
+    "cultTitle": "Ability has no size; attitude decides everything",
+    "cultBiz": "<strong>Business Principle</strong>Survive through quality, grow through reputation",
+    "cultQuality": "<strong>Quality Policy</strong>Quality drives volume, efficiency, reputation and survival",
+    "cultMgmt": "<strong>Management Philosophy</strong>People first — integrity, technology, unity and pragmatism",
+    "tenet1": "Customers' growth is Qinbo's work",
+    "tenet2": "Customers' satisfaction is Qinbo's mission",
+    "tenet3": "Customers' recognition is Qinbo's pursuit",
+    "tenet4": "Customers' partnership is Qinbo's aspiration",
+    "partnerEyebrow": "Partner Brands",
+    "partnerTitle": "Factory channels · genuine stock",
+    "partnerDesc": "Long-term partnerships with leading resin producers worldwide, plus authorized agency for brands such as Bayer, Sumitomo and Ascend.",
+    "agentBayer": "🏅 Bayer (Germany) · Authorized Agent",
+    "agentSumitomo": "🏅 Sumitomo (Japan) · Authorized Agent",
+    "agentAscend": "🏅 Ascend (USA) · Authorized Agent"
   },
   "trade": {
     "mapEyebrow": "Business Footprint",
@@ -122,10 +188,14 @@
     "intlLi3": "<strong>Stable Supply</strong> Long-term overseas partnerships and continuous supply",
     "flowEyebrow": "One-Stop Service",
     "flowTitle": "Full-Process Coordination from Selection to Delivery",
-    "flow1t": "Requirement Matching", "flow1d": "Understanding applications and technical requirements to match materials precisely.",
-    "flow2t": "Quotation & Selection", "flow2d": "Offering grade recommendations and competitive quotations.",
-    "flow3t": "Logistics & Delivery", "flow3d": "Domestic distribution and import customs clearance, delivered on schedule.",
-    "flow4t": "After-Sales Support", "flow4d": "Ongoing technical and supply assurance for long-term cooperation.",
+    "flow1t": "Requirement Matching",
+    "flow1d": "Understanding applications and technical requirements to match materials precisely.",
+    "flow2t": "Quotation & Selection",
+    "flow2d": "Offering grade recommendations and competitive quotations.",
+    "flow3t": "Logistics & Delivery",
+    "flow3d": "Domestic distribution and import customs clearance, delivered on schedule.",
+    "flow4t": "After-Sales Support",
+    "flow4d": "Ongoing technical and supply assurance for long-term cooperation.",
     "ctaTitle": "Need Imported Materials or Domestic Procurement?",
     "ctaSub": "Qinbo's trade team is ready to provide professional support.",
     "ctaBtn": "Contact the Trade Team"
@@ -161,5 +231,11 @@
     "mapTitle": "Find Us",
     "mapDesc": "A map (Amap / Baidu Maps) can be embedded on launch to mark the exact locations of both entities.",
     "mapPlaceholder": "Map placeholder<br/><small>(Map to be embedded once addresses are provided)</small>"
+  },
+  "cert": {
+    "licenseSh": "Shanghai Business License",
+    "licenseHk": "Haikou Business License",
+    "customsSh": "Shanghai Customs Record",
+    "customsHk": "Haikou Customs Certificate"
   }
 }

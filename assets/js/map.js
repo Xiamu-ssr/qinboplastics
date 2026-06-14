@@ -28,9 +28,10 @@
     { zh: "上海", en: "Shanghai", lon: 121.47, lat: 31.23, lx: 12, ly: -10 },
     { zh: "海口", en: "Haikou", lon: 110.32, lat: 20.04, lx: -12, ly: 16, anchor: "end" }
   ];
+  // 仓储：取自公司手册真实仓点(中储/中石化/保税区)，避开与国内节点重叠
   var warehouses = [
-    { zh: "苏州仓", en: "Suzhou", lon: 120.58, lat: 31.30, lx: -10, ly: -12, anchor: "end" },
-    { zh: "海南仓", en: "Hainan", lon: 109.2, lat: 19.0, lx: -12, ly: 18, anchor: "end" }
+    { zh: "苏州中储仓", en: "Suzhou", lon: 120.62, lat: 31.32, lx: 11, ly: -8 },
+    { zh: "常州中储仓", en: "Changzhou", lon: 119.95, lat: 31.78, lx: -11, ly: -10, anchor: "end" }
   ];
   // from: 0=上海 1=海口
   var domestic = [
