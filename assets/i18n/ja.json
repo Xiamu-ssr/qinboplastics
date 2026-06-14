@@ -120,6 +120,12 @@
     "ctaBtn": "貿易チームに連絡"
   },
   "contact": {
+    "salesEyebrow": "営業チーム",
+    "salesTitle": "営業部",
+    "salesDesc": "営業担当者に直接ご連絡いただき、見積もり・納期・素材選定のご相談を承ります。",
+    "roleSales": "営業",
+    "labelWechat": "WeChat",
+    "copyHint": "クリックでコピー",
     "bannerTitle": "お問い合わせ",
     "bannerSub": "長期的なパートナーシップに期待して",
     "shTitle": "上海Qinbo新素材",

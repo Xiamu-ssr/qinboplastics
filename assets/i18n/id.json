@@ -120,6 +120,12 @@
     "ctaBtn": "Hubungi Tim Perdagangan"
   },
   "contact": {
+    "salesEyebrow": "Tim Penjualan",
+    "salesTitle": "Departemen Penjualan",
+    "salesDesc": "Hubungi langsung konsultan penjualan kami untuk penawaran harga, waktu pengiriman, dan saran pemilihan material.",
+    "roleSales": "Penjualan",
+    "labelWechat": "WeChat",
+    "copyHint": "Klik untuk menyalin",
     "bannerTitle": "Hubungi Kami",
     "bannerSub": "Menantikan kemitraan jangka panjang",
     "shTitle": "Shanghai Qinbo New Materials",

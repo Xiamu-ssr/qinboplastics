@@ -120,6 +120,12 @@
     "ctaBtn": "Contacter l'équipe commerciale"
   },
   "contact": {
+    "salesEyebrow": "Équipe commerciale",
+    "salesTitle": "Service commercial",
+    "salesDesc": "Contactez directement nos conseillers commerciaux pour obtenir des devis, des délais et des conseils sur le choix des matériaux.",
+    "roleSales": "Commercial",
+    "labelWechat": "WeChat",
+    "copyHint": "Cliquer pour copier",
     "bannerTitle": "Contactez-nous",
     "bannerSub": "En attendant un partenariat à long terme",
     "shTitle": "Shanghai Qinbo New Materials",

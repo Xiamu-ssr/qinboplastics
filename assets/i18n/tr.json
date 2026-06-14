@@ -120,6 +120,12 @@
     "ctaBtn": "Ticaret Ekibiyle İletişime Geçin"
   },
   "contact": {
+    "salesEyebrow": "Satış Ekibi",
+    "salesTitle": "Satış Departmanı",
+    "salesDesc": "Fiyat teklifi, teslim süresi ve malzeme seçimi konusunda danışmanlık için satış danışmanlarımıza doğrudan ulaşın.",
+    "roleSales": "Satış",
+    "labelWechat": "WeChat",
+    "copyHint": "Kopyalamak için tıklayın",
     "bannerTitle": "Bize Ulaşın",
     "bannerSub": "Uzun vadeli bir ortaklığı dört gözle bekliyoruz",
     "shTitle": "Shanghai Qinbo New Materials",

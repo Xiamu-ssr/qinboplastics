@@ -120,6 +120,12 @@
     "ctaBtn": "무역팀에 연락"
   },
   "contact": {
+    "salesEyebrow": "영업팀",
+    "salesTitle": "영업부",
+    "salesDesc": "영업 상담사에게 직접 연락하여 견적, 납기 및 자재 선정 상담을 받으세요.",
+    "roleSales": "영업",
+    "labelWechat": "WeChat",
+    "copyHint": "클릭하여 복사",
     "bannerTitle": "문의하기",
     "bannerSub": "장기적인 파트너십을 기대하며",
     "shTitle": "상하이 Qinbo 신소재",

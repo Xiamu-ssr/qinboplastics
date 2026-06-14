@@ -120,6 +120,12 @@
     "ctaBtn": "تواصل مع فريق التجارة"
   },
   "contact": {
+    "salesEyebrow": "فريق المبيعات",
+    "salesTitle": "قسم المبيعات",
+    "salesDesc": "تواصل مباشرة مع مستشاري المبيعات لدينا للحصول على عروض الأسعار ومواعيد التسليم والمشورة في اختيار المواد.",
+    "roleSales": "المبيعات",
+    "labelWechat": "WeChat",
+    "copyHint": "انقر للنسخ",
     "bannerTitle": "اتصل بنا",
     "bannerSub": "نتطلع إلى شراكة طويلة الأمد",
     "shTitle": "Shanghai Qinbo New Materials",

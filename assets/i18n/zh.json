@@ -120,6 +120,12 @@
     "ctaBtn": "联系贸易团队"
   },
   "contact": {
+    "salesEyebrow": "销售团队",
+    "salesTitle": "销售部",
+    "salesDesc": "直接联系我们的销售顾问，获取报价、货期与选型建议。",
+    "roleSales": "销售部",
+    "labelWechat": "微信",
+    "copyHint": "点击复制",
     "bannerTitle": "联系我们",
     "bannerSub": "期待与您建立长期合作",
     "shTitle": "上海秦帛新材料",

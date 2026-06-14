@@ -120,6 +120,12 @@
     "ctaBtn": "Liên hệ đội ngũ thương mại"
   },
   "contact": {
+    "salesEyebrow": "Đội ngũ kinh doanh",
+    "salesTitle": "Phòng kinh doanh",
+    "salesDesc": "Liên hệ trực tiếp với chuyên viên kinh doanh của chúng tôi để nhận báo giá, thời gian giao hàng và tư vấn chọn vật liệu.",
+    "roleSales": "Kinh doanh",
+    "labelWechat": "WeChat",
+    "copyHint": "Nhấp để sao chép",
     "bannerTitle": "Liên hệ với chúng tôi",
     "bannerSub": "Mong đợi một quan hệ đối tác dài hạn",
     "shTitle": "Qinbo Vật liệu mới Thượng Hải",
