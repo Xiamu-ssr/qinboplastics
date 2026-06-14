@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Профессиональный поставщик пластикового сырья · Торговля · Импортные и модифицированные смолы"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Главная",
-    "about": "О компании",
+    "about": "About Qinbo",
     "products": "Продукция",
     "trade": "Торговля",
     "contact": "Контакты"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Соединяя лучшее будущее<br/>через материалы",
-    "heroSub": "Внутренняя и международная торговля и сервис пластикового сырья<br/>Базовая · Инженерная · Модифицированная · Импортная · Резиновая",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Смотреть продукцию",
     "scroll": "Прокрутить вниз ↓",
     "aboutEyebrow": "О Qinbo",
     "aboutTitle": "Профессиональный торговый сервис-провайдер<br/>в сфере пластиковых материалов",
-    "aboutP1": "Qinbo New Materials управляет двумя юридическими лицами — <strong>Shanghai Qinbo</strong> и <strong>Haikou Qinbo</strong> — специализирующимися на продажах и сервисе пластикового сырья (включая резину). Наш бизнес охватывает <strong>внутреннюю торговлю и международный импорт/экспорт</strong>, а также дистрибуцию импортных смол и изготовление модифицированных материалов на заказ.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Опираясь на стабильную сеть поставок и строгий контроль качества, мы выстраиваем долгосрочные и доверительные партнёрства с производителями-потребителями, обеспечивая надёжные поставки и профессиональную техническую поддержку.",
-    "aboutMore": "Узнать о нас больше →",
-    "productsTitle": "Линейка продукции, охватывающая множество областей материалов",
-    "tradeTitle": "Внутренняя дистрибуция + международный<br/>импорт/экспорт, двойной драйвер",
-    "tradeP": "Qinbo развивает как внутренний рынок, так и международную торговлю, обладая возможностями дистрибуции импортных смол, которые соединяют зарубежных поставщиков с отечественными заказчиками end-to-end.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Внутренняя торговля</strong> Охват ключевых регионов Восточного и Южного Китая, быстрый отклик и гибкое распределение",
     "tradeLi2": "<strong>Импорт/Экспорт</strong> Партнёрство с качественными зарубежными поставщиками, легальные каналы и стабильные поставки",
     "tradeLi3": "<strong>Комплексный сервис</strong> Подбор материалов, расчёт цены, логистика и техническая поддержка в полной координации",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Почему выбирают Qinbo",
     "whyTitle": "Стабильно · Надёжно · Профессионально",
     "ctaTitle": "Ищете надёжного партнёра по пластиковому сырью?",
-    "ctaSub": "Будь то внутренние закупки или импортные материалы — Qinbo окажет профессиональную поддержку.",
-    "ctaBtn": "Свяжитесь с нами",
-    "searchPh": "Поиск по продукту, марке или бренду — напр. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Популярное",
     "hqCustom": "Модификация под заказ"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Базовые пластики",
-      "brief": "Базовые смолы, такие как PP, PE, PVC, PS и ABS, применяемые в упаковке, товарах народного потребления и бытовой технике."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Инженерные пластики",
-      "brief": "Высокоэффективные инженерные пластики, такие как PA, PC, POM и PBT, для автомобильной, электронной и машиностроительной отраслей."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Модифицированные материалы",
-      "brief": "Модифицированные пластики на заказ — армированные, огнестойкие, ударопрочные — с рецептурами по требованию заказчика."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Импортные смолы",
-      "brief": "Дистрибуция импортных смол из Европы, США, Японии, Кореи и Ближнего Востока, со стабильными поставками и легальными каналами."
-    },
-    "rubber": {
-      "name": "Резиновые материалы",
-      "brief": "Различные синтетические каучуки и сырьё для резиновых изделий для промышленности, автомобилестроения и уплотнений."
-    },
-    "eco": {
-      "name": "Экологичные и вторичные",
-      "brief": "Экологичные вторичные и биоразлагаемые материалы, помогающие заказчикам достигать целей в области экологии и устойчивого развития."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Продукция",
-    "bannerSub": "Линейка продукции, охватывающая множество областей материалов",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Нужны конкретные марки и цены?",
-    "ctaSub": "Расскажите о ваших требованиях, и мы подберём оптимальное решение по материалу.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Получить предложение",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Нейлон)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Армирование стекловолокном</span><span>Огнестойкие</span><span>Ударопрочные</span><span>С наполнителями</span><span>Рецептура на заказ</span>",
-    "tagsImport": "<span>Импортная смола</span><span>Легальный канал</span><span>Стабильные поставки</span><span>OEM-качество</span>",
-    "tagsRubber": "<span>Синтетический каучук</span><span>Добавки для резины</span><span>Уплотнительные материалы</span><span>Промышленные изделия</span>",
-    "tagsEco": "<span>Вторичные пластики</span><span>Биоразлагаемые</span><span>Экологическое соответствие</span><span>Зелёные поставки</span>",
     "descGeneral": "Базовые смолы массового спроса, широко используемые в упаковке, товарах народного потребления, корпусах бытовой техники и трубах — стабильные поставки, полный спектр спецификаций.",
     "descEngineering": "Высокоэффективные инженерные пластики с превосходными механическими свойствами, термо- и химической стойкостью для требовательных применений в автомобилестроении, электронике и прецизионном машиностроении.",
     "descModified": "Функциональные модифицированные пластики, изготавливаемые по потребностям заказчика: армирование, огнестойкость, повышение ударной вязкости, атмосферостойкость и другие решения, а также сервис по разработке рецептур.",
-    "descImport": "Партнёрство с качественными зарубежными поставщиками в Европе, США, Японии, Корее и на Ближнем Востоке; дистрибуция импортных смол по легальным каналам с надёжным качеством и полным комплектом документации.",
-    "descRubber": "Различные синтетические каучуки и сырьё для резиновых изделий, обслуживающие промышленную продукцию, автокомпоненты и уплотнительные элементы.",
-    "descEco": "Экологичные вторичные и биоразлагаемые материалы, соответствующие тренду зелёного развития и помогающие заказчикам достигать целей устойчивого развития и экологического соответствия.",
     "customEyebrow": "Модификация под заказ",
     "customTitle": "Рецептуры под ваши условия эксплуатации — доступна первичная смола",
     "customDesc": "Армирование стекловолокном, огнестойкость, повышение ударопрочности, атмосферостойкость, электропроводность/антистатика и минеральное наполнение — на базе PP/PA/PC/ABS/PBT, с вариантами из 100% первичной смолы, услугами образцов и разработки рецептур.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Япония) · Официальный агент",
     "agentAscend": "🏅 Ascend (США) · Официальный агент",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Карта бизнеса",
-    "mapTitle": "Торговая сеть, простирающаяся от двух баз по всему миру",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Две базы",
-    "mapLegDom": "Внутренняя дистрибуция",
-    "mapLegIntl": "Импорт и экспорт",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Склады",
-    "mapStage1": "Две базы · Шанхай и Хайкоу",
-    "mapStage2": "Внутренняя дистрибуция · ключевые регионы",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Торговля",
-    "bannerSub": "Внутренняя дистрибуция + международный импорт/экспорт, двойной драйвер",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Внутренняя торговля",
     "domTitle": "Дистрибуционная сеть,<br/>охватывающая ключевые регионы",
     "domP": "Опираясь на двойную базу в Shanghai и Haikou, Qinbo выстроила гибкую и эффективную систему дистрибуции в ключевых рынках Восточного и Южного Китая, быстро реагируя на потребности в закупках и распределении.",
@@ -217,16 +203,16 @@
     "flow4t": "Послепродажная поддержка",
     "flow4d": "Постоянная техническая и снабженческая поддержка для долгосрочного сотрудничества.",
     "ctaTitle": "Нужны импортные материалы или внутренние закупки?",
-    "ctaSub": "Торговая команда Qinbo готова оказать профессиональную поддержку.",
-    "ctaBtn": "Связаться с торговой командой",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Отдел продаж",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Продажи",
     "labelWechat": "WeChat",
     "copyHint": "Нажмите, чтобы скопировать",
@@ -249,19 +235,7 @@
     "formMsg": "Требования",
     "formMsgPh": "Опишите категорию материала, марку или требуемый объём",
     "formSubmit": "Отправить",
-    "formNote": "* Эта форма предназначена для демонстрации. При запуске её можно подключить к стороннему сервису форм или заменить прямыми контактными данными.",
-    "mapEyebrow": "Карта расположения",
-    "mapTitle": "Как нас найти",
-    "mapDesc": "При запуске может быть встроена карта (Amap / Baidu Maps) с указанием точного расположения обоих юрлиц.",
-    "mapPlaceholder": "Заглушка карты<br/><small>(Карта будет встроена после предоставления адресов)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Эта форма предназначена для демонстрации. При запуске её можно подключить к стороннему сервису форм или заменить прямыми контактными данными."
   },
   "cert": {
     "licenseSh": "Лицензия (Шанхай)",

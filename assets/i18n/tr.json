@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Profesyonel Plastik Hammadde Tedarikçisi · Ticaret · İthal ve Modifiye Reçineler"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Ana Sayfa",
-    "about": "Hakkımızda",
+    "about": "About Qinbo",
     "products": "Ürünler",
     "trade": "Ticaret",
     "contact": "İletişim"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Daha İyi Bir Geleceği<br/>Malzemelerle Birlikte Bağlıyoruz",
-    "heroSub": "Plastik hammaddelerinde yurt içi ve uluslararası ticaret ile hizmet<br/>Genel Amaçlı · Mühendislik · Modifiye · İthal · Kauçuk",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Ürünleri Keşfedin",
     "scroll": "Aşağı kaydır ↓",
     "aboutEyebrow": "Qinbo Hakkında",
     "aboutTitle": "Plastik Malzemelere Odaklanan<br/>Profesyonel Ticari Hizmet Sağlayıcısı",
-    "aboutP1": "Qinbo New Materials, plastik hammaddelerinin (kauçuk dahil) satışı ve hizmetinde uzmanlaşmış iki tüzel kişilikle faaliyet gösterir — <strong>Shanghai Qinbo</strong> ve <strong>Haikou Qinbo</strong>. İş kapsamımız <strong>yurt içi ticaret ile uluslararası ithalat/ihracatı</strong> ve ayrıca ithal reçine dağıtımı ile modifiye malzeme özelleştirmesini içerir.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Kararlı bir tedarik ağı ve sıkı kalite yönetimiyle desteklenen şirketimiz, güvenilir tedarik ve profesyonel teknik hizmet anlayışıyla downstream üreticileriyle uzun vadeli ve güvene dayalı ortaklıklar kurmaktadır.",
-    "aboutMore": "Hakkımızda daha fazla bilgi →",
-    "productsTitle": "Birçok Malzeme Alanını Kapsayan Bir Ürün Yelpazesi",
-    "tradeTitle": "Yurt İçi Dağıtım + Uluslararası<br/>İthalat/İhracat, Çift Yönlü Büyüme",
-    "tradeP": "Qinbo hem yurt içi pazarda hem de uluslararası ticarette faaliyet göstermekte; ithal reçine dağıtım kapasitesiyle yurt dışı kaynakları yurt içi müşterilere uçtan uca bağlamaktadır.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Yurt içi ticaret</strong> Çin'in doğu ve güney bölgelerindeki çekirdek pazarları kapsar, hızlı yanıt ve esnek tahsis",
     "tradeLi2": "<strong>İthalat/İhracat</strong> Nitelikli yurt dışı tedarikçilerle ortaklık, yasal kanallar ve istikrarlı tedarik",
     "tradeLi3": "<strong>Uçtan uca hizmet</strong> Malzeme seçimi, teklif, lojistik ve teknik destek tam koordinasyonla",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Neden Qinbo?",
     "whyTitle": "İstikrarlı · Güvenilir · Profesyonel",
     "ctaTitle": "Güvenilir Bir Plastik Hammadde Ortağı mı Arıyorsunuz?",
-    "ctaSub": "İster yurt içi tedarik ister ithal malzeme ihtiyacınız olsun, Qinbo profesyonel destek sunar.",
-    "ctaBtn": "Hemen İletişime Geçin",
-    "searchPh": "Ürün, tip veya marka ara — örn. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Popüler",
     "hqCustom": "Özel Modifiye"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Genel Amaçlı Plastikler",
-      "brief": "PP, PE, PVC, PS ve ABS gibi genel amaçlı reçineler; ambalaj, günlük kullanım ürünleri ve ev aletlerinde kullanılır."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Mühendislik Plastikleri",
-      "brief": "PA, PC, POM ve PBT gibi yüksek performanslı mühendislik plastikleri; otomotiv, elektronik ve makine sektörlerine yönelik."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Modifiye Malzemeler",
-      "brief": "Takviyeli, alev geciktirici, darbe dayanımı artırılmış özel formülasyonlu modifiye plastikler."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "İthal Reçineler",
-      "brief": "Avrupa, ABD, Japonya, Kore ve Orta Doğu'dan ithal reçine dağıtımı; istikrarlı tedarik ve yasal kanallar."
-    },
-    "rubber": {
-      "name": "Kauçuk Malzemeler",
-      "brief": "Endüstri, otomotiv ve sızdırmazlık uygulamalarına yönelik çeşitli sentetik kauçuklar ve kauçuk ürün hammaddeleri."
-    },
-    "eco": {
-      "name": "Ekolojik ve Geri Dönüştürülmüş",
-      "brief": "Çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin yeşil ve sürdürülebilirlik hedeflerine ulaşmasına destek."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Ürünler",
-    "bannerSub": "Birçok malzeme alanını kapsayan bir ürün yelpazesi",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Belirli Tipler ve Fiyat Teklifleri mi Arıyorsunuz?",
-    "ctaSub": "İhtiyaçlarınızı bizimle paylaşın; size en uygun malzeme çözümünü sunalım.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Teklif Alın",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Naylon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Cam Elyaf Takviyeli</span><span>Alev Geciktirici</span><span>Darbe Dayanımlı</span><span>Dolgulu</span><span>Özel Formülasyon</span>",
-    "tagsImport": "<span>İthal Reçine</span><span>Yasal Kanal</span><span>İstikrarlı Tedarik</span><span>OEM Kalitesi</span>",
-    "tagsRubber": "<span>Sentetik Kauçuk</span><span>Kauçuk Katkıları</span><span>Sızdırmazlık Malzemeleri</span><span>Endüstriyel Ürünler</span>",
-    "tagsEco": "<span>Geri Dönüştürülmüş Plastikler</span><span>Biyobozunur</span><span>Çevre Uyumu</span><span>Yeşil Tedarik</span>",
     "descGeneral": "Ambalaj, günlük ihtiyaç ürünleri, beyaz eşya gövdeleri ve boru hatlarında yaygın olarak kullanılan, istikrarlı tedarik ve geniş spesifikasyon yelpazesine sahip genel amaçlı reçineler.",
     "descEngineering": "Mükemmel mekanik, ısıl ve kimyasal dayanım özelliklerine sahip yüksek performanslı mühendislik plastikleri; otomotiv, elektronik ve hassas makine uygulamalarına yönelik.",
     "descModified": "Müşteri ihtiyaçlarına göre özelleştirilmiş fonksiyonel modifiye plastikler; takviye, alev geciktirme, darbe dayanımı, hava koşullarına dayanıklılık ve diğer modifikasyon çözümleri.",
-    "descImport": "Avrupa, ABD, Japonya, Kore ve Orta Doğu'daki nitelikli yurt dışı tedarikçilerle ortaklık; yasal kanallar üzerinden güvenilir kalite ve eksiksiz belgelerle ithal reçine dağıtımı.",
-    "descRubber": "Endüstriyel ürünler, otomotiv parçaları ve sızdırmazlık bileşenlerine yönelik çeşitli sentetik kauçuklar ve kauçuk ürün hammaddeleri.",
-    "descEco": "Yeşil kalkınma trendleriyle uyumlu, çevre dostu geri dönüştürülmüş ve biyobozunur malzemeler; müşterilerin sürdürülebilirlik ve çevre uyum hedeflerine ulaşmasına destek.",
     "customEyebrow": "Özel Modifiye",
     "customTitle": "Uygulamanıza özel formülasyon — virgin reçine mevcut",
     "customDesc": "Cam elyaf takviyesi, alev geciktirme, toklaştırma, hava koşullarına dayanım, iletken/antistatik ve mineral dolgu — PP/PA/PC/ABS/PBT bazlı, %100 virgin reçine seçenekleri ile numune ve formülasyon hizmeti.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Japonya) · Yetkili Temsilci",
     "agentAscend": "🏅 Ascend (ABD) · Yetkili Temsilci",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "İş Haritası",
-    "mapTitle": "İki üsten dünyaya uzanan bir ticaret ağı",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "İki Üs",
-    "mapLegDom": "Yurt İçi Dağıtım",
-    "mapLegIntl": "İthalat-İhracat",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Depolama",
-    "mapStage1": "İki üs · Şanghay ve Haikou",
-    "mapStage2": "Yurt içi dağıtım · temel üretim bölgeleri",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Ticaret",
-    "bannerSub": "Yurt içi dağıtım + uluslararası ithalat/ihracat, çift yönlü büyüme",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Yurt İçi Ticaret",
     "domTitle": "Çekirdek Bölgeleri Kapsayan<br/>Bir Dağıtım Ağı",
     "domP": "Şangay ve Haikou'daki çift merkezinden güç alan Qinbo, Çin'in doğu ve güney çekirdek pazarlarında esnek ve verimli bir dağıtım sistemi kurmuş; tedarik ve tahsis ihtiyaçlarına hızla yanıt vermektedir.",
@@ -217,16 +203,16 @@
     "flow4t": "Satış Sonrası Destek",
     "flow4d": "Uzun vadeli iş birliği için sürekli teknik ve tedarik güvencesi.",
     "ctaTitle": "İthal Malzeme veya Yurt İçi Tedarik mi Arıyorsunuz?",
-    "ctaSub": "Qinbo'nun ticaret ekibi profesyonel destek sunmaya hazır.",
-    "ctaBtn": "Ticaret Ekibiyle İletişime Geçin",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Satış Ekibi",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Satış",
     "labelWechat": "WeChat",
     "copyHint": "Kopyalamak için tıklayın",
@@ -249,19 +235,7 @@
     "formMsg": "İhtiyaçlar",
     "formMsgPh": "İhtiyacınız olan malzeme kategorisini, tipini veya miktarını açıklayın",
     "formSubmit": "Gönder",
-    "formNote": "* Bu form yalnızca tanıtım amaçlıdır. Lansmanda üçüncü taraf bir form hizmetine bağlanabilir veya doğrudan iletişim bilgileriyle değiştirilebilir.",
-    "mapEyebrow": "Konum Haritası",
-    "mapTitle": "Bizi Bulun",
-    "mapDesc": "Lansmanda her iki tüzel kişiliğin konumlarını işaretleyen bir harita (Amap / Baidu Maps) gömülebilir.",
-    "mapPlaceholder": "Harita alanı<br/><small>(Harita, adresler paylaşıldıktan sonra gömülecektir)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Bu form yalnızca tanıtım amaçlıdır. Lansmanda üçüncü taraf bir form hizmetine bağlanabilir veya doğrudan iletişim bilgileriyle değiştirilebilir."
   },
   "cert": {
     "licenseSh": "İş Ruhsatı (Şanghay)",

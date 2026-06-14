@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | プラスチック原料の専門サプライヤー · 貿易 · 輸入·改質樹脂"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "ホーム",
-    "about": "会社概要",
+    "about": "About Qinbo",
     "products": "製品",
     "trade": "貿易",
     "contact": "お問い合わせ"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "よりよい未来へ、<br/>素材でつなぐ",
-    "heroSub": "プラスチック原料の国内·国際貿易およびサービス<br/>汎用 · エンジニアリング · 改質 · 輸入 · ゴム",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "製品を見る",
     "scroll": "下にスクロール ↓",
     "aboutEyebrow": "Qinboについて",
     "aboutTitle": "プラスチック素材に特化した<br/>専門貿易サービスプロバイダー",
-    "aboutP1": "Qinbo New Materialsは二つの運営拠点で事業を展開しています — <strong>上海Qinbo</strong>および<strong>海口Qinbo</strong> — プラスチック原料（ゴムを含む）の販売とサービスに特化しています。<strong>国内貿易と国際輸出入</strong>、輸入樹脂の流通、並びに改質材料のカスタマイズに対応しています。",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "安定したサプライチェーンネットワークと厳格な品質管理体制を背景に、信頼できる供給と専門的な技術サービスを通じて、下流メーカーとの長期的な信頼関係を構築しています。",
-    "aboutMore": "会社概要を見る →",
-    "productsTitle": "複数の素材分野をカバーする製品ライン",
-    "tradeTitle": "国内流通 + 国際<br/>輸出入の双輪駆動",
-    "tradeP": "Qinboは国内市場と国際貿易の両方を深く耕し、輸入樹脂の流通能力を活かして、海外ソースと国内顧客をエンドツーエンドで結びます。",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>国内貿易</strong> 華東·華南の主要地域をカバー、迅速な対応と柔軟な配分",
     "tradeLi2": "<strong>輸出入</strong> 優良な海外サプライヤーと提携、正規ルートで安定供給",
     "tradeLi3": "<strong>ワンストップサービス</strong> 素材選定、見積もり、物流、技術サポートをトータルで連携",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Qinboを選ぶ理由",
     "whyTitle": "安定 · 信頼 · 専門",
     "ctaTitle": "信頼できるプラスチック原料のパートナーを探していませんか？",
-    "ctaSub": "国内調達でも輸入素材でも、Qinboが専門的なサポートを提供します。",
-    "ctaBtn": "今すぐお問い合わせ",
-    "searchPh": "製品名・グレード・ブランドで検索（例：PA66 / 8150 / 奇美）",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "人気",
     "hqCustom": "改質カスタム"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "汎用プラスチック",
-      "brief": "PP、PE、PVC、PS、ABSなどの汎用樹脂。包装、日用品、家電分野で使用されています。"
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "エンジニアリングプラスチック",
-      "brief": "PA、PC、POM、PBTなどの高性能エンジニアリングプラスチック。自動車、エレクトロニクス、機械分野向け。"
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "改質材料",
-      "brief": "カスタマイズされた改質プラスチック — 強化、難燃、靭性強化 — ニーズに応じた配合設計。"
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "輸入樹脂",
-      "brief": "欧州、米国、日本、韓国、中東からの輸入樹脂流通。安定供給と正規ルート。"
-    },
-    "rubber": {
-      "name": "ゴム材料",
-      "brief": "各種合成ゴムおよびゴム製品の原料。産業、自動車、シール用途に対応。"
-    },
-    "eco": {
-      "name": "エコ · リサイクル",
-      "brief": "エコフレンドリーな再生材と生分解性材料。顧客のグリーン · サステナビリティ目標を支援します。"
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "製品",
-    "bannerSub": "複数の素材分野をカバーする製品ライン",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "具体的なグレードと見積もりが必要ですか？",
-    "ctaSub": "ご要望をお聞かせください。最適な素材ソリューションをご提案します。",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "見積もりを依頼",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (ナイロン)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>ガラス繊維強化</span><span>難燃</span><span>靭性強化</span><span>フィラー入り</span><span>カスタム配合</span>",
-    "tagsImport": "<span>輸入樹脂</span><span>正規ルート</span><span>安定供給</span><span>OEM品質</span>",
-    "tagsRubber": "<span>合成ゴム</span><span>ゴム添加剤</span><span>シール材</span><span>工業用品</span>",
-    "tagsEco": "<span>再生プラスチック</span><span>生分解性</span><span>環境コンプライアンス</span><span>グリーン供給</span>",
     "descGeneral": "包装、日用品、家電筐体、パイプなどに幅広く使用される汎用樹脂。安定供給と豊富な規格展開。",
     "descEngineering": "優れた機械的特性、耐熱性、耐薬品性を持つ高性能エンジニアリングプラスチック。自動車、エレクトロニクス、精密機械などの過酷な用途に対応。",
     "descModified": "顧客ニーズに合わせてカスタマイズされた機能性改質プラスチック。強化、難燃、靭性、耐候性など、各種改質ソリューションと配合設計サービスを提供。",
-    "descImport": "欧州、米国、日本、韓国、中東の優良な海外サプライヤーと提携し、正規ルートで輸入樹脂を流通。確かな品質と完備した書類を提供。",
-    "descRubber": "産業製品、自動車部品、シール材などに対応する各種合成ゴムおよびゴム製品の原料。",
-    "descEco": "グリーン開発の潮流に沿ったエコフレンドリーな再生材と生分解性材料。顧客のサステナビリティと環境コンプライアンス目標の達成を支援します。",
     "customEyebrow": "改質カスタム",
     "customTitle": "用途に合わせた配合設計、バージン材対応",
     "customDesc": "ガラス繊維強化・難燃・強靱化・耐候・導電/帯電防止・無機充填——PP/PA/PC/ABS/PBT 等を基材とし、100% バージン材指定が可能。試作・配合サービスも完備。",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 日本・住友 正規代理店",
     "agentAscend": "🏅 米国・アセンド 正規代理店",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "事業マップ",
-    "mapTitle": "二つの拠点から世界へ広がる貿易ネットワーク",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "二大拠点",
-    "mapLegDom": "国内流通",
-    "mapLegIntl": "輸出入",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "倉庫拠点",
-    "mapStage1": "二大拠点 · 上海と海口",
-    "mapStage2": "国内流通 · 主要製造地域をカバー",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "貿易",
-    "bannerSub": "国内流通 + 国際輸出入の双輪駆動",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "国内貿易",
     "domTitle": "主要地域をカバーする<br/>流通ネットワーク",
     "domP": "上海と海口の双拠点体制を背景に、Qinboは華東·華南のコア市場にわたる柔軟で効率的な流通システムを構築。調達·配分ニーズに迅速に対応します。",
@@ -217,16 +203,16 @@
     "flow4t": "アフターサポート",
     "flow4d": "長期協力のための継続的な技術 · 供給保証。",
     "ctaTitle": "輸入素材または国内調達が必要ですか？",
-    "ctaSub": "Qinboの貿易チームが専門的なサポートを提供する準備ができています。",
-    "ctaBtn": "貿易チームに連絡",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "営業チーム",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "営業",
     "labelWechat": "WeChat",
     "copyHint": "クリックでコピー",
@@ -249,19 +235,7 @@
     "formMsg": "ご要望",
     "formMsgPh": "必要な素材カテゴリー、グレード、数量をご記入ください",
     "formSubmit": "送信",
-    "formNote": "※ このフォームはデモ用です。公開時にサードパーティのフォームサービスに接続するか、直接的な連絡先に置き換えることができます。",
-    "mapEyebrow": "所在地マップ",
-    "mapTitle": "所在地",
-    "mapDesc": "公開時に地図（Amap / Baidu Mapsなど）を埋め込み、両拠点の正確な位置を表示できます。",
-    "mapPlaceholder": "マップのプレースホルダー<br/><small>(住所確定後に地図を埋め込みます)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "※ このフォームはデモ用です。公開時にサードパーティのフォームサービスに接続するか、直接的な連絡先に置き換えることができます。"
   },
   "cert": {
     "licenseSh": "上海営業許可証",

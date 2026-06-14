@@ -111,7 +111,7 @@
       o.classList.toggle("active", o.getAttribute("data-lang-opt") === lang);
     });
 
-    // 通知其它组件（如业务版图字幕）翻译已应用
+    // 通知其它组件（如供应版图字幕）翻译已应用
     try { document.dispatchEvent(new CustomEvent("qb:i18n", { detail: { lang: lang } })); } catch (e) {}
   }
 

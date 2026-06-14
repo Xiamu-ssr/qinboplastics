@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Professioneller Anbieter von Kunststoffrohstoffen · Handel · Importierte und modifizierte Harze"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Startseite",
-    "about": "Über uns",
+    "about": "About Qinbo",
     "products": "Produkte",
     "trade": "Handel",
     "contact": "Kontakt"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Eine bessere Zukunft verbinden<br/>durch Materialien",
-    "heroSub": "Nationaler und internationaler Handel sowie Service für Kunststoffrohstoffe<br/>Standard · Technisch · Modifiziert · Importiert · Kautschuk",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Produkte entdecken",
     "scroll": "Nach unten scrollen ↓",
     "aboutEyebrow": "Über Qinbo",
     "aboutTitle": "Ein professioneller Handelsdienstleister<br/>mit Fokus auf Kunststoffmaterialien",
-    "aboutP1": "Qinbo New Materials betreibt zwei Einheiten — <strong>Shanghai Qinbo</strong> und <strong>Haikou Qinbo</strong> — und ist auf den Vertrieb und Service von Kunststoffrohstoffen (einschließlich Kautschuk) spezialisiert. Unser Geschäft umfasst <strong>den nationalen Handel sowie den internationalen Import/Export</strong>, den Vertrieb importierter Harze und die kundenspezifische Modifizierung von Materialien.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Gestützt auf ein stabiles Liefernetzwerk und ein strenges Qualitätsmanagement bauen wir langfristige, vertrauensvolle Partnerschaften mit nachgelagerten Herstellern auf — durch zuverlässige Lieferung und professionellen technischen Service.",
-    "aboutMore": "Mehr über uns erfahren →",
-    "productsTitle": "Ein Produktsortiment, das mehrere Materialbereiche abdeckt",
-    "tradeTitle": "Nationaler Vertrieb + internationaler<br/>Import/Export, doppelt angetrieben",
-    "tradeP": "Qinbo bedient sowohl den nationalen Markt als auch den internationalen Handel und verfügt über die Fähigkeit, importierte Harze zu distribuieren — als End-to-End-Verbindung zwischen ausländischen Quellen und inländischen Kunden.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Nationaler Handel</strong> Abdeckung der Kernregionen Ost- und Südchinas, schnelle Reaktion und flexible Allokation",
     "tradeLi2": "<strong>Import/Export</strong> Partnerschaften mit qualifizierten ausländischen Lieferanten, legitime Kanäle und stabile Versorgung",
     "tradeLi3": "<strong>Komplettlösung</strong> Materialauswahl, Angebot, Logistik und technische Unterstützung in voller Abstimmung",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Warum Qinbo wählen",
     "whyTitle": "Stabil · Verlässlich · Professionell",
     "ctaTitle": "Auf der Suche nach einem zuverlässigen Partner für Kunststoffrohstoffe?",
-    "ctaSub": "Ob nationale Beschaffung oder importierte Materialien — Qinbo bietet professionelle Unterstützung.",
-    "ctaBtn": "Jetzt kontaktieren",
-    "searchPh": "Suche nach Produkt, Typ oder Marke – z. B. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Beliebt",
     "hqCustom": "Maßgeschneiderte Compounds"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Standardkunststoffe",
-      "brief": "Standardharze wie PP, PE, PVC, PS und ABS, eingesetzt in Verpackungen, Haushaltswaren und Haushaltsgeräten."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Technische Kunststoffe",
-      "brief": "Hochleistungsfähige technische Kunststoffe wie PA, PC, POM und PBT für Automobil, Elektronik und Maschinenbau."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Modifizierte Materialien",
-      "brief": "Kundenspezifisch modifizierte Kunststoffe — verstärkt, flammgeschützt, schlagzäh — mit Rezepturen auf Anfrage."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Importierte Harze",
-      "brief": "Vertrieb importierter Harze aus Europa, den USA, Japan, Korea und dem Nahen Osten — stabile Versorgung und legitime Kanäle."
-    },
-    "rubber": {
-      "name": "Kautschukmaterialien",
-      "brief": "Verschiedene Synthesekautschuke und Rohstoffe für Kautschukprodukte für Industrie, Automobil und Dichtungsanwendungen."
-    },
-    "eco": {
-      "name": "Ökologisch & recycelt",
-      "brief": "Umweltfreundliche recycelte und biologisch abbaubare Materialien, die Kunden helfen, grüne und Nachhaltigkeitsziele zu erreichen."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Produkte",
-    "bannerSub": "Ein Produktsortiment, das mehrere Materialbereiche abdeckt",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Benötigen Sie bestimmte Typen und Angebote?",
-    "ctaSub": "Schildern Sie uns Ihre Anforderungen — wir finden die passende Materiallösung für Sie.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Angebot anfordern",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Nylon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Glasfaserverstärkt</span><span>Flammgeschützt</span><span>Schlagzäh</span><span>Gefüllt</span><span>Sonderrezeptur</span>",
-    "tagsImport": "<span>Importiertes Harz</span><span>Legitimer Kanal</span><span>Stabile Versorgung</span><span>OEM-Qualität</span>",
-    "tagsRubber": "<span>Synthesekautschuk</span><span>Kautschukadditive</span><span>Dichtungsmaterialien</span><span>Industriewaren</span>",
-    "tagsEco": "<span>Recycelte Kunststoffe</span><span>Biologisch abbaubar</span><span>Ökologische Konformität</span><span>Grüne Versorgung</span>",
     "descGeneral": "Massenstandardharze, die in Verpackungen, Haushaltswaren, Gerätegehäusen und Rohren weit verbreitet sind — stabile Versorgung, volles Spektrum an Spezifikationen.",
     "descEngineering": "Hochleistungsfähige technische Kunststoffe mit hervorragenden mechanischen Eigenschaften sowie Wärme- und Chemikalienbeständigkeit für anspruchsvolle Anwendungen in Automobil, Elektronik und Präzisionsmaschinenbau.",
     "descModified": "Funktionale modifizierte Kunststoffe nach Kundenbedarf — Verstärkung, Flammschutz, Schlagzähmodifikation, Witterungsbeständigkeit und weitere Modifizierungslösungen sowie Rezepturentwicklung.",
-    "descImport": "Partnerschaften mit qualifizierten ausländischen Lieferanten in Europa, den USA, Japan, Korea und dem Nahen Osten; Vertrieb importierter Harze über legitime Kanäle mit verlässlicher Qualität und vollständiger Dokumentation.",
-    "descRubber": "Verschiedene Synthesekautschuke und Rohstoffe für Kautschukprodukte für Industrieerzeugnisse, Automobilteile und Dichtungskomponenten.",
-    "descEco": "Umweltfreundliche recycelte und biologisch abbaubare Materialien im Einklang mit dem Trend zur grünen Entwicklung, die Kunden helfen, Nachhaltigkeits- und Umweltkonformitätsziele zu erreichen.",
     "customEyebrow": "Maßgeschneiderte Compounds",
     "customTitle": "Rezepturen passend zu Ihrer Anwendung – Neuware verfügbar",
     "customDesc": "Glasfaserverstärkung, Flammschutz, Schlagzähmodifizierung, Witterungsbeständigkeit, leitfähig/antistatisch und Mineralfüllung – auf Basis von PP/PA/PC/ABS/PBT, mit 100 % Neuware-Optionen sowie Muster- und Rezepturservice.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Japan) · Autorisierter Vertreter",
     "agentAscend": "🏅 Ascend (USA) · Autorisierter Vertreter",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Geschäftskarte",
-    "mapTitle": "Ein Handelsnetz von zwei Standorten in die ganze Welt",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Zwei Standorte",
-    "mapLegDom": "Inlandsvertrieb",
-    "mapLegIntl": "Import & Export",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Lagerstandorte",
-    "mapStage1": "Zwei Standorte · Shanghai & Haikou",
-    "mapStage2": "Inlandsvertrieb · zentrale Fertigungsregionen",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Handel",
-    "bannerSub": "Nationaler Vertrieb + internationaler Import/Export, doppelt angetrieben",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Nationaler Handel",
     "domTitle": "Ein Distributionsnetz,<br/>das Kernregionen abdeckt",
     "domP": "Gestützt auf die Doppelstandorte Shanghai und Haikou hat Qinbo ein flexibles und effizientes Distributionssystem in den Kernmärkten Ost- und Südchinas aufgebaut und reagiert schnell auf Beschaffungs- und Allokationsbedarfe.",
@@ -217,16 +203,16 @@
     "flow4t": "After-Sales-Support",
     "flow4d": "Fortlaufende technische und liefertechnische Absicherung für langfristige Zusammenarbeit.",
     "ctaTitle": "Benötigen Sie importierte Materialien oder nationale Beschaffung?",
-    "ctaSub": "Das Handelsteam von Qinbo steht für professionelle Unterstützung bereit.",
-    "ctaBtn": "Handelsteam kontaktieren",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Vertriebsteam",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Vertrieb",
     "labelWechat": "WeChat",
     "copyHint": "Zum Kopieren klicken",
@@ -249,19 +235,7 @@
     "formMsg": "Anforderungen",
     "formMsgPh": "Beschreiben Sie Materialkategorie, Typ oder benötigte Menge",
     "formSubmit": "Absenden",
-    "formNote": "* Dieses Formular dient der Demonstration. Es kann beim Launch an einen Drittanbieter-Formulardienst angebunden oder durch direkte Kontaktdaten ersetzt werden.",
-    "mapEyebrow": "Lagekarte",
-    "mapTitle": "Finden Sie uns",
-    "mapDesc": "Eine Karte (Amap / Baidu Maps) kann beim Launch eingebettet werden, um die genauen Standorte beider Einheiten zu markieren.",
-    "mapPlaceholder": "Karten-Platzhalter<br/><small>(Karte wird eingebettet, sobald die Adressen vorliegen)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Dieses Formular dient der Demonstration. Es kann beim Launch an einen Drittanbieter-Formulardienst angebunden oder durch direkte Kontaktdaten ersetzt werden."
   },
   "cert": {
     "licenseSh": "Gewerbelizenz Shanghai",

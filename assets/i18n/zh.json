@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "秦帛新材料 | 专业塑料原料供应商 · 国内外贸易 · 进口料 · 改性料"
+    "title": "秦帛新材料 | 塑料原料现货牌号 · 国内外贸易服务"
   },
   "nav": {
     "home": "首页",
-    "about": "关于我们",
+    "about": "关于秦帛",
     "products": "产品中心",
     "trade": "国内外贸易",
     "contact": "联系我们"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "以材料连接<br/>更好的未来",
-    "heroSub": "专注塑料原料的国内外贸易与服务<br/>通用塑料 · 工程塑料 · 改性料 · 进口料 · 橡胶",
+    "heroSub": "专注塑料原料的国内外贸易与服务<br/>通用塑料 · 工程塑料 · 特种工程塑料 · 改性塑料",
     "heroBtnProducts": "探索产品",
     "scroll": "向下滚动 ↓",
     "aboutEyebrow": "关于秦帛",
     "aboutTitle": "专注塑料材料领域的<br/>专业贸易服务商",
-    "aboutP1": "秦帛新材料下设 <strong>上海秦帛新材料</strong> 与 <strong>海口秦帛新材料</strong> 两大主体，专注于塑料原料（含橡胶）的销售与服务，业务覆盖 <strong>国内贸易与国际进出口</strong>，并提供进口树脂分销及改性料定制。",
+    "aboutP1": "秦帛新材料下设 <strong>上海秦帛新材料</strong> 与 <strong>海口秦帛新材料</strong> 两大主体，专注于塑料原料的销售与服务，业务覆盖 <strong>国内贸易与国际进出口</strong>，并提供进口树脂分销及改性料定制。",
     "aboutP2": "我们依托稳定的供应链网络与严格的品质管理，以可靠的货源、专业的技术服务，与下游制造企业建立长期可信赖的合作关系。",
-    "aboutMore": "了解更多关于我们 →",
-    "productsTitle": "覆盖多领域的塑料材料产品线",
-    "tradeTitle": "国内分销 + 国际进出口<br/>双线驱动",
-    "tradeP": "秦帛同时深耕国内市场与国际贸易，具备进口树脂分销能力，打通从海外货源到国内客户的完整链路。",
+    "aboutMore": "了解更多关于秦帛 →",
+    "productsTitle": "四大材料体系，具体到现货牌号",
+    "tradeTitle": "连接国内外的材料供应网络",
+    "tradeP": "双基地、仓储节点、国内合作省份与境外合作区域协同，支持现货供应与全国配送。",
     "tradeLi1": "<strong>国内贸易</strong>覆盖华东、华南等核心区域，快速响应、灵活配货",
     "tradeLi2": "<strong>国际进出口</strong>对接海外优质供应商，进口料正规渠道、稳定供应",
     "tradeLi3": "<strong>一站式服务</strong>选材、报价、物流、技术支持全流程协同",
@@ -41,9 +41,9 @@
     "whyEyebrow": "为什么选择秦帛",
     "whyTitle": "稳定 · 可靠 · 专业",
     "ctaTitle": "寻找可靠的塑料原料合作伙伴？",
-    "ctaSub": "无论国内采购还是进口料需求，秦帛都能为您提供专业支持。",
-    "ctaBtn": "立即联系我们",
-    "searchPh": "搜索产品名称、牌号或品牌，如 PA66 / 8150 / 奇美",
+    "ctaSub": "联系秦帛销售部，获取报价、货期与选型建议。",
+    "ctaBtn": "联系销售部",
+    "searchPh": "搜牌号 / 料种 / 厂家，如 R370Y、8150、M90-44、奇美",
     "hot": "热门",
     "hqCustom": "改性定制"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "通用塑料",
-      "brief": "PP、PE、PVC、PS、ABS 等通用树脂，应用于包装、日用、家电等领域。"
+      "brief": "PP、PE、ABS、EVA 等通用树脂，应用于包装、日用、家电等领域。"
     },
     "engineering": {
       "name": "工程塑料",
-      "brief": "PA、PC、POM、PBT 等高性能工程塑料，满足汽车、电子、机械等场景。"
+      "brief": "PA、PC、POM、PC/ABS、PBT 等工程塑料，满足汽车、电子、机械等场景。"
     },
     "modified": {
-      "name": "改性料",
-      "brief": "增强、阻燃、增韧等定制化改性塑料，按需提供配方与解决方案。"
+      "name": "改性塑料",
+      "brief": "增强、阻燃、增韧、耐候等改性体系，支持按工况定制。"
     },
-    "import": {
-      "name": "进口料",
-      "brief": "欧美、日韩、中东等进口树脂分销，稳定货源与正规渠道保障。"
-    },
-    "rubber": {
-      "name": "橡胶原料",
-      "brief": "各类合成橡胶及橡胶制品原料，服务工业、汽车、密封等行业。"
-    },
-    "eco": {
-      "name": "环保再生料",
-      "brief": "环保再生及可降解材料，助力客户实现绿色与可持续发展目标。"
+    "special": {
+      "name": "特种工程塑料",
+      "brief": "PPS、PEEK、PEI、LCP、PPO、PTFE 等高性能材料，适配严苛工况。"
     }
   },
   "products": {
     "bannerTitle": "产品中心",
-    "bannerSub": "覆盖多领域的塑料材料产品线",
+    "bannerSub": "四大体系与料种双筛选，按具体牌号查询现货与物性参考",
     "ctaTitle": "需要具体型号与报价？",
-    "ctaSub": "告诉我们您的需求，我们将为您匹配合适的材料方案。",
+    "ctaSub": "告诉我们牌号、厂家、数量或工况，销售部将为您匹配现货、替代牌号与技术资料。",
     "ctaBtn": "获取报价",
     "tagsGeneral": "<span>PP 聚丙烯</span><span>PE 聚乙烯</span><span>PVC 聚氯乙烯</span><span>PS 聚苯乙烯</span><span>ABS</span>",
     "tagsEngineering": "<span>PA 尼龙</span><span>PC 聚碳酸酯</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>玻纤增强</span><span>阻燃改性</span><span>增韧改性</span><span>填充改性</span><span>定制配方</span>",
-    "tagsImport": "<span>进口树脂</span><span>正规渠道</span><span>稳定货源</span><span>原厂品质</span>",
-    "tagsRubber": "<span>合成橡胶</span><span>橡胶助剂</span><span>密封材料</span><span>工业制品</span>",
-    "tagsEco": "<span>再生塑料</span><span>可降解材料</span><span>环保合规</span><span>绿色供应</span>",
     "descGeneral": "大宗通用树脂原料，广泛应用于包装、日用品、家电外壳、管材等领域，货源稳定、规格齐全。",
     "descEngineering": "高性能工程塑料，具备优异的力学、耐热与耐化学性能，满足汽车、电子电器、精密机械等高要求场景。",
     "descModified": "按客户需求定制的功能化改性塑料，提供增强、阻燃、增韧、耐候等多种改性方案与配方服务。",
-    "descImport": "对接欧美、日韩、中东等海外优质供应商，提供正规渠道进口树脂分销，品质可靠、单据齐全。",
-    "descRubber": "各类合成橡胶及橡胶制品原料，服务于工业制品、汽车配件、密封件等应用领域。",
-    "descEco": "顺应绿色发展趋势的环保再生及可降解材料，助力客户达成可持续与环保合规目标。",
     "customEyebrow": "改性定制",
     "customTitle": "按工况定制配方，支持全新料",
     "customDesc": "玻纤增强、阻燃、增韧、耐候、导电抗静电、矿物填充——以 PP/PA/PC/ABS/PBT 等为基材，可指定 100% 全新料(原生料)定制，打样与配方服务齐备。",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 日本住友 授权代理",
     "agentAscend": "🏅 美国首诺 授权代理",
     "whEyebrow": "仓储物流",
-    "whTitle": "华东多仓直发 · 货源稳定",
-    "whDesc": "大部分原料可在以下中石化、中储及保税区仓库直接发货，交期稳定、配送高效。",
+    "whTitle": "华东与海口仓储协同 · 货源稳定",
+    "whDesc": "依托中石化、中储、保税区及海口仓储节点，支持多区域发货与全国配送。",
     "wh1": "上海金山中石化仓库",
     "wh2": "上海宝山中石化仓库",
-    "wh3": "上海中石化华东仓库",
+    "wh3": "海口仓储节点",
     "wh4": "上海保税区仓库",
     "wh5": "浙江宁波保税区仓库",
     "wh6": "浙江宁波中储仓库",
@@ -181,19 +167,19 @@
     "cert7": "名牌产品 · 明星企业"
   },
   "trade": {
-    "mapEyebrow": "业务版图",
-    "mapTitle": "从双基地走向全球的贸易网络",
-    "mapDesc": "以上海、海口为支点，国内分销覆盖核心制造区域，国际进出口点亮日韩、东南亚、中东等海外市场。",
+    "mapEyebrow": "供应版图",
+    "mapTitle": "国内外供应与服务版图",
+    "mapDesc": "点亮双基地、仓储节点、国内合作省份与境外合作区域，呈现秦帛面向制造业客户的供应网络。",
     "mapLegBase": "双基地",
-    "mapLegDom": "国内分销",
-    "mapLegIntl": "国际进出口",
+    "mapLegDom": "国内合作客户",
+    "mapLegIntl": "境外合作客户",
     "mapLegWh": "仓储基地",
     "mapStage1": "双基地 · 上海与海口",
-    "mapStage2": "国内分销 · 覆盖核心制造区域",
-    "mapStage3": "国际进出口 · 点亮全球货源",
-    "mapStage4": "仓储基地 · 苏州 + 常州",
+    "mapStage2": "仓储节点 · 华东与海口协同配送",
+    "mapStage3": "国内合作客户 · 点亮合作省份",
+    "mapStage4": "境外合作客户 · 对接主流原厂品牌",
     "bannerTitle": "国内外贸易",
-    "bannerSub": "国内分销 + 国际进出口 双线驱动",
+    "bannerSub": "国内分销与国际进出口协同服务",
     "domEyebrow": "国内贸易",
     "domTitle": "覆盖核心区域的<br/>分销网络",
     "domP": "依托上海与海口双基地，秦帛在华东、华南等核心市场建立了灵活高效的分销体系，快速响应客户的采购与配货需求。",
@@ -217,14 +203,14 @@
     "flow4t": "售后支持",
     "flow4d": "持续的技术与供应保障，长期合作。",
     "ctaTitle": "有进口料或国内采购需求？",
-    "ctaSub": "秦帛的贸易团队随时为您提供专业支持。",
-    "ctaBtn": "联系贸易团队",
+    "ctaSub": "联系秦帛销售部，获取报价、货期与选型建议。",
+    "ctaBtn": "联系销售部",
     "clientsEyebrow": "合作客户",
-    "clientsTitle": "他们都在与秦帛合作",
-    "clientsDesc": "部分历史合作客户，覆盖塑胶制品、电子电器、汽车、医药、包装等行业。"
+    "clientsTitle": "合作客户",
+    "clientsDesc": "覆盖塑胶制品、电子电器、汽车、医药、包装、新材料等多个制造领域。"
   },
   "contact": {
-    "salesEyebrow": "销售团队",
+    "salesEyebrow": "销售部",
     "salesTitle": "销售部 · 直接联系",
     "salesDesc": "点击电话直接拨打，点击微信号一键复制。获取报价、货期与选型建议。",
     "roleSales": "销售部",
@@ -249,19 +235,7 @@
     "formMsg": "需求说明",
     "formMsgPh": "请描述您需要的材料品类、型号或数量",
     "formSubmit": "提交留言",
-    "formNote": "* 表单为演示用途。上线时可对接第三方表单服务，或改为直接展示联系方式。",
-    "mapEyebrow": "位置地图",
-    "mapTitle": "找到我们",
-    "mapDesc": "上线时可嵌入高德 / 百度地图，标注两大主体的具体位置。",
-    "mapPlaceholder": "地图占位<br/><small>（待补充具体地址后嵌入地图）</small>",
-    "addrEyebrow": "公司地址",
-    "addrTitle": "找到我们",
-    "officeShTitle": "上海总部",
-    "officeShAddr": "上海市奉贤区南桥镇环城南路1338-1号632室",
-    "officeKsTitle": "江苏（昆山）分公司",
-    "officeKsAddr": "江苏省苏州市昆山开发区东城大道9号龙成国际23-4号",
-    "labelFax": "传真",
-    "labelZip": "邮编"
+    "formNote": "* 表单为演示用途。上线时可对接第三方表单服务，或改为直接展示联系方式。"
   },
   "cert": {
     "licenseSh": "上海营业执照",

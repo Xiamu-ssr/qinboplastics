@@ -5,6 +5,8 @@ assets/img/photos/real/_replaced_bak/
 
 # 临时 QA 产物
 screenshots/
+tmp/
+tmp_*
 
 # 地图点阵源数据（可由 scripts/geo/gen_dots.js 重新下载生成；运行时只需 assets/js/map-data.js）
 scripts/geo/world.geojson

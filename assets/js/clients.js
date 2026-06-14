@@ -22,7 +22,9 @@
   var WEIGHTS = [600, 700, 800];
   var TINTS = ['#1c48a8', '#0e7c6b', '#b4451f', '#5a3aa0', '#2a6cb0', '#9a6a14', '#34507a'];
 
-  function chip(name, i) {
+  function chip(item, i) {
+    var name = typeof item === "string" ? item : item.name;
+    var meta = typeof item === "string" ? "" : [item.province, item.industry].filter(Boolean).join(" · ");
     var el = document.createElement('span');
     el.className = 'client-chip';
     el.style.fontFamily = FONTS[i % FONTS.length];
@@ -35,6 +37,12 @@
     t.textContent = name;
     el.appendChild(dot);
     el.appendChild(t);
+    if (meta) {
+      var small = document.createElement('small');
+      small.textContent = meta;
+      el.appendChild(small);
+      el.setAttribute('title', name + ' · ' + meta);
+    }
     return el;
   }
 

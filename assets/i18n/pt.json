@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Fornecedor profissional de matérias-primas plásticas · Comércio · Resinas importadas e modificadas"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Início",
-    "about": "Sobre nós",
+    "about": "About Qinbo",
     "products": "Produtos",
     "trade": "Comércio",
     "contact": "Contato"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Conectando um futuro melhor<br/>por meio dos materiais",
-    "heroSub": "Comércio e serviço nacional e internacional de matérias-primas plásticas<br/>Commodities · Engenharia · Modificados · Importados · Borracha",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Explorar produtos",
     "scroll": "Role para baixo ↓",
     "aboutEyebrow": "Sobre a Qinbo",
     "aboutTitle": "Uma prestadora profissional de serviços de trading<br/>focada em materiais plásticos",
-    "aboutP1": "A Qinbo New Materials opera duas entidades — <strong>Shanghai Qinbo</strong> e <strong>Haikou Qinbo</strong> — especializadas na venda e no atendimento de matérias-primas plásticas (incluindo borracha). Nossos negócios abrangem <strong>comércio nacional e importação/exportação internacional</strong>, além da distribuição de resinas importadas e da personalização de materiais modificados.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Apoiados por uma rede de suprimentos estável e por uma gestão de qualidade rigorosa, construímos parcerias de longo prazo e de confiança com fabricantes clientes, por meio de um fornecimento confiável e de um serviço técnico profissional.",
-    "aboutMore": "Saiba mais sobre nós →",
-    "productsTitle": "Uma linha de produtos que abrange múltiplos campos de materiais",
-    "tradeTitle": "Distribuição nacional + Importação/Exportação<br/>internacional, dupla força motriz",
-    "tradeP": "A Qinbo atua tanto no mercado doméstico quanto no comércio internacional, com capacidade de distribuição de resinas importadas que conecta fontes no exterior a clientes nacionais de ponta a ponta.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Comércio nacional</strong> Cobertura das regiões-chave do leste e do sul da China, resposta rápida e alocação flexível",
     "tradeLi2": "<strong>Importação/Exportação</strong> Parceria com fornecedores internacionais de qualidade, canais legítimos e fornecimento estável",
     "tradeLi3": "<strong>Atendimento completo</strong> Seleção de materiais, cotação, logística e suporte técnico totalmente coordenados",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Por que escolher a Qinbo",
     "whyTitle": "Estável · Confiável · Profissional",
     "ctaTitle": "Procurando um parceiro confiável em matérias-primas plásticas?",
-    "ctaSub": "Seja para compras nacionais ou materiais importados, a Qinbo oferece suporte profissional.",
-    "ctaBtn": "Fale conosco agora",
-    "searchPh": "Busque por produto, grade ou marca — ex. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Destaque",
     "hqCustom": "Compostos sob medida"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Plásticos commodities",
-      "brief": "Resinas commodities como PP, PE, PVC, PS e ABS, usadas em embalagens, artigos de uso diário e eletrodomésticos."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Plásticos de engenharia",
-      "brief": "Plásticos de engenharia de alto desempenho como PA, PC, POM e PBT para os setores automotivo, eletrônico e de máquinas."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Materiais modificados",
-      "brief": "Plásticos modificados sob medida — reforçados, retardantes de chama, tenacificados — com formulações sob demanda."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Resinas importadas",
-      "brief": "Distribuição de resinas importadas da Europa, EUA, Japão, Coreia e Oriente Médio, com fornecimento estável e canais legítimos."
-    },
-    "rubber": {
-      "name": "Materiais de borracha",
-      "brief": "Diversas borrachas sintéticas e matérias-primas para produtos de borracha voltados à indústria, ao setor automotivo e a aplicações de vedação."
-    },
-    "eco": {
-      "name": "Ecológicos e reciclados",
-      "brief": "Materiais reciclados e biodegradáveis ecologicamente corretos, ajudando os clientes a alcançar metas verdes e de sustentabilidade."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Produtos",
-    "bannerSub": "Uma linha de produtos que abrange múltiplos campos de materiais",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Precisa de tipos e cotações específicas?",
-    "ctaSub": "Conte-nos seus requisitos e ofereceremos a solução de material adequada para você.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Solicitar cotação",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Nylon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Reforçado com fibra de vidro</span><span>Retardante de chama</span><span>Tenacificado</span><span>Carregado</span><span>Fórmula personalizada</span>",
-    "tagsImport": "<span>Resina importada</span><span>Canal legítimo</span><span>Fornecimento estável</span><span>Qualidade OEM</span>",
-    "tagsRubber": "<span>Borracha sintética</span><span>Aditivos para borracha</span><span>Materiais de vedação</span><span>Produtos industriais</span>",
-    "tagsEco": "<span>Plásticos reciclados</span><span>Biodegradável</span><span>Conformidade ambiental</span><span>Fornecimento verde</span>",
     "descGeneral": "Resinas commodities em grandes volumes, amplamente utilizadas em embalagens, artigos de uso diário, carcaças de eletrodomésticos e tubulações — fornecimento estável e gama completa de especificações.",
     "descEngineering": "Plásticos de engenharia de alto desempenho, com excelentes propriedades mecânicas, de resistência térmica e química, para aplicações exigentes nos setores automotivo, eletrônico e de máquinas de precisão.",
     "descModified": "Plásticos modificados funcionais, personalizados conforme as necessidades do cliente, com soluções de reforço, retardância à chama, tenacidade, resistência ao intemperismo e outros serviços de formulação.",
-    "descImport": "Parceria com fornecedores internacionais de qualidade na Europa, EUA, Japão, Coreia e Oriente Médio, distribuição de resinas importadas por canais legítimos, com qualidade confiável e documentação completa.",
-    "descRubber": "Diversas borrachas sintéticas e matérias-primas para produtos de borracha, atendendo produtos industriais, peças automotivas e componentes de vedação.",
-    "descEco": "Materiais reciclados e biodegradáveis ecologicamente corretos, alinhados às tendências de desenvolvimento verde, ajudando os clientes a atingir metas de sustentabilidade e conformidade ambiental.",
     "customEyebrow": "Compostos sob medida",
     "customTitle": "Formulações sob medida para sua aplicação — resina virgem disponível",
     "customDesc": "Reforço com fibra de vidro, retardância de chama, tenacidade, resistência a intempéries, condutividade/antiestático e carga mineral — em bases PP/PA/PC/ABS/PBT, com opções de resina 100% virgem, amostragem e formulação.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Japão) · Agente autorizado",
     "agentAscend": "🏅 Ascend (EUA) · Agente autorizado",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Mapa de negócios",
-    "mapTitle": "Uma rede comercial que vai de duas bases para o mundo",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Duas bases",
-    "mapLegDom": "Distribuição nacional",
-    "mapLegIntl": "Importação e exportação",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Armazenagem",
-    "mapStage1": "Duas bases · Xangai e Haikou",
-    "mapStage2": "Distribuição nacional · principais regiões industriais",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Comércio",
-    "bannerSub": "Distribuição nacional + importação/exportação internacional, dupla força motriz",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Comércio nacional",
     "domTitle": "Uma rede de distribuição<br/>que cobre as regiões-chave",
     "domP": "Apoiada por sua base dupla em Xangai e Haikou, a Qinbo construiu um sistema de distribuição flexível e eficiente nos principais mercados do leste e do sul da China, respondendo com agilidade às necessidades de compra e alocação.",
@@ -217,16 +203,16 @@
     "flow4t": "Suporte pós-venda",
     "flow4d": "Garantia técnica e de suprimentos contínua para uma cooperação de longo prazo.",
     "ctaTitle": "Precisa de materiais importados ou compras nacionais?",
-    "ctaSub": "A equipe comercial da Qinbo está pronta para oferecer suporte profissional.",
-    "ctaBtn": "Falar com a equipe comercial",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Equipe de vendas",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Vendas",
     "labelWechat": "WeChat",
     "copyHint": "Clique para copiar",
@@ -249,19 +235,7 @@
     "formMsg": "Requisitos",
     "formMsgPh": "Descreva a categoria, o tipo ou a quantidade de material que você precisa",
     "formSubmit": "Enviar",
-    "formNote": "* Este formulário é de demonstração. No lançamento, poderá ser conectado a um serviço de formulários de terceiros ou substituído por dados de contato diretos.",
-    "mapEyebrow": "Mapa de localização",
-    "mapTitle": "Onde estamos",
-    "mapDesc": "No lançamento, um mapa (Amap / Baidu Maps) poderá ser incorporado para marcar a localização exata de ambas as entidades.",
-    "mapPlaceholder": "Espaço reservado para mapa<br/><small>(O mapa será incorporado assim que os endereços forem informados)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Este formulário é de demonstração. No lançamento, poderá ser conectado a um serviço de formulários de terceiros ou substituído por dados de contato diretos."
   },
   "cert": {
     "licenseSh": "Licença comercial (Xangai)",

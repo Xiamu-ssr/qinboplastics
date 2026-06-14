@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | مورد محترف للمواد الخام البلاستيكية · تجارة · راتنجات مستوردة ومُعدَّلة"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "الرئيسية",
-    "about": "من نحن",
+    "about": "About Qinbo",
     "products": "المنتجات",
     "trade": "التجارة",
     "contact": "اتصل بنا"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "نربط بين مستقبل أفضل<br/>من خلال المواد",
-    "heroSub": "التجارة والخدمة المحلية والدولية للمواد الخام البلاستيكية<br/>بلاستيك عام · هندسي · مُعدَّل · مستورد · مطاط",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "استكشف المنتجات",
     "scroll": "مرّر للأسفل ↓",
     "aboutEyebrow": "عن Qinbo",
     "aboutTitle": "مزود خدمات تجارية محترف<br/>متخصص في المواد البلاستيكية",
-    "aboutP1": "تدير Qinbo New Materials كيانين اثنين — <strong>Shanghai Qinbo</strong> و<strong>Haikou Qinbo</strong> — متخصصين في بيع وخدمة المواد الخام البلاستيكية (بما في ذلك المطاط). تشمل أعمالنا <strong>التجارة المحلية والاستيراد/التصدير الدولي</strong>، إلى جانب توزيع الراتنجات المستوردة وتخصيص المواد المُعدَّلة.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "نعتمد على شبكة توريد مستقرة وإدارة صارمة للجودة، لنبني شراكات طويلة الأمد وقائمة على الثقة مع المصنّعين في مراحل ما بعد الإنتاج، من خلال توريد موثوق وخدمة فنية احترافية.",
-    "aboutMore": "اعرف المزيد عنا →",
-    "productsTitle": "خط منتجات يغطي مجالات مواد متعددة",
-    "tradeTitle": "التوزيع المحلي + الاستيراد/التصدير الدولي<br/>دفع مزدوج",
-    "tradeP": "تعمل Qinbo في السوق المحلية والتجارة الدولية معًا، وبقدرة على توزيع الراتنجات المستوردة تربط المصادر الخارجية بالعملاء المحليين بشكل متكامل من البداية إلى النهاية.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>التجارة المحلية</strong> تغطية للمناطق الرئيسية في شرق وجنوب الصين، استجابة سريعة وتخصيص مرن",
     "tradeLi2": "<strong>الاستيراد/التصدير</strong> شراكة مع موردين أجانب ذوي جودة عالية، قنوات رسمية وتوريد مستقر",
     "tradeLi3": "<strong>خدمة شاملة</strong> اختيار المواد وتقديم عروض الأسعار واللوجستيات والدعم الفني بتنسيق كامل",
@@ -41,9 +41,9 @@
     "whyEyebrow": "لماذا تختار Qinbo",
     "whyTitle": "مستقرة · موثوقة · احترافية",
     "ctaTitle": "هل تبحث عن شريك موثوق للمواد الخام البلاستيكية؟",
-    "ctaSub": "سواء كنت تحتاج شراءً محليًا أو مواد مستوردة، تقدم Qinbo دعمًا احترافيًا.",
-    "ctaBtn": "تواصل معنا الآن",
-    "searchPh": "ابحث بالمنتج أو الرتبة أو العلامة — مثل PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "الأكثر طلباً",
     "hqCustom": "تركيبات مُعدّلة حسب الطلب"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "البلاستيك العام",
-      "brief": "راتنجات بلاستيكية عامة مثل PP وPE وPVC وPS وABS، تُستخدم في التغليف والسلع اليومية والأجهزة المنزلية."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "البلاستيك الهندسي",
-      "brief": "بلاستيك هندسي عالي الأداء مثل PA وPC وPOM وPBT، مخصص لقطاعات السيارات والإلكترونيات والآلات."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "مواد مُعدَّلة",
-      "brief": "بلاستيك مُعدَّل مخصص — مقوى، مثبط للهب، مُصلَّد — بتركيبات حسب الطلب."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "راتنجات مستوردة",
-      "brief": "توزيع الراتنجات المستوردة من أوروبا والولايات المتحدة واليابان وكوريا والشرق الأوسط، مع توريد مستقر وقنوات رسمية."
-    },
-    "rubber": {
-      "name": "مواد المطاط",
-      "brief": "أنواع مختلفة من المطاط الصناعي والمواد الخام لمنتجات المطاط للصناعة والسيارات وتطبيقات الإحكام."
-    },
-    "eco": {
-      "name": "صديقة للبيئة ومُعاد تدويرها",
-      "brief": "مواد مُعاد تدويرها وقابلة للتحلل الحيوي صديقة للبيئة، تساعد العملاء على تحقيق أهدافهم الخضراء والاستدامة."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "المنتجات",
-    "bannerSub": "خط منتجات يغطي مجالات مواد متعددة",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "هل تحتاج إلى درجات وعروض أسعار محددة؟",
-    "ctaSub": "أخبرنا بمتطلباتك وسنرشدك إلى حل المواد المناسب لك.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "اطلب عرض سعر",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (نايلون)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>مقوى بألياف الزجاج</span><span>مثبط للهب</span><span>مُصلَّد</span><span>محمَّل</span><span>تركيبة مخصصة</span>",
-    "tagsImport": "<span>راتنج مستورد</span><span>قناة رسمية</span><span>توريد مستقر</span><span>جودة OEM</span>",
-    "tagsRubber": "<span>مطاط صناعي</span><span>إضافات المطاط</span><span>مواد الإحكام</span><span>منتجات صناعية</span>",
-    "tagsEco": "<span>بلاستيك مُعاد تدويره</span><span>قابل للتحلل الحيوي</span><span>متوافق بيئيًا</span><span>توريد أخضر</span>",
     "descGeneral": "راتنجات عامة تُستخدم على نطاق واسع في التغليف والمستلزمات اليومية وهياكل الأجهزة المنزلية والأنابيب — توريد مستقر ومواصفات شاملة.",
     "descEngineering": "بلاستيك هندسي عالي الأداء يتميز بخصائص ميكانيكية وحرارية وكيميائية ممتازة، مخصص للتطبيقات الصعبة في قطاعات السيارات والإلكترونيات والآلات الدقيقة.",
     "descModified": "بلاستيك مُعدَّل وظيفي مخصص وفق احتياجات العميل، يوفر حلولًا للتقوية وتثبيط اللهب والتصلّب ومقاومة العوامل الجوية وخدمات تركيب الصيغ.",
-    "descImport": "شراكة مع موردين أجانب ذوي جودة عالية في أوروبا والولايات المتحدة واليابان وكوريا والشرق الأوسط، لتوزيع الراتنجات المستوردة عبر قنوات رسمية بجودة موثوقة ووثائق مكتملة.",
-    "descRubber": "أنواع مختلفة من المطاط الصناعي والمواد الخام لمنتجات المطاط لخدمة المنتجات الصناعية وقطع السيارات ومكوّنات الإحكام.",
-    "descEco": "مواد مُعاد تدويرها وقابلة للتحلل الحيوي صديقة للبيئة تتماشى مع توجهات التنمية الخضراء، تساعد العملاء على تحقيق أهداف الاستدامة والامتثال البيئي.",
     "customEyebrow": "تركيبات مُعدّلة حسب الطلب",
     "customTitle": "تركيبات مُصمّمة حسب ظروف الاستخدام — مع توفّر الراتنج البكر",
     "customDesc": "تقوية بألياف زجاجية، مقاومة لهب، زيادة المتانة، مقاومة عوامل الطقس، توصيل/مقاومة الكهرباء الساكنة، وحشو معدني — على أساس PP/PA/PC/ABS/PBT، مع خيارات راتنج بكر 100% وخدمات تجهيز العينات والتركيب.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 سوميتومو (اليابان) · وكيل معتمد",
     "agentAscend": "🏅 أسيند (الولايات المتحدة) · وكيل معتمد",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "خريطة الأعمال",
-    "mapTitle": "شبكة تجارية تمتد من قاعدتين إلى العالم",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "قاعدتان",
-    "mapLegDom": "التوزيع المحلي",
-    "mapLegIntl": "الاستيراد والتصدير",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "مراكز التخزين",
-    "mapStage1": "قاعدتان · شنغهاي وهايكو",
-    "mapStage2": "التوزيع المحلي · مناطق التصنيع الرئيسية",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "التجارة",
-    "bannerSub": "التوزيع المحلي + الاستيراد/التصدير الدولي، دفع مزدوج",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "التجارة المحلية",
     "domTitle": "شبكة توزيع<br/>تغطي المناطق الرئيسية",
     "domP": "اعتمادًا على قاعدتيها في شانغهاي وهايكو، بنت Qinbo نظام توزيع مرنًا وفعّالًا عبر الأسواق الرئيسية في شرق وجنوب الصين، يستجيب بسرعة لاحتياجات الشراء والتخصيص.",
@@ -217,16 +203,16 @@
     "flow4t": "الدعم بعد البيع",
     "flow4d": "ضمان فني وتوريد مستمر لشراكة طويلة الأمد.",
     "ctaTitle": "هل تحتاج إلى مواد مستوردة أو شراء محلي؟",
-    "ctaSub": "فريق التجارة في Qinbo مستعد لتقديم دعم احترافي.",
-    "ctaBtn": "تواصل مع فريق التجارة",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "فريق المبيعات",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "المبيعات",
     "labelWechat": "WeChat",
     "copyHint": "انقر للنسخ",
@@ -249,19 +235,7 @@
     "formMsg": "المتطلبات",
     "formMsgPh": "يرجى وصف فئة أو درجة أو كمية المواد التي تحتاجها",
     "formSubmit": "إرسال",
-    "formNote": "* هذا النموذج لغرض العرض التوضيحي. يمكن عند الإطلاق ربطه بخدمة نماذج من طرف ثالث، أو استبداله ببيانات الاتصال المباشرة.",
-    "mapEyebrow": "خريطة الموقع",
-    "mapTitle": "موقعنا",
-    "mapDesc": "يمكن عند الإطلاق تضمين خريطة (Amap / Baidu Maps) لتحديد موقعي الكيانين بدقة.",
-    "mapPlaceholder": "مكان مخصص للخريطة<br/><small>(سيتم تضمين الخريطة فور توفير العناوين)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* هذا النموذج لغرض العرض التوضيحي. يمكن عند الإطلاق ربطه بخدمة نماذج من طرف ثالث، أو استبداله ببيانات الاتصال المباشرة."
   },
   "cert": {
     "licenseSh": "رخصة تجارية (شنغهاي)",

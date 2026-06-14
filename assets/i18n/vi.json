@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Nhà cung cấp nguyên liệu nhựa chuyên nghiệp · Thương mại · Nhựa nhập khẩu & biến tính"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Trang chủ",
-    "about": "Giới thiệu",
+    "about": "About Qinbo",
     "products": "Sản phẩm",
     "trade": "Thương mại",
     "contact": "Liên hệ"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Kết nối tương lai tốt đẹp hơn<br/>thông qua vật liệu",
-    "heroSub": "Thương mại và dịch vụ nguyên liệu nhựa trong nước và quốc tế<br/>Thông dụng · Kỹ thuật · Biến tính · Nhập khẩu · Cao su",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Khám phá sản phẩm",
     "scroll": "Cuộn xuống ↓",
     "aboutEyebrow": "Về Qinbo",
     "aboutTitle": "Nhà cung cấp dịch vụ thương mại<br/>chuyên nghiệp về vật liệu nhựa",
-    "aboutP1": "Qinbo New Materials hoạt động với hai đơn vị — <strong>Qinbo Thượng Hải</strong> và <strong>Qinbo Hải Khẩu</strong> — chuyên về bán hàng và dịch vụ nguyên liệu nhựa (bao gồm cao su). Hoạt động kinh doanh bao gồm <strong>thương mại trong nước và xuất nhập khẩu quốc tế</strong>, cùng với phân phối nhựa nhập khẩu và tùy chỉnh vật liệu biến tính.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Được hỗ trợ bởi mạng lưới chuỗi cung ứng ổn định và hệ thống quản lý chất lượng nghiêm ngặt, chúng tôi xây dựng quan hệ đối tác dài hạn, đáng tin cậy với các nhà sản xuất hạ nguồn thông qua nguồn cung đáng tin cậy và dịch vụ kỹ thuật chuyên nghiệp.",
-    "aboutMore": "Tìm hiểu thêm về chúng tôi →",
-    "productsTitle": "Dòng sản phẩm bao phủ nhiều lĩnh vực vật liệu",
-    "tradeTitle": "Phân phối trong nước + Xuất nhập khẩu<br/>quốc tế, thúc đẩy kép",
-    "tradeP": "Qinbo vun đắp cả thị trường trong nước và thương mại quốc tế, với năng lực phân phối nhựa nhập khẩu kết nối nguồn hàng nước ngoài với khách hàng trong nước một cách trọn vẹn.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Thương mại trong nước</strong> Bao phủ các khu vực trọng điểm miền Đông và miền Nam Trung Quốc, phản hồi nhanh và phân bổ linh hoạt",
     "tradeLi2": "<strong>Xuất nhập khẩu</strong> Hợp tác với các nhà cung cấp nước ngoài chất lượng, kênh chính hãng và nguồn cung ổn định",
     "tradeLi3": "<strong>Dịch vụ trọn gói</strong> Lựa chọn vật liệu, báo giá, hậu cần và hỗ trợ kỹ thuật phối hợp toàn diện",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Tại sao chọn Qinbo",
     "whyTitle": "Ổn định · Đáng tin cậy · Chuyên nghiệp",
     "ctaTitle": "Đang tìm kiếm đối tác nguyên liệu nhựa đáng tin cậy?",
-    "ctaSub": "Dù mua hàng trong nước hay vật liệu nhập khẩu, Qinbo cung cấp hỗ trợ chuyên nghiệp.",
-    "ctaBtn": "Liên hệ ngay",
-    "searchPh": "Tìm theo sản phẩm, mã hạt hoặc thương hiệu — vd: PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Nổi bật",
     "hqCustom": "Cải tính theo yêu cầu"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Nhựa thông dụng",
-      "brief": "Các loại nhựa thông dụng như PP, PE, PVC, PS và ABS, được sử dụng trong bao bì, hàng tiêu dùng và đồ gia dụng."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Nhựa kỹ thuật",
-      "brief": "Nhựa kỹ thuật hiệu suất cao như PA, PC, POM và PBT cho ngành ô tô, điện tử và cơ khí."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Vật liệu biến tính",
-      "brief": "Nhựa biến tính tùy chỉnh — gia cường, chống cháy, tăng dai — với công thức theo yêu cầu."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Nhựa nhập khẩu",
-      "brief": "Phân phối nhựa nhập khẩu từ châu Âu, Mỹ, Nhật Bản, Hàn Quốc và Trung Đông, với nguồn cung ổn định và kênh chính hãng."
-    },
-    "rubber": {
-      "name": "Vật liệu cao su",
-      "brief": "Các loại cao su tổng hợp và nguyên liệu sản phẩm cao su cho công nghiệp, ô tô và ứng dụng làm kín."
-    },
-    "eco": {
-      "name": "Thân thiện môi trường & Tái chế",
-      "brief": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường, giúp khách hàng đạt mục tiêu xanh và bền vững."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Sản phẩm",
-    "bannerSub": "Dòng sản phẩm bao phủ nhiều lĩnh vực vật liệu",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Cần các grade cụ thể và báo giá?",
-    "ctaSub": "Cho chúng tôi biết yêu cầu của bạn và chúng tôi sẽ tìm giải pháp vật liệu phù hợp.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Yêu cầu báo giá",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Nylon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Gia cường sợi thủy tinh</span><span>Chống cháy</span><span>Tăng dai</span><span>Có chất độn</span><span>Công thức tùy chỉnh</span>",
-    "tagsImport": "<span>Nhựa nhập khẩu</span><span>Kênh chính hãng</span><span>Nguồn cung ổn định</span><span>Chất lượng OEM</span>",
-    "tagsRubber": "<span>Cao su tổng hợp</span><span>Phụ gia cao su</span><span>Vật liệu làm kín</span><span>Sản phẩm công nghiệp</span>",
-    "tagsEco": "<span>Nhựa tái chế</span><span>Phân hủy sinh học</span><span>Tuân thủ môi trường</span><span>Cung ứng xanh</span>",
     "descGeneral": "Nhựa thông dụng số lượng lớn được sử dụng rộng rãi trong bao bì, đồ dùng hàng ngày, vỏ thiết bị gia dụng và ống — nguồn cung ổn định, đầy đủ các thông số kỹ thuật.",
     "descEngineering": "Nhựa kỹ thuật hiệu suất cao với các đặc tính cơ học, chịu nhiệt và chịu hóa chất tuyệt vời cho các ứng dụng đòi hỏi khắt khe trong ngành ô tô, điện tử và cơ khí chính xác.",
     "descModified": "Nhựa biến tính chức năng được tùy chỉnh theo nhu cầu khách hàng, cung cấp các giải pháp biến tính và dịch vụ công thức gia cường, chống cháy, tăng dai, chịu thời tiết và các giải pháp khác.",
-    "descImport": "Hợp tác với các nhà cung cấp nước ngoài chất lượng tại châu Âu, Mỹ, Nhật Bản, Hàn Quốc và Trung Đông, cung cấp phân phối nhựa nhập khẩu thông qua kênh chính hãng với chất lượng đáng tin cậy và đầy đủ tài liệu.",
-    "descRubber": "Các loại cao su tổng hợp và nguyên liệu sản phẩm cao su phục vụ cho sản phẩm công nghiệp, phụ tùng ô tô và linh kiện làm kín.",
-    "descEco": "Vật liệu tái chế và phân hủy sinh học thân thiện với môi trường phù hợp với xu hướng phát triển xanh, giúp khách hàng đạt được mục tiêu bền vững và tuân thủ môi trường.",
     "customEyebrow": "Cải tính theo yêu cầu",
     "customTitle": "Công thức tùy theo điều kiện sử dụng — hỗ trợ nhựa nguyên sinh",
     "customDesc": "Gia cường sợi thủy tinh, chống cháy, tăng dai, kháng thời tiết, dẫn điện/chống tĩnh điện và độn khoáng — trên nền PP/PA/PC/ABS/PBT, có thể chỉ định nhựa nguyên sinh 100%, kèm dịch vụ làm mẫu và xây dựng công thức.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Nhật Bản) · Đại lý ủy quyền",
     "agentAscend": "🏅 Ascend (Hoa Kỳ) · Đại lý ủy quyền",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Bản đồ kinh doanh",
-    "mapTitle": "Mạng lưới thương mại vươn ra toàn cầu từ hai cơ sở",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Hai cơ sở",
-    "mapLegDom": "Phân phối nội địa",
-    "mapLegIntl": "Xuất nhập khẩu",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Kho bãi",
-    "mapStage1": "Hai cơ sở · Thượng Hải & Hải Khẩu",
-    "mapStage2": "Phân phối nội địa · các vùng sản xuất trọng điểm",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Thương mại",
-    "bannerSub": "Phân phối trong nước + Xuất nhập khẩu quốc tế, thúc đẩy kép",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Thương mại trong nước",
     "domTitle": "Mạng lưới phân phối<br/>bao phủ các khu vực trọng điểm",
     "domP": "Được hỗ trợ bởi hai cơ sở kép Thượng Hải và Hải Khẩu, Qinbo đã xây dựng một hệ thống phân phối linh hoạt, hiệu quả trên các thị trường trọng điểm miền Đông và miền Nam Trung Quốc, đáp ứng nhanh chóng nhu cầu mua hàng và phân bổ.",
@@ -217,16 +203,16 @@
     "flow4t": "Hỗ trợ sau bán hàng",
     "flow4d": "Hỗ trợ kỹ thuật và cung ứng liên tục cho hợp tác dài hạn.",
     "ctaTitle": "Cần vật liệu nhập khẩu hoặc mua hàng trong nước?",
-    "ctaSub": "Đội ngũ thương mại của Qinbo sẵn sàng cung cấp hỗ trợ chuyên nghiệp.",
-    "ctaBtn": "Liên hệ đội ngũ thương mại",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Đội ngũ kinh doanh",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Kinh doanh",
     "labelWechat": "WeChat",
     "copyHint": "Nhấp để sao chép",
@@ -249,19 +235,7 @@
     "formMsg": "Yêu cầu",
     "formMsgPh": "Mô tả danh mục vật liệu, grade hoặc số lượng bạn cần",
     "formSubmit": "Gửi",
-    "formNote": "* Biểu mẫu này chỉ để trình diễn. Khi ra mắt có thể kết nối với dịch vụ biểu mẫu bên thứ ba, hoặc thay thế bằng thông tin liên hệ trực tiếp.",
-    "mapEyebrow": "Bản đồ vị trí",
-    "mapTitle": "Tìm chúng tôi",
-    "mapDesc": "Có thể nhúng bản đồ (Amap / Baidu Maps) khi ra mắt để đánh dấu vị trí chính xác của cả hai đơn vị.",
-    "mapPlaceholder": "Trình giữ chỗ bản đồ<br/><small>(Bản đồ sẽ được nhúng khi địa chỉ được cung cấp)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Biểu mẫu này chỉ để trình diễn. Khi ra mắt có thể kết nối với dịch vụ biểu mẫu bên thứ ba, hoặc thay thế bằng thông tin liên hệ trực tiếp."
   },
   "cert": {
     "licenseSh": "Giấy phép KD Thượng Hải",

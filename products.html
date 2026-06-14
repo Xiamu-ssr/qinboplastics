@@ -11,7 +11,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="秦帛新材料 QINBO NEW MATERIALS" />
 <meta property="og:title" content="产品中心 | 秦帛新材料" />
-<meta property="og:description" content="通用塑料、工程塑料、改性料、进口料、橡胶原料、环保再生料——多领域塑料材料产品线。" />
+<meta property="og:description" content="通用塑料、工程塑料、特种工程塑料、改性塑料四大体系，按具体现货牌号查询。" />
 <meta property="og:url" content="https://www.qinboplastics.com/products.html" />
 <meta property="og:image" content="https://www.qinboplastics.com/assets/img/photos/real/banner-warehouse.jpg" />
 <meta property="og:locale" content="zh_CN" />
@@ -27,9 +27,9 @@
     <a href="index.html" class="brand"><span class="brand-mark"><img class="logo-light" src="assets/img/logo-white.png" alt="秦帛新材料 QB" /><img class="logo-dark" src="assets/img/logo.png" alt="" aria-hidden="true" /></span><span class="brand-text"><strong>秦帛新材料</strong><em>QINBO NEW MATERIALS</em></span></a>
     <nav class="nav-menu" id="navMenu">
       <a href="index.html" data-i18n="nav.home">首页</a>
-      <a href="about.html" data-i18n="nav.about">关于我们</a>
       <a href="products.html" class="active" data-i18n="nav.products">产品中心</a>
       <a href="trade.html" data-i18n="nav.trade">国内外贸易</a>
+      <a href="about.html" data-i18n="nav.about">关于秦帛</a>
       <a href="contact.html" data-i18n="nav.contact">联系我们</a>
     </nav>
     <div class="lang-switch" id="langSwitch"></div>
@@ -42,7 +42,7 @@
   <div class="container">
     <div class="breadcrumb"><a href="index.html" data-i18n="nav.home">首页</a> / <span data-i18n="nav.products">产品中心</span></div>
     <h1 data-i18n="products.bannerTitle">产品中心</h1>
-    <p data-i18n="products.bannerSub">通用 · 工程 · 特种工程 · 改性塑料 现货牌号</p>
+    <p data-i18n="products.bannerSub">四大体系与料种双筛选，按具体牌号查询现货与物性参考</p>
   </div>
 </section>
 
@@ -52,12 +52,15 @@
     <div class="prod-search reveal">
       <span class="ps-ico" aria-hidden="true">⚲</span>
       <input type="search" id="prodSearch" autocomplete="off"
-        aria-label="搜索产品" placeholder="搜索 料种 / 牌号 / 品牌 / 应用" />
+        aria-label="搜索产品" placeholder="搜索牌号 / 料种 / 厂家 / 应用，如 R370Y、8150、M90-44、奇美" />
     </div>
     <!-- 分类 tabs -->
     <div class="prod-tabs" id="prodTabs"></div>
+    <div class="prod-family-tabs" id="prodFamilyTabs"></div>
     <!-- 卡片网格 -->
+    <div class="prod-count" id="prodCount" aria-live="polite"></div>
     <div class="prod-grid" id="prodGrid"></div>
+    <div class="prod-pager" id="prodPager" aria-label="产品分页"></div>
     <p class="prod-empty" id="prodEmpty" style="display:none"></p>
   </div>
 </section>
@@ -94,7 +97,7 @@
   <div class="cta-media"><img src="assets/img/photos/real/cta-logistics.jpg" alt="" /><div class="cta-overlay"></div></div>
   <div class="container cta-content reveal">
     <h2 data-i18n="products.ctaTitle">需要具体型号与报价？</h2>
-    <p data-i18n="products.ctaSub">告诉我们您的需求，我们将为您匹配合适的材料方案。</p>
+    <p data-i18n="products.ctaSub">告诉我们牌号、厂家、数量或工况，销售部将为您匹配现货、替代牌号与技术资料。</p>
     <a href="contact.html" class="btn btn-primary" data-i18n="products.ctaBtn">获取报价</a>
   </div>
 </section>
@@ -102,7 +105,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand"><span class="brand-mark"><img src="assets/img/logo-white.png" alt="秦帛新材料" /></span><div><strong>秦帛新材料</strong><p data-i18n="footer.subjects">上海秦帛新材料 · 海口秦帛新材料</p></div></div>
-    <nav class="footer-nav"><a href="about.html" data-i18n="nav.about">关于我们</a><a href="products.html" data-i18n="nav.products">产品中心</a><a href="trade.html" data-i18n="nav.trade">国内外贸易</a><a href="contact.html" data-i18n="nav.contact">联系我们</a></nav>
+    <nav class="footer-nav"><a href="index.html" data-i18n="nav.home">首页</a><a href="products.html" data-i18n="nav.products">产品中心</a><a href="trade.html" data-i18n="nav.trade">国内外贸易</a><a href="about.html" data-i18n="nav.about">关于秦帛</a><a href="contact.html" data-i18n="nav.contact">联系我们</a></nav>
   </div>
   <div class="footer-bottom"><div class="container"><span data-i18n="footer.copyright">© 2026 秦帛新材料 版权所有</span><span><a href="http://www.qinboplastics.com">www.qinboplastics.com</a></span></div></div>
 </footer>
@@ -110,6 +113,8 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/data/products.js"></script>
+<script src="assets/data/product-grade-props.js"></script>
+<script src="assets/data/product-grade-props-k26.js"></script>
 <script src="assets/js/products.js"></script>
 </body>
 </html>

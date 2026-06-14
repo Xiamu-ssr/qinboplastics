@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Professional Plastic Raw Material Supplier · Trade · Imported & Modified Resins"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Home",
-    "about": "About Us",
+    "about": "About Qinbo",
     "products": "Products",
     "trade": "Trade",
     "contact": "Contact"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Connecting a Better Future<br/>Through Materials",
-    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Modified · Imported · Rubber",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Explore Products",
     "scroll": "Scroll down ↓",
     "aboutEyebrow": "About Qinbo",
     "aboutTitle": "A Professional Trading Service Provider<br/>Focused on Plastic Materials",
-    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — specializing in the sales and service of plastic raw materials (including rubber). Our business covers <strong>domestic trade and international import/export</strong>, along with imported resin distribution and modified-material customization.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Backed by a stable supply-chain network and strict quality management, we build long-term, trustworthy partnerships with downstream manufacturers through reliable supply and professional technical service.",
-    "aboutMore": "Learn more about us →",
-    "productsTitle": "A Product Line Covering Multiple Material Fields",
-    "tradeTitle": "Domestic Distribution + International<br/>Import/Export, Dual-Driven",
-    "tradeP": "Qinbo cultivates both the domestic market and international trade, with imported-resin distribution capability that connects overseas sources to domestic customers end to end.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Domestic Trade</strong> Covering East and South China core regions, fast response and flexible allocation",
     "tradeLi2": "<strong>Import/Export</strong> Partnering with quality overseas suppliers, legitimate channels and stable supply",
     "tradeLi3": "<strong>One-Stop Service</strong> Material selection, quotation, logistics and technical support in full coordination",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Why Choose Qinbo",
     "whyTitle": "Stable · Reliable · Professional",
     "ctaTitle": "Looking for a Reliable Plastic Raw Material Partner?",
-    "ctaSub": "Whether domestic procurement or imported materials, Qinbo provides professional support.",
-    "ctaBtn": "Contact Us Now",
-    "searchPh": "Search by product, grade or brand — e.g. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Hot",
     "hqCustom": "Custom Compounds"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Commodity Plastics",
-      "brief": "Commodity resins such as PP, PE, PVC, PS and ABS, used in packaging, daily goods and appliances."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Engineering Plastics",
-      "brief": "High-performance engineering plastics such as PA, PC, POM and PBT for automotive, electronics and machinery."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Modified Materials",
-      "brief": "Customized modified plastics — reinforced, flame-retardant, toughened — with formulations on demand."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Imported Resins",
-      "brief": "Imported resin distribution from Europe, the US, Japan, Korea and the Middle East, with stable supply and legitimate channels."
-    },
-    "rubber": {
-      "name": "Rubber Materials",
-      "brief": "Various synthetic rubbers and rubber-product raw materials for industry, automotive and sealing applications."
-    },
-    "eco": {
-      "name": "Eco & Recycled",
-      "brief": "Eco-friendly recycled and biodegradable materials, helping customers reach green and sustainability goals."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Products",
-    "bannerSub": "A product line covering multiple material fields",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Need Specific Grades and Quotes?",
-    "ctaSub": "Tell us your requirements and we will match the right material solution for you.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Get a Quote",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Nylon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Glass-Fiber Reinforced</span><span>Flame Retardant</span><span>Toughened</span><span>Filled</span><span>Custom Formula</span>",
-    "tagsImport": "<span>Imported Resin</span><span>Legitimate Channel</span><span>Stable Supply</span><span>OEM Quality</span>",
-    "tagsRubber": "<span>Synthetic Rubber</span><span>Rubber Additives</span><span>Sealing Materials</span><span>Industrial Goods</span>",
-    "tagsEco": "<span>Recycled Plastics</span><span>Biodegradable</span><span>Eco Compliance</span><span>Green Supply</span>",
     "descGeneral": "Bulk commodity resins widely used in packaging, daily necessities, appliance housings and pipes — stable supply, full range of specifications.",
     "descEngineering": "High-performance engineering plastics with excellent mechanical, heat- and chemical-resistance properties for demanding automotive, electronics and precision-machinery applications.",
     "descModified": "Functional modified plastics customized to client needs, offering reinforcement, flame-retardant, toughening, weathering and other modification solutions and formulation services.",
-    "descImport": "Partnering with quality overseas suppliers in Europe, the US, Japan, Korea and the Middle East, providing imported resin distribution through legitimate channels with reliable quality and complete documentation.",
-    "descRubber": "Various synthetic rubbers and rubber-product raw materials serving industrial products, automotive parts and sealing components.",
-    "descEco": "Eco-friendly recycled and biodegradable materials in line with green-development trends, helping customers meet sustainability and environmental-compliance goals.",
     "customEyebrow": "Custom Compounds",
     "customTitle": "Formulations tailored to your application — virgin resin available",
     "customDesc": "Glass-fiber reinforcement, flame retardancy, toughening, weathering, conductive/anti-static and mineral filling — built on PP/PA/PC/ABS/PBT bases, with 100% virgin-resin options plus sampling and formulation support.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Japan) · Authorized Agent",
     "agentAscend": "🏅 Ascend (USA) · Authorized Agent",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Business Footprint",
-    "mapTitle": "A trade network reaching from two bases to the world",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Dual Bases",
-    "mapLegDom": "Domestic Distribution",
-    "mapLegIntl": "Import & Export",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Warehousing",
-    "mapStage1": "Dual bases · Shanghai & Haikou",
-    "mapStage2": "Domestic distribution · core manufacturing regions",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Trade",
-    "bannerSub": "Domestic distribution + international import/export, dual-driven",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Domestic Trade",
     "domTitle": "A Distribution Network<br/>Covering Core Regions",
     "domP": "Backed by its Shanghai and Haikou dual bases, Qinbo has built a flexible, efficient distribution system across East and South China core markets, quickly responding to procurement and allocation needs.",
@@ -217,16 +203,16 @@
     "flow4t": "After-Sales Support",
     "flow4d": "Ongoing technical and supply assurance for long-term cooperation.",
     "ctaTitle": "Need Imported Materials or Domestic Procurement?",
-    "ctaSub": "Qinbo's trade team is ready to provide professional support.",
-    "ctaBtn": "Contact the Trade Team",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Our Sales Team",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Sales",
     "labelWechat": "WeChat",
     "copyHint": "Click to copy",
@@ -249,19 +235,7 @@
     "formMsg": "Requirements",
     "formMsgPh": "Describe the material category, grade or quantity you need",
     "formSubmit": "Submit",
-    "formNote": "* This form is for demonstration. It can be connected to a third-party form service on launch, or replaced with direct contact details.",
-    "mapEyebrow": "Location Map",
-    "mapTitle": "Find Us",
-    "mapDesc": "A map (Amap / Baidu Maps) can be embedded on launch to mark the exact locations of both entities.",
-    "mapPlaceholder": "Map placeholder<br/><small>(Map to be embedded once addresses are provided)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* This form is for demonstration. It can be connected to a third-party form service on launch, or replaced with direct contact details."
   },
   "cert": {
     "licenseSh": "Shanghai Business License",

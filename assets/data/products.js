@@ -1,10 +1,10 @@
 /* ===== 秦帛产品中心 · 数据模型 =====
- * 业务员料号表归类 → 4 大类。运行时由 assets/js/products.js 渲染 + 搜索。
+ * 现货料号表归类 → 4 大类。运行时由 assets/js/products.js 渲染 + 搜索。
  * 说明：
  *  - cat: commodity 通用 / engineering 工程 / special 特种工程 / modified 改性
  *  - hot: 热门料(优先配图与物性表)
- *  - props: 典型物性参考值(按料种家族, 实际以各牌号 TDS 为准)
- *  - 品牌/牌号严格依据业务员提供的现货表; 物性为行业典型值
+ *  - props: 缺省为料种家族参考；gradeMeta 可覆盖为牌号级资料口径
+ *  - 品牌/牌号依据现货表；正式选型以原厂 TDS / COA 与批次为准
  *  - desc/zh 中文; desc/en 英文(SEO 双语); 其余语言 UI 由 i18n 引擎处理
  */
 window.QB_PRODUCTS = {
@@ -14,6 +14,321 @@ window.QB_PRODUCTS = {
     { id: "special",     zh: "特种工程塑料", en: "Special Engineering Plastics" },
     { id: "modified",    zh: "改性塑料",   en: "Modified Plastics" }
   ],
+  gradeMeta: {
+    "R370Y": {
+      image: "assets/img/photos/real/product-pp-r370y-exact.jpg",
+      thumb: "assets/img/photos/thumbs/product-pp-r370y-exact-thumb.jpg",
+      features: ["PP", "韩国SK", "标准新料", "注塑级"],
+      descZh: "韩国 SK YUPLENE R370Y，无规共聚 PP，公开资料显示用于注塑透明包装、食品包装、日用品、电器与医疗器材等场景；正式选型以 SK 原厂 TDS、COA 与批次为准。",
+      descEn: "SK YUPLENE R370Y is a random copolymer PP grade for injection molded transparent packaging, food packaging, housewares, electrical goods and medical devices. Final selection follows SK's official TDS, COA and batch.",
+      props: [
+        { k: "产品符号 Material", v: "PP 聚丙烯" },
+        { k: "牌号 Grade", v: "R370Y" },
+        { k: "厂家 Producer", v: "韩国 SK" },
+        { k: "熔融指数 MFR", v: "约 18 g/10min (230°C / 2.16kg)" },
+        { k: "密度 Density", v: "约 0.90 g/cm³" },
+        { k: "材料类型", v: "标准新料" },
+        { k: "特性级别", v: "透明级 / 高光泽 / 尺寸稳定性 / 高刚性 / 食品级 / 高流动" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "用途级别", v: "日用品 / 容器 / 包装 / 电器 / 医疗器材" },
+        { k: "资料口径", v: "中塑在线公开商品页 + 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "R520Y": {
+      image: "assets/img/photos/real/product-pp-r520y-sk.jpg",
+      thumb: "assets/img/photos/thumbs/product-pp-r520y-sk-thumb.jpg",
+      features: ["PP", "韩国SK", "吹塑 / ISBM", "透明容器"],
+      descZh: "韩国 SK YUPLENE R520Y，无规共聚 PP，公开 TDS 显示面向吹塑与注拉吹透明容器应用，兼具透明、高光泽与较高维卡软化点。",
+      descEn: "SK YUPLENE R520Y is a random copolymer PP grade for blow molding and ISBM transparent containers, with clarity, gloss and high Vicat softening point.",
+      props: [
+        { k: "产品符号 Material", v: "PP 无规共聚聚丙烯" },
+        { k: "牌号 Grade", v: "R520Y" },
+        { k: "厂家 Producer", v: "韩国 SK" },
+        { k: "熔融指数 MFR", v: "约 1.8 g/10min (230°C / 2.16kg)" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 340 kg/cm²" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 15000 kg/cm²" },
+        { k: "维卡软化点 Vicat", v: "约 140°C" },
+        { k: "典型应用", v: "吹塑 / 注拉吹 / 透明容器 / 透明片材" },
+        { k: "资料口径", v: "SK YUPLENE R520Y 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "R380Y": {
+      features: ["PP", "韩国SK", "高流动", "透明注塑"],
+      descZh: "韩国 SK YUPLENE R380Y，无规共聚 PP，适合透明包装容器、一次性注射器与家电等注塑应用。",
+      descEn: "SK YUPLENE R380Y is a random copolymer PP grade for injection molded transparent packaging containers, disposable syringes and appliances.",
+      props: [
+        { k: "产品符号 Material", v: "PP 无规共聚聚丙烯" },
+        { k: "牌号 Grade", v: "R380Y" },
+        { k: "厂家 Producer", v: "韩国 SK" },
+        { k: "熔融指数 MFR", v: "约 29.0 g/10min" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "典型应用", v: "食品包装 / 透明容器 / 一次性注射器 / 家电" },
+        { k: "资料口径", v: "SK YUPLENE R380Y 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "M90-44": {
+      image: "assets/img/photos/real/product-pom-m90-44-duracon.jpg",
+      thumb: "assets/img/photos/thumbs/product-pom-m90-44-duracon-thumb.jpg",
+      features: ["POM", "宝理", "Duracon", "精密件"],
+      descZh: "宝理 Duracon POM 常用现货牌号，适合精密传动、扣具、结构件等场景，尺寸稳定与耐磨性突出。",
+      descEn: "Polyplastics Duracon POM in-stock grade for precision gears, clips and structural parts, with strong dimensional stability and wear resistance.",
+      props: [
+        { k: "品名 Material", v: "POM 聚甲醛" },
+        { k: "牌号 Grade", v: "M90-44" },
+        { k: "厂家 Producer", v: "宝理 / Polyplastics" },
+        { k: "系列 Series", v: "DURACON" },
+        { k: "熔融指数 MFR", v: "约 9 g/10min" },
+        { k: "拉伸强度 Tensile", v: "约 62 MPa" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 2600 MPa" },
+        { k: "缺口冲击 Izod", v: "约 7.4 kJ/m²" },
+        { k: "热变形温度 HDT", v: "约 115°C @ 1.8MPa" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "参考特性", v: "耐磨 / 尺寸稳定 / 精密成型" },
+        { k: "资料口径", v: "公开物性库 + 原厂 TDS 复核；正式以 COA 与批次为准" }
+      ]
+    },
+    "M25-44": {
+      image: "assets/img/photos/real/product-pom-m25-44-duracon.jpg",
+      thumb: "assets/img/photos/thumbs/product-pom-m25-44-duracon-thumb.jpg",
+      features: ["POM", "宝理", "Duracon", "高粘度"],
+      descZh: "宝理 Duracon M25-44 POM 高粘度牌号，公开资料显示可用于挤出管材、型材及部分注塑场景，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "Polyplastics Duracon M25-44 is a high-viscosity POM grade for extrusion pipe/profile applications and selected injection molding use. Final selection follows OEM TDS, COA and batch.",
+      props: [
+        { k: "品名 Material", v: "POM 聚甲醛" },
+        { k: "牌号 Grade", v: "M25-44" },
+        { k: "厂家 Producer", v: "宝理 / Polyplastics" },
+        { k: "熔融指数 MFR", v: "约 2.5 g/10min (190°C / 2.16kg)" },
+        { k: "拉伸强度 Tensile", v: "约 59 MPa" },
+        { k: "拉伸模量 Tensile Modulus", v: "约 2500 MPa" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 2350 MPa" },
+        { k: "缺口冲击 Charpy", v: "约 8 kJ/m²" },
+        { k: "热变形温度 HDT", v: "约 90°C @ 1.8MPa" },
+        { k: "资料口径", v: "公开 TDS / 物性库整理；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "500P": {
+      features: ["POM", "杜邦 Delrin", "高刚性", "耐疲劳"],
+      descZh: "杜邦 Delrin POM 常用牌号，适合齿轮、滑块、紧固件等耐磨精密部件。",
+      descEn: "DuPont Delrin POM grade for wear-resistant precision parts such as gears, sliders and fasteners.",
+      props: [
+        { k: "品名 Material", v: "POM 均聚甲醛" },
+        { k: "牌号 Grade", v: "500P" },
+        { k: "厂家 Producer", v: "DuPont / Delrin" },
+        { k: "粘度 Viscosity", v: "中粘度" },
+        { k: "密度 Density", v: "约 1.42 g/cm³" },
+        { k: "熔融指数 MFR", v: "约 14 g/10min" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 72 MPa" },
+        { k: "拉伸模量 Tensile Modulus", v: "约 3100 MPa" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "参考特性", v: "高刚性 / 耐疲劳 / 尺寸稳定" },
+        { k: "资料口径", v: "Delrin 500P 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "100P": {
+      features: ["POM", "杜邦 Delrin", "高粘度", "机械强度"],
+      descZh: "杜邦 Delrin POM 常用高强度牌号，适合对刚性和耐疲劳要求较高的注塑件。",
+      descEn: "DuPont Delrin POM grade for injection-molded parts requiring rigidity and fatigue resistance."
+    },
+    "758": {
+      display: "PA-758",
+      abbr: "MABS",
+      material: "MABS 透明 ABS",
+      features: ["MABS", "奇美 PA-758", "透明级", "注塑"],
+      descZh: "奇美 POLYLAC PA-758 透明 MABS 牌号，适合透明外观件、日用品、家电与电子电器注塑应用。",
+      descEn: "CHIMEI POLYLAC PA-758 transparent MABS grade for clear cosmetic parts, daily-use products, appliances and electronics injection molding.",
+      props: [
+        { k: "品名 Material", v: "MABS 透明 ABS" },
+        { k: "牌号 Grade", v: "PA-758" },
+        { k: "厂家 Producer", v: "CHIMEI 奇美" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 40.3 MPa" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 1862 MPa" },
+        { k: "洛氏硬度 Rockwell", v: "R107" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "参考特性", v: "透明 / 高光泽 / 外观件" },
+        { k: "资料口径", v: "实拍包装 + 公开物性库；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "757": {
+      display: "PA-757",
+      image: "assets/img/photos/real/product-chimei-abs-pa757.jpg",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa757-thumb.jpg",
+      features: ["ABS", "奇美 PA-757", "通用注塑", "外壳件"],
+      descZh: "奇美 ABS 常用通用注塑牌号，适合家电外壳、电子电器、日用品等场景。",
+      descEn: "CHIMEI ABS general injection grade for appliance housings, electronics and daily-use products.",
+      props: [
+        { k: "品名 Material", v: "ABS 树脂" },
+        { k: "牌号 Grade", v: "PA-757" },
+        { k: "厂家 Producer", v: "CHIMEI 奇美" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 45.9 MPa" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 2620 MPa" },
+        { k: "洛氏硬度 Rockwell", v: "R116" },
+        { k: "加工级别", v: "注塑级" },
+        { k: "参考特性", v: "通用 / 高光泽 / 外壳件" },
+        { k: "资料口径", v: "公开物性库 + 原厂 TDS 复核；正式以 COA 与批次为准" }
+      ]
+    },
+    "707": {
+      display: "PA-707",
+      image: "assets/img/photos/real/product-chimei-abs-pa707.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa707-thumb.jpg",
+      features: ["ABS", "奇美 PA-707", "注塑级", "外壳件"],
+      descZh: "奇美 POLYLAC PA-707 ABS 牌号，适合电子电器、日用制品与一般注塑外壳件，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-707 ABS grade for electronics, daily-use goods and general injection-molded housings. Final selection follows OEM TDS, COA and batch."
+    },
+    "709": {
+      display: "PA-709",
+      image: "assets/img/photos/real/product-chimei-abs-pa709.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa709-thumb.jpg",
+      features: ["ABS", "奇美 PA-709", "注塑级", "外观件"],
+      descZh: "奇美 POLYLAC PA-709 ABS 牌号，适合一般注塑、外观件与电子电器外壳，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-709 ABS grade for general injection molding, cosmetic parts and electronics housings. Final selection follows OEM TDS, COA and batch."
+    },
+    "763": {
+      display: "PA-763",
+      image: "assets/img/photos/real/product-chimei-abs-pa763.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa763-thumb.jpg",
+      features: ["ABS", "奇美 PA-763", "阻燃", "注塑级"],
+      descZh: "奇美 POLYLAC PA-763 ABS 牌号，常用于需要阻燃与外观兼顾的电子电器注塑件，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-763 ABS grade for injection-molded electronics parts requiring flame-retardant performance and good appearance. Final selection follows OEM TDS, COA and batch."
+    },
+    "765": {
+      display: "PA-765",
+      image: "assets/img/photos/real/product-chimei-abs-pa765.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa765-thumb.jpg",
+      features: ["ABS", "奇美 PA-765", "阻燃", "电子电器"],
+      descZh: "奇美 POLYLAC PA-765 ABS 牌号，适合阻燃电子电器、外壳与结构件注塑应用，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-765 ABS grade for flame-retardant electronics housings and structural injection-molded parts. Final selection follows OEM TDS, COA and batch."
+    },
+    "777D": {
+      display: "PA-777D",
+      image: "assets/img/photos/real/product-chimei-abs-pa777d.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa777d-thumb.jpg",
+      features: ["ABS", "奇美 PA-777D", "耐热", "注塑级"],
+      descZh: "奇美 POLYLAC PA-777D ABS 牌号，适合对耐热、刚性与表面外观有要求的注塑应用，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-777D ABS grade for injection-molded parts requiring heat resistance, rigidity and surface appearance. Final selection follows OEM TDS, COA and batch."
+    },
+    "777B": {
+      display: "PA-777B",
+      image: "assets/img/photos/real/product-chimei-abs-pa777b.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa777b-thumb.jpg",
+      features: ["ABS", "奇美 PA-777B", "耐热", "高刚性"],
+      descZh: "奇美 POLYLAC PA-777B ABS 牌号，适合耐热、高刚性与外观件注塑应用，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-777B ABS grade for heat-resistant, rigid cosmetic and structural injection-molded parts. Final selection follows OEM TDS, COA and batch."
+    },
+    "777E": {
+      display: "PA-777E",
+      image: "assets/img/photos/real/product-chimei-abs-pa777e.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa777e-thumb.jpg",
+      features: ["ABS", "奇美 PA-777E", "耐热", "外观件"],
+      descZh: "奇美 POLYLAC PA-777E ABS 牌号，适合耐热外观件、电子电器与一般注塑制品，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-777E ABS grade for heat-resistant cosmetic parts, electronics and general injection-molded products. Final selection follows OEM TDS, COA and batch."
+    },
+    "727": {
+      display: "PA-727",
+      image: "assets/img/photos/real/product-chimei-abs-pa727.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa727-thumb.jpg",
+      features: ["ABS", "奇美 PA-727", "高抗冲", "注塑级"],
+      descZh: "奇美 POLYLAC PA-727 ABS 牌号，适合高抗冲、外壳与一般注塑制品，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-727 ABS grade for high-impact housings and general injection-molded products. Final selection follows OEM TDS, COA and batch."
+    },
+    "747": {
+      display: "PA-747",
+      image: "assets/img/photos/real/product-chimei-abs-pa747.webp",
+      thumb: "assets/img/photos/thumbs/product-chimei-abs-pa747-thumb.jpg",
+      features: ["ABS", "奇美 PA-747", "电镀级", "外观件"],
+      descZh: "奇美 POLYLAC PA-747 ABS 牌号，常用于电镀、喷涂与高外观要求注塑件，正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "CHIMEI POLYLAC PA-747 ABS grade for plating, painting and high-appearance injection-molded parts. Final selection follows OEM TDS, COA and batch."
+    },
+    "312C": {
+      features: ["ABS", "LG化学", "注塑", "外观件"],
+      descZh: "LG 化学 ABS 现货牌号，适合外观件与电子电器注塑应用。",
+      descEn: "LG Chem ABS in-stock grade for cosmetic and electronics injection-molding applications."
+    },
+    "R200P": {
+      image: "assets/img/photos/real/product-pp-r200p-topilene.jpg",
+      thumb: "assets/img/photos/thumbs/product-pp-r200p-topilene-thumb.jpg",
+      features: ["PP-R", "韩国晓星", "管材级", "耐热水"],
+      descZh: "韩国晓星 TOPILENE R200P，PP-R 无规共聚聚丙烯，公开资料显示常用于冷热水管、地暖管与化工管材。",
+      descEn: "Hyosung TOPILENE R200P is a PP-R random copolymer grade for hot/cold water pipes, underfloor heating pipes and chemical pipes.",
+      props: [
+        { k: "产品符号 Material", v: "PP-R 无规共聚聚丙烯" },
+        { k: "牌号 Grade", v: "R200P" },
+        { k: "厂家 Producer", v: "韩国晓星 / Hyosung" },
+        { k: "密度 Density", v: "约 0.90 g/cm³" },
+        { k: "熔融指数 MFR", v: "约 0.20–0.25 g/10min (230°C / 2.16kg)" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 270 kg/cm²" },
+        { k: "维卡软化点 Vicat", v: "约 130°C" },
+        { k: "典型应用", v: "冷热水管 / 地暖管 / 化工管材" },
+        { k: "资料口径", v: "Hyosung TOPILENE R200P 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "HJ730": {
+      image: "assets/img/photos/real/product-pp-hj730-hanwha.webp",
+      thumb: "assets/img/photos/thumbs/product-pp-hj730-hanwha-thumb.jpg",
+      features: ["PP", "韩华道达尔", "注塑级", "高刚性"],
+      descZh: "韩华道达尔 HJ730，高结晶均聚 PP 注塑牌号，公开资料显示适合汽车部件、电气外壳与一般注塑制品。",
+      descEn: "Hanwha TotalEnergies HJ730 is a high-crystallinity PP homopolymer injection grade for automotive parts, electrical housings and general molded goods.",
+      props: [
+        { k: "产品符号 Material", v: "PP 均聚聚丙烯" },
+        { k: "牌号 Grade", v: "HJ730" },
+        { k: "厂家 Producer", v: "Hanwha TotalEnergies 韩华道达尔" },
+        { k: "熔融指数 MFR", v: "约 8.0 g/10min (230°C / 2.16kg)" },
+        { k: "密度 Density", v: "约 0.905 g/cm³" },
+        { k: "拉伸屈服 Tensile Yield", v: "约 350 kg/cm²" },
+        { k: "弯曲模量 Flexural Modulus", v: "约 15000 kg/cm²" },
+        { k: "热变形温度 HDT", v: "约 110°C" },
+        { k: "典型应用", v: "汽车部件 / 电气外壳 / 一般注塑制品" },
+        { k: "资料口径", v: "韩华道达尔 HJ730 公开 TDS；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "345": {
+      features: ["PC/ABS", "奇美", "合金料", "耐热抗冲"],
+      descZh: "PC/ABS 合金现货牌号，兼具 PC 耐热抗冲与 ABS 易加工特点。",
+      descEn: "PC/ABS alloy grade combining PC heat/impact performance with ABS processability.",
+      props: [
+        { k: "品名 Material", v: "PC/ABS 合金" },
+        { k: "牌号 Grade", v: "345" },
+        { k: "厂家 Producer", v: "CHIMEI 奇美" },
+        { k: "参考特性", v: "耐热 / 抗冲 / 易加工" },
+        { k: "资料口径", v: "公开物性库 + 原厂 TDS 复核；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "FR530": {
+      features: ["PET", "阻燃增强", "电子结构件", "按 TDS"],
+      descZh: "阻燃增强 PET 牌号，适合电子结构件、开关电器与线圈骨架等场景。",
+      descEn: "Flame-retardant reinforced PET grade for electronic structural parts, switches and coil bobbins.",
+      props: [
+        { k: "品名 Material", v: "PET 阻燃增强" },
+        { k: "牌号 Grade", v: "FR530" },
+        { k: "典型应用", v: "电子结构件 / 开关电器 / 线圈骨架" },
+        { k: "资料口径", v: "按供应商 TDS 核对；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "8150": {
+      image: "assets/img/photos/real/product-poe-engage-8150.png",
+      thumb: "assets/img/photos/thumbs/product-poe-engage-8150-thumb.jpg",
+      features: ["POE", "陶氏", "增韧", "弹性体"],
+      descZh: "陶氏 POE 常用增韧弹性体牌号，常用于 PP/PE/PA 等体系增韧、发泡、薄膜与电缆料。",
+      descEn: "Dow POE elastomer grade used for toughening PP/PE/PA systems, foaming, films and cable compounds.",
+      props: [
+        { k: "品名 Material", v: "POE 聚烯烃弹性体" },
+        { k: "牌号 Grade", v: "8150" },
+        { k: "厂家 Producer", v: "Dow 陶氏" },
+        { k: "密度 Density", v: "约 0.868 g/cm³" },
+        { k: "熔融指数 MFR", v: "约 0.5 g/10min (190°C / 2.16kg)" },
+        { k: "硬度 Shore A", v: "约 75" },
+        { k: "典型用途", v: "增韧 / 发泡 / 薄膜 / 电缆料" },
+        { k: "资料口径", v: "Dow ENGAGE 8150 公开资料；正式以原厂 TDS / COA 为准" }
+      ]
+    },
+    "2805": {
+      image: "assets/img/photos/real/product-pc-2805-covestro.jpg",
+      thumb: "assets/img/photos/thumbs/product-pc-2805-covestro-thumb.jpg",
+      features: ["PC", "科思创", "Makrolon", "注塑 / 挤出"],
+      descZh: "科思创 Makrolon 2805 PC 牌号，透明通用型聚碳酸酯，适合注塑与挤出应用；正式选型以原厂 TDS、COA 与批次为准。",
+      descEn: "Covestro Makrolon 2805 is a transparent general-purpose PC grade for injection molding and extrusion. Final selection follows OEM TDS, COA and batch."
+    }
+  },
   materials: [
     /* ============ 通用塑料 ============ */
     {

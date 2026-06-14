@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* 通用 i18n 写入器（贯彻"中文+其他全英文"策略）
- * 用法：require 后调用 setKeys({ "contact.addrTitle": {zh:"找到我们", en:"Find Us"}, ... })
+ * 用法：require 后调用 setKeys({ "contact.salesTitle": {zh:"销售部 · 直接联系", en:"Sales Team"}, ... })
  *   - zh.json   写中文
  *   - en.json + 其余 11 语言  写英文
  *   - 若某条提供了特定语言(如 ja:"...")则该语言用特定值

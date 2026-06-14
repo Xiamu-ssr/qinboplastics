@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | 전문 플라스틱 원료 공급업체 · 무역 · 수입·개질 수지"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "홈",
-    "about": "회사 소개",
+    "about": "About Qinbo",
     "products": "제품",
     "trade": "무역",
     "contact": "문의하기"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "더 나은 미래를<br/>소재로 연결합니다",
-    "heroSub": "플라스틱 원료의 국내외 무역 및 서비스<br/>범용 · 엔지니어링 · 개질 · 수입 · 고무",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "제품 보기",
     "scroll": "아래로 스크롤 ↓",
     "aboutEyebrow": "Qinbo 소개",
     "aboutTitle": "플라스틱 소재에 특화된<br/>전문 무역 서비스 제공업체",
-    "aboutP1": "Qinbo New Materials는 두 개의 운영 거점으로 사업을 전개하고 있습니다 — <strong>상하이 Qinbo</strong> 및 <strong>하이커우 Qinbo</strong> — 플라스틱 원료(고무 포함) 판매 및 서비스에 주력합니다. <strong>국내 무역 및 국제 수출입</strong>은 물론 수입 수지 유통과 개질 소재 맞춤 서비스도 제공합니다.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "안정적인 공급망 네트워크와 엄격한 품질 관리 체제를 바탕으로, 신뢰할 수 있는 공급과 전문적인 기술 서비스를 통해 하류 제조업체들과 장기적인 신뢰 관계를 구축하고 있습니다.",
-    "aboutMore": "회사 소개 더 보기 →",
-    "productsTitle": "다양한 소재 분야를 아우르는 제품 라인",
-    "tradeTitle": "국내 유통 + 국제<br/>수출입, 이중 추진",
-    "tradeP": "Qinbo는 국내 시장과 국제 무역을 동시에 운영하며, 수입 수지 유통 역량을 통해 해외 소스와 국내 고객을 엔드 투 엔드로 연결합니다.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>국내 무역</strong> 화동 · 화남 핵심 지역을 커버, 신속한 대응과 유연한 배분",
     "tradeLi2": "<strong>수출입</strong> 해외 우수 공급업체와 협력, 합법적 채널과 안정적 공급",
     "tradeLi3": "<strong>원스톱 서비스</strong> 소재 선정, 견적, 물류, 기술 지원을 종합적으로 연계",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Qinbo를 선택하는 이유",
     "whyTitle": "안정 · 신뢰 · 전문",
     "ctaTitle": "신뢰할 수 있는 플라스틱 원료 파트너를 찾고 계십니까?",
-    "ctaSub": "국내 조달이든 수입 소재든, Qinbo가 전문적인 지원을 제공합니다.",
-    "ctaBtn": "지금 문의하기",
-    "searchPh": "제품·그레이드·브랜드 검색 (예: PA66 / 8150 / Chimei)",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "인기",
     "hqCustom": "개질 맞춤"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "범용 플라스틱",
-      "brief": "PP, PE, PVC, PS, ABS 등 범용 수지로, 포장, 일용품, 가전 분야에 사용됩니다."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "엔지니어링 플라스틱",
-      "brief": "PA, PC, POM, PBT 등 고성능 엔지니어링 플라스틱으로, 자동차, 전자, 기계 분야에 적용됩니다."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "개질 소재",
-      "brief": "맞춤형 개질 플라스틱 — 강화, 난연, 강인화 — 요구 사항에 따른 배합 설계."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "수입 수지",
-      "brief": "유럽, 미국, 일본, 한국, 중동의 수입 수지 유통으로, 안정적 공급과 합법적 채널을 보장합니다."
-    },
-    "rubber": {
-      "name": "고무 소재",
-      "brief": "각종 합성고무 및 고무 제품 원료로, 산업, 자동차, 실링 분야에 적용됩니다."
-    },
-    "eco": {
-      "name": "친환경 · 재활용",
-      "brief": "친환경 재활용 및 생분해성 소재로, 고객의 그린 · 지속가능성 목표 달성을 지원합니다."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "제품",
-    "bannerSub": "다양한 소재 분야를 아우르는 제품 라인",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "특정 등급과 견적이 필요하십니까?",
-    "ctaSub": "요구 사항을 알려주시면, 최적의 소재 솔루션을 매칭해 드립니다.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "견적 요청",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (나일론)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>유리섬유 강화</span><span>난연</span><span>강인화</span><span>충전</span><span>맞춤 배합</span>",
-    "tagsImport": "<span>수입 수지</span><span>합법적 채널</span><span>안정적 공급</span><span>OEM 품질</span>",
-    "tagsRubber": "<span>합성고무</span><span>고무 첨가제</span><span>실링 재료</span><span>산업용 제품</span>",
-    "tagsEco": "<span>재활용 플라스틱</span><span>생분해성</span><span>환경 규정 준수</span><span>친환경 공급</span>",
     "descGeneral": "포장, 일용품, 가전 하우징, 파이프 등에 폭넓게 사용되는 범용 수지로, 안정적 공급과 다양한 규격을 갖추고 있습니다.",
     "descEngineering": "우수한 기계적, 내열, 내화학 특성을 지닌 고성능 엔지니어링 플라스틱으로, 까다로운 자동차, 전자, 정밀 기계 분야에 적용됩니다.",
     "descModified": "고객 요구에 맞춰 맞춤 제작된 기능성 개질 플라스틱으로, 강화, 난연, 강인화, 내후성 등 다양한 개질 솔루션과 배합 서비스를 제공합니다.",
-    "descImport": "유럽, 미국, 일본, 한국, 중동의 우수 해외 공급업체와 협력하여, 합법적 채널을 통한 수입 수지 유통을 제공하며, 안정적인 품질과 완비된 서류를 보장합니다.",
-    "descRubber": "산업 제품, 자동차 부품, 실링 부품에 사용되는 각종 합성고무 및 고무 제품 원료입니다.",
-    "descEco": "친환경 개발 트렌드에 부합하는 친환경 재활용 및 생분해성 소재로, 고객의 지속가능성 및 환경 규정 준수 목표 달성을 지원합니다.",
     "customEyebrow": "개질 맞춤",
     "customTitle": "사용 조건에 맞춘 배합 설계, 버진 수지 지원",
     "customDesc": "유리섬유 강화·난연·강인화·내후·도전/대전방지·무기 충전 — PP/PA/PC/ABS/PBT 등을 기재로 하며 100% 버진 수지 지정 가능, 시작 및 배합 서비스 완비.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 일본 스미토모 공식 대리점",
     "agentAscend": "🏅 미국 어센드 공식 대리점",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "사업 지도",
-    "mapTitle": "두 거점에서 전 세계로 뻗어가는 무역 네트워크",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "양대 거점",
-    "mapLegDom": "국내 유통",
-    "mapLegIntl": "수출입",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "물류 거점",
-    "mapStage1": "양대 거점 · 상하이 & 하이커우",
-    "mapStage2": "국내 유통 · 핵심 제조 지역 포괄",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "무역",
-    "bannerSub": "국내 유통 + 국제 수출입, 이중 추진",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "국내 무역",
     "domTitle": "핵심 지역을 아우르는<br/>유통 네트워크",
     "domP": "상하이 및 하이커우 듀얼 거점을 기반으로, Qinbo는 화동 · 화남 핵심 시장에 걸쳐 유연하고 효율적인 유통 시스템을 구축하여, 조달 및 배분 요구에 신속하게 대응합니다.",
@@ -217,16 +203,16 @@
     "flow4t": "애프터 지원",
     "flow4d": "장기 협력을 위한 지속적인 기술 및 공급 보장.",
     "ctaTitle": "수입 소재 또는 국내 조달이 필요하십니까?",
-    "ctaSub": "Qinbo의 무역 팀이 전문적인 지원을 제공할 준비가 되어 있습니다.",
-    "ctaBtn": "무역팀에 연락",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "영업팀",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "영업",
     "labelWechat": "WeChat",
     "copyHint": "클릭하여 복사",
@@ -249,19 +235,7 @@
     "formMsg": "요구 사항",
     "formMsgPh": "필요한 소재 카테고리, 등급, 수량을 설명해 주세요",
     "formSubmit": "제출",
-    "formNote": "* 이 양식은 데모용입니다. 출시 시 서드파티 폼 서비스에 연결하거나, 직접적인 연락처로 대체할 수 있습니다.",
-    "mapEyebrow": "위치 지도",
-    "mapTitle": "오시는 길",
-    "mapDesc": "출시 시 지도(Amap / Baidu 지도 등)를 임베드하여 두 거점의 정확한 위치를 표시할 수 있습니다.",
-    "mapPlaceholder": "지도 자리표시자<br/><small>(주소 확정 후 지도를 임베드합니다)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* 이 양식은 데모용입니다. 출시 시 서드파티 폼 서비스에 연결하거나, 직접적인 연락처로 대체할 수 있습니다."
   },
   "cert": {
     "licenseSh": "상하이 사업자등록증",

@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Qinbo New Materials | Pemasok Profesional Bahan Baku Plastik · Perdagangan · Resin Impor & Modifikasi"
+    "title": "Qinbo New Materials | Plastic Raw Material Grades · Domestic & International Trade Service"
   },
   "nav": {
     "home": "Beranda",
-    "about": "Tentang Kami",
+    "about": "About Qinbo",
     "products": "Produk",
     "trade": "Perdagangan",
     "contact": "Kontak"
@@ -16,17 +16,17 @@
   },
   "home": {
     "heroTitle": "Menghubungkan Masa Depan yang Lebih Baik<br/>Melalui Material",
-    "heroSub": "Perdagangan & layanan bahan baku plastik domestik dan internasional<br/>Komoditas · Teknik · Modifikasi · Impor · Karet",
+    "heroSub": "Domestic & international trade and service of plastic raw materials<br/>Commodity · Engineering · Special Engineering · Modified Plastics",
     "heroBtnProducts": "Jelajahi Produk",
     "scroll": "Gulir ke bawah ↓",
     "aboutEyebrow": "Tentang Qinbo",
     "aboutTitle": "Penyedia Layanan Perdagangan Profesional<br/>Berfokus pada Material Plastik",
-    "aboutP1": "Qinbo New Materials mengoperasikan dua entitas — <strong>Shanghai Qinbo</strong> dan <strong>Haikou Qinbo</strong> — yang mengkhususkan diri dalam penjualan dan layanan bahan baku plastik (termasuk karet). Bisnis kami mencakup <strong>perdagangan domestik dan ekspor/impor internasional</strong>, beserta distribusi resin impor dan kustomisasi material modifikasi.",
+    "aboutP1": "Qinbo New Materials operates two entities — <strong>Shanghai Qinbo</strong> and <strong>Haikou Qinbo</strong> — focusing on plastic raw-material sales and service. The business covers <strong>domestic trade and international import/export</strong>, with imported resin distribution and modified-material customization.",
     "aboutP2": "Didukung oleh jaringan rantai pasok yang stabil dan manajemen kualitas yang ketat, kami membangun kemitraan jangka panjang yang dapat dipercaya dengan produsen hilir melalui pasokan yang andal dan layanan teknis yang profesional.",
-    "aboutMore": "Pelajari lebih lanjut tentang kami →",
-    "productsTitle": "Lini Produk yang Mencakup Berbagai Bidang Material",
-    "tradeTitle": "Distribusi Domestik + Internasional<br/>Impor/Ekspor, Berpenggerak Ganda",
-    "tradeP": "Qinbo mengembangkan pasar domestik maupun perdagangan internasional, dengan kapabilitas distribusi resin impor yang menghubungkan sumber luar negeri ke pelanggan domestik secara menyeluruh.",
+    "aboutMore": "Learn more about Qinbo →",
+    "productsTitle": "Four material systems, down to in-stock grades",
+    "tradeTitle": "A Materials Supply Network Across China and Overseas",
+    "tradeP": "Dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions support spot supply and nationwide delivery.",
     "tradeLi1": "<strong>Perdagangan Domestik</strong> Mencakup wilayah inti Cina Timur dan Selatan, respons cepat dan alokasi fleksibel",
     "tradeLi2": "<strong>Impor/Ekspor</strong> Bermitra dengan pemasok luar negeri berkualitas, saluran resmi dan pasokan stabil",
     "tradeLi3": "<strong>Layanan Satu Atap</strong> Pemilihan material, penawaran harga, logistik, dan dukungan teknis dalam koordinasi penuh",
@@ -41,9 +41,9 @@
     "whyEyebrow": "Mengapa Memilih Qinbo",
     "whyTitle": "Stabil · Andal · Profesional",
     "ctaTitle": "Mencari Mitra Bahan Baku Plastik yang Andal?",
-    "ctaSub": "Baik pengadaan domestik maupun material impor, Qinbo menyediakan dukungan profesional.",
-    "ctaBtn": "Hubungi Kami Sekarang",
-    "searchPh": "Cari produk, grade, atau merek — mis. PA66 / 8150 / Chimei",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
+    "searchPh": "Search grade, material or producer — e.g. R370Y, 8150, M90-44, Chimei",
     "hot": "Populer",
     "hqCustom": "Compound Kustom"
   },
@@ -68,47 +68,33 @@
   "cat": {
     "general": {
       "name": "Plastik Komoditas",
-      "brief": "Resin komoditas seperti PP, PE, PVC, PS, dan ABS, digunakan dalam pengemasan, barang kebutuhan sehari-hari, dan peralatan rumah tangga."
+      "brief": "Commodity resins such as PP, PE, ABS and EVA for packaging, daily goods and appliances."
     },
     "engineering": {
       "name": "Plastik Teknik",
-      "brief": "Plastik teknik berkinerja tinggi seperti PA, PC, POM, dan PBT untuk otomotif, elektronik, dan permesinan."
+      "brief": "Engineering plastics such as PA, PC, POM, PC/ABS and PBT for automotive, electronics and machinery."
     },
     "modified": {
-      "name": "Material Modifikasi",
-      "brief": "Plastik modifikasi yang disesuaikan — diperkuat, tahan api, diperkuat ketangguhan — dengan formulasi sesuai permintaan."
+      "name": "Modified Plastics",
+      "brief": "Reinforced, flame-retardant, toughened and weather-resistant systems customized to application conditions."
     },
-    "import": {
-      "name": "Resin Impor",
-      "brief": "Distribusi resin impor dari Eropa, Amerika Serikat, Jepang, Korea, dan Timur Tengah, dengan pasokan stabil dan saluran resmi."
-    },
-    "rubber": {
-      "name": "Material Karet",
-      "brief": "Berbagai karet sintetis dan bahan baku produk karet untuk industri, otomotif, dan aplikasi penyegelan."
-    },
-    "eco": {
-      "name": "Ramah Lingkungan & Daur Ulang",
-      "brief": "Material daur ulang ramah lingkungan dan biodegradable, membantu pelanggan mencapai target hijau dan keberlanjutan."
+    "special": {
+      "name": "Special Engineering Plastics",
+      "brief": "High-performance materials such as PPS, PEEK, PEI, LCP, PPO and PTFE for demanding conditions."
     }
   },
   "products": {
     "bannerTitle": "Produk",
-    "bannerSub": "Lini produk yang mencakup berbagai bidang material",
+    "bannerSub": "Filter by four systems and resin families; search concrete grades and reference properties",
     "ctaTitle": "Butuh Tipe dan Penawaran Harga Spesifik?",
-    "ctaSub": "Sampaikan kebutuhan Anda dan kami akan mencocokkan solusi material yang tepat untuk Anda.",
+    "ctaSub": "Tell us the grade, producer, quantity or application; Sales will match available stock, alternatives and technical documents.",
     "ctaBtn": "Dapatkan Penawaran",
     "tagsGeneral": "<span>PP</span><span>PE</span><span>PVC</span><span>PS</span><span>ABS</span>",
     "tagsEngineering": "<span>PA (Nilon)</span><span>PC</span><span>POM</span><span>PBT</span><span>PMMA</span>",
     "tagsModified": "<span>Diperkuat Serat Kaca</span><span>Tahan Api</span><span>Diperkuat Ketangguhan</span><span>Bermaterial Pengisi</span><span>Formula Kustom</span>",
-    "tagsImport": "<span>Resin Impor</span><span>Saluran Resmi</span><span>Pasokan Stabil</span><span>Kualitas OEM</span>",
-    "tagsRubber": "<span>Karet Sintetis</span><span>Aditif Karet</span><span>Material Penyegelan</span><span>Barang Industri</span>",
-    "tagsEco": "<span>Plastik Daur Ulang</span><span>Biodegradable</span><span>Kepatuhan Ekologis</span><span>Pasokan Hijau</span>",
     "descGeneral": "Resin komoditas curah yang banyak digunakan dalam pengemasan, kebutuhan sehari-hari, rumah peralatan, dan pipa — pasokan stabil, spesifikasi lengkap.",
     "descEngineering": "Plastik teknik berkinerja tinggi dengan sifat mekanis, ketahanan panas, dan ketahanan kimia yang sangat baik untuk aplikasi yang menuntut di bidang otomotif, elektronik, dan permesinan presisi.",
     "descModified": "Plastik modifikasi fungsional yang disesuaikan dengan kebutuhan klien, menawarkan solusi modifikasi penguatan, tahan api, peningkatan ketangguhan, ketahanan cuaca, dan layanan formulasi.",
-    "descImport": "Bermitra dengan pemasok luar negeri berkualitas di Eropa, Amerika Serikat, Jepang, Korea, dan Timur Tengah, menyediakan distribusi resin impor melalui saluran resmi dengan kualitas andal dan dokumentasi lengkap.",
-    "descRubber": "Berbagai karet sintetis dan bahan baku produk karet yang melayani produk industri, komponen otomotif, dan komponen penyegelan.",
-    "descEco": "Material daur ulang ramah lingkungan dan biodegradable yang sejalan dengan tren pembangunan hijau, membantu pelanggan memenuhi tujuan keberlanjutan dan kepatuhan lingkungan.",
     "customEyebrow": "Compound Kustom",
     "customTitle": "Formula disesuaikan dengan aplikasi — tersedia resin virgin",
     "customDesc": "Penguatan serat kaca, tahan api, peliatan, tahan cuaca, konduktif/anti-statis, dan pengisian mineral — berbasis PP/PA/PC/ABS/PBT, dengan opsi resin virgin 100% serta layanan sampling dan formulasi.",
@@ -160,11 +146,11 @@
     "agentSumitomo": "🏅 Sumitomo (Jepang) · Agen Resmi",
     "agentAscend": "🏅 Ascend (AS) · Agen Resmi",
     "whEyebrow": "Warehousing & Logistics",
-    "whTitle": "Direct shipping from East-China warehouses",
-    "whDesc": "Most resins ship directly from the Sinopec, Sinotrans and bonded-zone warehouses below — stable lead times, efficient delivery.",
+    "whTitle": "East China and Haikou Warehousing · Stable Supply",
+    "whDesc": "Sinopec, CMST, bonded-area and Haikou warehouse nodes support multi-region shipment and nationwide delivery.",
     "wh1": "Sinopec Jinshan Warehouse, Shanghai",
     "wh2": "Sinopec Baoshan Warehouse, Shanghai",
-    "wh3": "Sinopec East-China Warehouse, Shanghai",
+    "wh3": "Haikou warehouse node",
     "wh4": "Shanghai Bonded-Zone Warehouse",
     "wh5": "Ningbo Bonded-Zone Warehouse, Zhejiang",
     "wh6": "Sinotrans Ningbo Warehouse, Zhejiang",
@@ -181,19 +167,19 @@
     "cert7": "Famous-Brand Product · Star Enterprise"
   },
   "trade": {
-    "mapEyebrow": "Peta Bisnis",
-    "mapTitle": "Jaringan perdagangan dari dua basis menuju dunia",
-    "mapDesc": "Anchored in Shanghai and Haikou — domestic distribution across core manufacturing regions, and international trade reaching Japan, Korea, SE Asia and the Middle East.",
+    "mapEyebrow": "Supply Footprint",
+    "mapTitle": "Domestic and Overseas Supply Footprint",
+    "mapDesc": "Highlighting dual bases, warehouse nodes, domestic cooperative provinces and overseas cooperation regions across Qinbo’s supply network for manufacturing customers.",
     "mapLegBase": "Dua Basis",
-    "mapLegDom": "Distribusi Domestik",
-    "mapLegIntl": "Ekspor-Impor",
+    "mapLegDom": "Domestic Customers",
+    "mapLegIntl": "Overseas Customers",
     "mapLegWh": "Pergudangan",
-    "mapStage1": "Dua basis · Shanghai & Haikou",
-    "mapStage2": "Distribusi domestik · wilayah manufaktur inti",
-    "mapStage3": "Global trade · lighting up overseas markets",
-    "mapStage4": "Warehousing · Suzhou + Changzhou",
+    "mapStage1": "Two bases · Shanghai and Haikou",
+    "mapStage2": "Warehouse nodes · East China and Haikou delivery coordination",
+    "mapStage3": "Domestic customers · cooperative provinces highlighted",
+    "mapStage4": "Overseas customers · connected with major original manufacturers",
     "bannerTitle": "Perdagangan",
-    "bannerSub": "Distribusi domestik + ekspor/impor internasional, berpenggerak ganda",
+    "bannerSub": "Domestic distribution and international trade services",
     "domEyebrow": "Perdagangan Domestik",
     "domTitle": "Jaringan Distribusi<br/>yang Mencakup Wilayah Inti",
     "domP": "Didukung oleh basis ganda Shanghai dan Haikou, Qinbo telah membangun sistem distribusi yang fleksibel dan efisien di pasar inti Cina Timur dan Selatan, dengan cepat merespons kebutuhan pengadaan dan alokasi.",
@@ -217,16 +203,16 @@
     "flow4t": "Dukungan Purna Jual",
     "flow4d": "Jaminan teknis dan pasokan berkelanjutan untuk kerja sama jangka panjang.",
     "ctaTitle": "Butuh Material Impor atau Pengadaan Domestik?",
-    "ctaSub": "Tim perdagangan Qinbo siap memberikan dukungan profesional.",
-    "ctaBtn": "Hubungi Tim Perdagangan",
+    "ctaSub": "Contact Qinbo Sales for quotes, lead times and material-selection advice.",
+    "ctaBtn": "Contact Sales",
     "clientsEyebrow": "Our Clients",
-    "clientsTitle": "Trusted by these companies",
-    "clientsDesc": "A selection of past clients across plastics processing, electronics, automotive, pharma and packaging."
+    "clientsTitle": "Cooperative Customers",
+    "clientsDesc": "Serving manufacturing sectors including plastics, electronics, automotive, pharmaceutical, packaging and new materials."
   },
   "contact": {
-    "salesEyebrow": "Tim Penjualan",
+    "salesEyebrow": "Sales",
     "salesTitle": "Sales Team · Direct Contact",
-    "salesDesc": "Tap a number to call, tap a WeChat ID to copy. Get quotes, lead times and material-selection advice.",
+    "salesDesc": "Tap a phone number to call, or tap a WeChat ID to copy it. Get quotes, lead times and material-selection advice.",
     "roleSales": "Penjualan",
     "labelWechat": "WeChat",
     "copyHint": "Klik untuk menyalin",
@@ -249,19 +235,7 @@
     "formMsg": "Kebutuhan",
     "formMsgPh": "Jelaskan kategori material, tipe, atau jumlah yang Anda butuhkan",
     "formSubmit": "Kirim",
-    "formNote": "* Formulir ini untuk demonstrasi. Dapat dihubungkan ke layanan formulir pihak ketiga saat peluncuran, atau diganti dengan detail kontak langsung.",
-    "mapEyebrow": "Peta Lokasi",
-    "mapTitle": "Temukan Kami",
-    "mapDesc": "Peta (Amap / Baidu Maps) dapat disematkan saat peluncuran untuk menandai lokasi pasti kedua entitas.",
-    "mapPlaceholder": "Placeholder peta<br/><small>(Peta akan disematkan setelah alamat diberikan)</small>",
-    "addrEyebrow": "Our Offices",
-    "addrTitle": "Find Us",
-    "officeShTitle": "Shanghai HQ",
-    "officeShAddr": "Room 632, No.1338-1 Huancheng South Rd, Nanqiao Town, Fengxian District, Shanghai",
-    "officeKsTitle": "Jiangsu (Kunshan) Branch",
-    "officeKsAddr": "No.23-4 Longcheng Intl, No.9 Dongcheng Ave, Kunshan Dev Zone, Suzhou, Jiangsu",
-    "labelFax": "Fax",
-    "labelZip": "Zip"
+    "formNote": "* Formulir ini untuk demonstrasi. Dapat dihubungkan ke layanan formulir pihak ketiga saat peluncuran, atau diganti dengan detail kontak langsung."
   },
   "cert": {
     "licenseSh": "Izin Usaha Shanghai",
