@@ -72,40 +72,51 @@
     });
   }
 
-  function metaFor(grade) {
-    return (DB.gradeMeta && (DB.gradeMeta[grade] || DB.gradeMeta[String(grade).toUpperCase()])) || {};
+  function metaFor(grade, brand) {
+    var raw = String(grade || "");
+    var upper = raw.toUpperCase();
+    var base = (DB.gradeMeta && (DB.gradeMeta[raw] || DB.gradeMeta[upper])) || {};
+    if (!brand || !DB.brandGradeMeta) return base;
+    var brandKey = String(brand || "") + "|" + raw;
+    var brandUpperKey = String(brand || "") + "|" + upper;
+    var branded = DB.brandGradeMeta[brandKey] || DB.brandGradeMeta[brandUpperKey];
+    if (!branded) return base;
+    var out = {};
+    Object.keys(base).forEach(function (k) { out[k] = base[k]; });
+    Object.keys(branded).forEach(function (k) { out[k] = branded[k]; });
+    return out;
   }
   function imageFor(m, brand, grade) {
-    var meta = metaFor(grade);
+    var meta = metaFor(grade, brand);
     if (meta.image) return meta.image;
     return "";
   }
   function thumbFor(m, brand, grade) {
-    var meta = metaFor(grade);
+    var meta = metaFor(grade, brand);
     return meta.thumb || meta.image || "";
   }
   function fallbackFor(m) {
     return FALLBACK_PHOTOS[m.cat] || FALLBACK_PHOTOS.commodity;
   }
   function gradeProps(item) {
-    var meta = metaFor(item.grade);
+    var meta = metaFor(item.grade, item.brand);
     return meta.props || item.material.props || [];
   }
   function gradeLabel(item) {
-    return metaFor(item.grade).display || item.grade;
+    return metaFor(item.grade, item.brand).display || item.grade;
   }
   function materialLabel(item) {
-    return metaFor(item.grade).material || pick(item.material);
+    return metaFor(item.grade, item.brand).material || pick(item.material);
   }
   function abbrLabel(item) {
-    return metaFor(item.grade).abbr || item.material.abbr;
+    return metaFor(item.grade, item.brand).abbr || item.material.abbr;
   }
   function gradeDesc(item) {
-    var meta = metaFor(item.grade);
+    var meta = metaFor(item.grade, item.brand);
     return pick(meta, "desc") || pick(item.material, "desc");
   }
   function gradeFeatures(item) {
-    var meta = metaFor(item.grade);
+    var meta = metaFor(item.grade, item.brand);
     var f = meta.features || [];
     if (!f.length) f = [item.material.abbr, item.brand].concat((item.material.apps || []).slice(0, 2));
     return f.slice(0, 4);
@@ -126,7 +137,7 @@
             brand: b.n,
             material: m,
             cat: m.cat,
-            hot: !!m.hot || !!metaFor(g).features,
+            hot: !!m.hot || !!metaFor(g, b.n).features,
             image: realImage || fallback.image,
             thumb: realThumb || fallback.thumb,
             realImage: !!realImage,
