@@ -42,7 +42,7 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir -p _site
-          cp -r index.html about.html products.html trade.html contact.html assets _site/
+          cp -r index.html about.html products.html trade.html contact.html assets en _site/
           cp sitemap.xml robots.txt _site/
           echo "=== 待上传文件 ==="
           find _site -type f | sort

@@ -1,6 +1,6 @@
 /* ===== 秦帛新材料 离线多语言 i18n =====
  * 纯静态、无外部 API。翻译存于 assets/i18n/<lang>.json。
- * 语言优先级：localStorage > 浏览器语言 > 默认中文(zh)
+ * 语言优先级：URL 参数 /en/ 路径 / 手动选择 > 浏览器语言 > 默认中文(zh)
  */
 (function () {
   "use strict";
@@ -27,6 +27,22 @@
   var FALLBACK_LANG = "en";   // 长尾细节只维护 zh+en：其他语言缺 key 时回退英文
   var BASE = "assets/i18n/";
   var _fallbackDict = null;   // 缓存的英文兜底字典
+  var PAGE_TITLES = {
+    zh: {
+      home: "秦帛新材料 | 塑料原料现货牌号 · 国内外贸易服务",
+      products: "产品中心 | 通用·工程·特种工程·改性塑料 现货牌号查询 | 秦帛新材料",
+      trade: "国内外贸易 | 进口树脂分销·进出口服务 | 秦帛新材料",
+      about: "关于秦帛 | 秦帛新材料",
+      contact: "联系我们 | 秦帛新材料销售部"
+    },
+    en: {
+      home: "Qinbo New Materials | Plastic Raw Materials & Resin Trading Supplier",
+      products: "Products | Plastic Raw Material Grades | Qinbo New Materials",
+      trade: "Domestic & International Plastic Resin Trade | Qinbo New Materials",
+      about: "About Qinbo | Qinbo New Materials",
+      contact: "Contact Qinbo New Materials | Sales Team"
+    }
+  };
 
   function codes() { return LANGS.map(function (l) { return l.code; }); }
   function meta(code) {
@@ -38,21 +54,27 @@
     // URL 参数 ?lang=xx 优先（便于 QA 与分享指定语言）
     try {
       var q = new URLSearchParams(window.location.search).get("lang");
-      if (q && codes().indexOf(q) !== -1) return q;
+      if (q && codes().indexOf(q) !== -1) return { code: q, source: "url" };
+    } catch (e) {}
+    if (window.QB_LANG_HINT && codes().indexOf(window.QB_LANG_HINT) !== -1) {
+      return { code: window.QB_LANG_HINT, source: "hint" };
+    }
+    try {
+      if (/\/en(?:\/|$)/.test(window.location.pathname)) return { code: "en", source: "path" };
     } catch (e) {}
     try {
       var saved = localStorage.getItem(STORAGE_KEY);
-      if (saved && codes().indexOf(saved) !== -1) return saved;
+      if (saved && codes().indexOf(saved) !== -1) return { code: saved, source: "saved" };
     } catch (e) {}
     var navs = (navigator.languages && navigator.languages.length)
       ? navigator.languages : [navigator.language || navigator.userLanguage || ""];
     for (var i = 0; i < navs.length; i++) {
       var l = (navs[i] || "").toLowerCase();
-      if (l.indexOf("zh") === 0) return "zh";
+      if (l.indexOf("zh") === 0) return { code: "zh", source: "browser" };
       var two = l.split("-")[0];
-      if (codes().indexOf(two) !== -1) return two;
+      if (codes().indexOf(two) !== -1) return { code: two, source: "browser" };
     }
-    return DEFAULT_LANG;
+    return { code: DEFAULT_LANG, source: "default" };
   }
 
   function rawGet(dict, key) {
@@ -64,6 +86,16 @@
       cur = cur[parts[i]];
     }
     return cur;
+  }
+
+  function pageKey() {
+    var p = "";
+    try { p = window.location.pathname || ""; } catch (e) {}
+    if (/products\.html$/.test(p)) return "products";
+    if (/trade\.html$/.test(p)) return "trade";
+    if (/about\.html$/.test(p)) return "about";
+    if (/contact\.html$/.test(p)) return "contact";
+    return "home";
   }
 
   // 取值：当前语言缺失则回退到英文字典（界面主体全语言，长尾细节仅中英）
@@ -100,8 +132,9 @@
       });
     });
 
-    // <title>
-    var t = get(dict, "meta.title");
+    // <title>：按页面区分，避免所有页面被统一成首页标题
+    var titles = PAGE_TITLES[lang] || PAGE_TITLES.en;
+    var t = titles[pageKey()] || get(dict, "meta.title");
     if (typeof t === "string") document.title = t;
 
     // 切换器当前显示
@@ -127,17 +160,20 @@
       .catch(function () { _fallbackDict = null; return null; });
   }
 
-  function setLang(lang) {
+  function setLang(lang, opts) {
+    opts = opts || {};
     if (codes().indexOf(lang) === -1) lang = DEFAULT_LANG;
     var prep = (lang === FALLBACK_LANG) ? Promise.resolve() : ensureFallback();
     prep.then(function () {
       return load(lang).then(function (dict) {
         if (lang === FALLBACK_LANG) _fallbackDict = dict;
         apply(dict, lang);
-        try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        if (opts.persist) {
+          try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+        }
       });
     }).catch(function () {
-      if (lang !== DEFAULT_LANG) setLang(DEFAULT_LANG);
+      if (lang !== DEFAULT_LANG) setLang(DEFAULT_LANG, opts);
     });
   }
 
@@ -145,7 +181,8 @@
   function buildSwitcher() {
     var host = document.getElementById("langSwitch");
     if (!host) return;
-    var current = detectLang();
+    var detected = detectLang();
+    var current = detected.code;
 
     var btn = document.createElement("button");
     btn.className = "lang-btn";
@@ -180,7 +217,7 @@
         a.setAttribute("data-lang-opt", l.code);
         a.textContent = l.label;
         a.addEventListener("click", function () {
-          setLang(l.code);
+          setLang(l.code, { persist: true });
           close();
         });
         grid.appendChild(a);
@@ -201,11 +238,11 @@
       if (!host.contains(e.target)) close();
     });
 
-    return current;
+    return detected;
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    var current = buildSwitcher();
-    setLang(current || detectLang());
+    var detected = buildSwitcher() || detectLang();
+    setLang(detected.code, { persist: detected.source !== "browser" && detected.source !== "default" });
   });
 })();
