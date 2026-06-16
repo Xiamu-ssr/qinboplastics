@@ -12,7 +12,7 @@ document.documentElement.classList.add('js');
       themeColor: '#ffffff'
     },
     dark: {
-      logo: 'assets/img/logo.png',
+      logo: 'assets/img/logo-classic.png',
       icon: '<path d="M12 3v2.2M12 18.8V21M4.22 4.22l1.56 1.56M18.22 18.22l1.56 1.56M3 12h2.2M18.8 12H21M4.22 19.78l1.56-1.56M18.22 5.78l1.56-1.56"/><circle cx="12" cy="12" r="4.1"/>',
       label: '切换到明亮模式',
       themeColor: '#08111f'
@@ -168,12 +168,6 @@ document.querySelectorAll('.stat-num').forEach(el => statIO.observe(el));
     setDur();
     window.addEventListener('resize', setDur);
   });
-
-  if (document.documentElement.getAttribute('data-theme') === 'dark') {
-    document.querySelectorAll('.bc-logo img').forEach(function (img) {
-      img.setAttribute('src', 'assets/img/logo.png');
-    });
-  }
 
   // 微信号点击复制
   let toast;
