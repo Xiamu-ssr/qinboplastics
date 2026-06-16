@@ -1,225 +1,190 @@
 # 秦帛新材料官网
 
-> 🌐 [www.qinboplastics.com](http://www.qinboplastics.com)
+> 官网：[https://www.qinboplastics.com](https://www.qinboplastics.com)
 
-上海秦帛新材料 / 海口秦帛新材料 — 企业官方网站。
+上海秦帛新材料 / 海口秦帛新材料企业官网。项目是纯静态站点，无构建步骤，当前通过 GitHub Actions 增量同步到阿里云 OSS。
 
-部署在阿里云 OSS 上，纯静态站点。
+## 当前状态
 
----
+- 站点形态：HTML + CSS + JavaScript，直接由 OSS 静态托管。
+- 线上域名：`https://www.qinboplastics.com`
+- 主要页面：首页、产品中心、国内外贸易、关于秦帛、联系我们。
+- 语言策略：中文和英文为 SEO 重点页面；其他语言由前端 i18n 自动切换。
+- 品牌视觉：经典 QB logo，明亮模式使用偏经典橙红的品牌色，暗黑模式保留深色界面但 logo 不换色。
+- SEO 基础：已包含 `sitemap.xml`、`robots.txt`、canonical、hreflang、Open Graph、结构化数据，以及百度验证文件。
 
-## 公司简介
+## 主要能力
 
-秦帛新材料是一家专注于塑料及新材料领域的企业，旗下有两家主体公司：
+### 首页
 
-- **上海秦帛新材料** — 总部/运营中心
-- **海口秦帛新材料** — 生产/区域运营
+- 首屏包含品牌介绍、产品搜索、热门材料入口和语言切换。
+- 内容顺序按栏目组织：产品中心、国内外贸易、合作客户、关于秦帛、联系销售。
+- 底部 CTA 直接复用销售名片轮播组件，客户无需再跳转一次才能看到联系方式。
 
-主营业务：塑料原料及改性材料的销售与服务。
+### 产品中心
 
----
+- 产品按“具体牌号”展示，而不是只按 PP、ABS 等材料大类展示。
+- 支持两套筛选口径：
+  - 四大材料体系：通用塑料、工程塑料、特种工程塑料、改性塑料。
+  - 行业材料族：PP、PE、ABS、POM、PA、PC、PC/ABS、POE、EVA 等。
+- 每个产品卡片支持缩略图、原图、供应品牌、应用标签和关键物性信息。
+- 列表使用缩略图，降低 OSS 流量和移动端加载压力。
 
-## 同行大厂参考
+### 国内外贸易
 
-| 公司 | 官网 | 国家 | 主营 | 技术栈 | 网站类型 |
-|------|------|------|------|--------|----------|
-| **杜邦 DuPont** | [dupont.com](https://www.dupont.com) | 🇺🇸 美国 | 特种材料、电子、水处理 | Adobe AEM + React + Next.js | ❌ 动态（企业级 CMS） |
-| **巴斯夫 BASF** | [basf.com](https://www.basf.com) | 🇩🇪 德国 | 化工全品类、工程塑料 | Adobe AEM + React/Vue/Angular + Next.js | ❌ 动态（企业级 CMS） |
-| **科思创 Covestro** | [covestro.com](https://www.covestro.com) | 🇩🇪 德国 | 聚碳酸酯、聚氨酯 | Sitecore (.NET) + Next.js | ❌ 动态（企业级 CMS） |
-| **SABIC** | [sabic.com](https://www.sabic.com) | 🇸🇦 沙特 | 石化、工程塑料 | 自研后端 + CDN | ❌ 动态（有会话管理） |
-| **LG 化学** | [lgchem.com](https://www.lgchem.com) | 🇰🇷 韩国 | 石化、电池材料 | Spring (Java) + Next.js + jQuery | ❌ 动态（Java 后端） |
-| **金发科技 Kingfa** | [kingfa.com](https://www.kingfa.com) | 🇨🇳 中国 | 改性塑料、降解塑料 | 传统服务端 + jQuery + CDN (Tengine) | ❌ 动态（传统 CMS） |
+- 沙盘展示双基地、仓储节点、国内合作省份、境外合作区域。
+- 合作客户对外展示精选公司，底层数据可保留更完整的区域覆盖信息。
+- 仓储节点包含上海、浙江、江苏、海口等业务覆盖点。
 
-### 结论
+### 联系我们
 
-**所有大厂官网都是动态网站**，主要原因：
+- 销售名片由 `assets/js/main.js` 统一渲染。
+- 首页 CTA 和联系页复用同一个名片组件，避免重复维护。
+- 电话可直接拨号，微信号可点击复制。
 
-1. **内容管理系统 (CMS)** — 产品成百上千，需要后台管理产品信息、新闻、文档
-2. **多语言** — 国际化企业需要多语言内容切换
-3. **用户系统** — 会员登录、样品申请、在线询价、技术文档下载等
-4. **搜索/筛选** — 产品目录需要动态搜索和筛选
-5. **内容治理** — 产品资料、物性表与多语言内容需要持续维护
+### 多语言
 
-**但秦帛不需要这些。** 对于中小型材料贸易企业，静态网站完全够用。
+- 语言文件位于 `assets/i18n/<lang>.json`。
+- 当前包含 13 种语言：`zh`、`en`、`ja`、`ko`、`ru`、`es`、`ar`、`fr`、`de`、`pt`、`vi`、`id`、`tr`。
+- 加载优先级：URL 参数 / 本地选择 / 浏览器语言 / 中文默认。
+- 阿拉伯语自动切换 RTL。
+- 中英文有独立页面与 SEO 标记，其他语言主要服务前端访问体验。
 
----
+## 目录结构
 
-## 秦帛官网设计方案
-
-### 为什么静态站就够了？
-
-秦帛目前的需求是：让客户知道我们卖什么、如何直接联系销售、如何建立采购沟通。这不需要 CMS 后台、不需要用户系统、不需要在线下单。一个精心设计的静态站就是最优解：
-
-- ✅ 加载快（OSS + CDN 直出）
-- ✅ 零运维成本（没有服务器、没有数据库）
-- ✅ 安全（纯静态无攻击面）
-- ✅ 便宜（OSS 存储 + 流量费极低）
-
-### 技术选型
-
-```
-HTML + CSS + JavaScript（原生或轻量框架）
-├── 无构建工具依赖，直接部署到 OSS
-├── 响应式设计（手机/平板/电脑）
-└── SEO 友好（纯 HTML，搜索引擎直接抓取）
-```
-
-**不用 React/Vue/Next.js** — 对于 5-6 页的企业站，框架是过度工程化。纯 HTML/CSS/JS 更轻量、维护更简单、SEO 更好。
-
-### 页面规划
-
-```
-www.qinboplastics.com/
-├── index.html          # 首页
-├── products.html       # 产品中心
-├── trade.html          # 国内外贸易
-├── about.html          # 关于秦帛
-└── contact.html        # 联系我们
-```
-
-### 首页 (index.html)
-
-```
-┌──────────────────────────────────────────┐
-│ LOGO  首页 产品中心 国内外贸易 关于秦帛 联系我们 │  ← 固定导航栏
-├──────────────────────────────────────────┤
-│                                          │
-│           全屏 Banner / 轮播             │  ← 工厂/产品大图
-│     "专业塑料原材料供应商"                 │
-│         [ 了解更多 ]  [ 联系我们 ]         │
-│                                          │
-├──────────────────────────────────────────┤
-│                                          │
-│       产品中心 / 国内外贸易 / 合作客户 / 关于秦帛 │
-│                                          │
-├──────────────────────────────────────────┤
-│                                          │
-│         产品分类展示（带图）               │  ← 4 个主要品类
-│ [ 通用塑料 ] [ 工程塑料 ] [ 特种工程塑料 ] [ 改性塑料 ] │
-│                                          │
-├──────────────────────────────────────────┤
-│                                          │
-│     合作客户 / 关于秦帛                  │  ← 客户背书与公司介绍
-│     展示供应网络、服务能力与联系方式       │
-│                                          │
-├──────────────────────────────────────────┤
-│                                          │
-│  上海秦帛新材料          海口秦帛新材料     │  ← 页脚：两个主体信息
-│  销售部电话 / 微信 / 邮箱                  │
-│                                          │
-│        © 2024 秦帛新材料 版权所有          │
-│              ICP备案号                    │
-└──────────────────────────────────────────┘
-```
-
-### 关于秦帛 (about.html)
-
-- 公司介绍（上海 + 海口两个主体）
-- 发展历程 / 时间线
-- 企业优势（供应链、品质、服务）
-- 合作品牌 / 资质证书
-
-### 产品中心 (products.html)
-
-- 产品分类网格展示
-- 点击进入品类详情页
-- 每个品类：产品列表 + 规格参数 + 应用场景
-
-### 联系我们 (contact.html)
-
-- 两个公司的完整联系信息
-- 嵌入地图（高德/百度地图 iframe）
-- 在线留言表单（可用第三方表单服务，如腾讯问卷/金数据，或直接留邮箱和电话）
-
-### 设计风格
-
-参考同行但更简洁：
-- **配色**：蓝色/白色为主（化工行业常用，传达专业、可信赖）
-- **字体**：思源黑体/系统字体（无需加载外部字体，加速渲染）
-- **图片**：高质量产品图 + 工厂/仓库实景照
-- **动效**：适度（滚动渐入、数字动画），不花哨
-
----
-
-## 站点结构（已实现）
-
-```
+```text
 qinboplastics/
-├── index.html        # 首页（hero / 产品 / 国内外贸易 / 合作客户 / 关于秦帛 / CTA）
-├── products.html     # 产品中心（4 大材料体系，按具体牌号搜索）
-├── trade.html        # 国内外贸易（服务区域 / 海外货源 / 仓储基地沙盘）
-├── about.html        # 关于秦帛（简介 / 双主体 / 优势）
-├── contact.html      # 联系我们（销售部名片 / 直接联系）
-└── assets/
-    ├── css/style.css # 全站样式（响应式，LG化学风格）
-    ├── js/main.js    # 导航 / 滚动渐入 / 数字动画
-    ├── js/i18n.js    # 离线多语言引擎（13 语言，无外部 API）
-    ├── i18n/         # 翻译文件 zh/en/ja/ko/ru/es/ar/fr/de/pt/vi/id/tr.json
-    └── img/
-        ├── logo-classic.png               # 公司经典 logo（透明，红橙色矢量版）
-        ├── favicon.ico / favicon-512.png / apple-touch-icon.png
-        ├── photos/real/  # 秦帛真实实拍图（已上线使用）
-        ├── photos/   # 早期免版权占位图（已弃用，可删）
-        └── *.svg     # 品类抽象配图（已被实拍替换，可删）
+├── index.html                  # 首页
+├── products.html               # 产品中心
+├── trade.html                  # 国内外贸易
+├── about.html                  # 关于秦帛
+├── contact.html                # 联系我们
+├── en/                         # 英文 SEO 页面
+├── sitemap.xml
+├── robots.txt
+├── baidu_verify_codeva-KuJZnrnD3y.html
+├── assets/
+│   ├── css/style.css           # 全站样式、响应式、明亮/暗黑主题
+│   ├── js/main.js              # 导航、主题、名片组件、首页交互
+│   ├── js/i18n.js              # 多语言加载与自动判断
+│   ├── js/products.js          # 产品中心渲染、搜索、筛选、分页
+│   ├── js/map.js               # 国内外贸易沙盘
+│   ├── data/products.js        # 产品牌号基础数据
+│   ├── data/product-grade-props*.js
+│   │                           # 产品关键物性数据
+│   ├── data/product-brand-images.js
+│   │                           # 产品图片映射
+│   ├── data/clients.js         # 合作客户与区域覆盖数据
+│   ├── i18n/                   # 13 语言 JSON
+│   └── img/
+│       ├── logo-classic.png
+│       ├── favicon.ico
+│       ├── favicon-512.png
+│       ├── apple-touch-icon.png
+│       └── photos/
+│           ├── real/           # 原图、实拍图、站点主视觉
+│           └── thumbs/         # 列表缩略图
+├── scripts/                    # 批量补 i18n、截图、检查脚本
+├── tmp/                        # 调研临时文件，不参与部署
+├── DEPLOY.md                   # OSS 部署说明
+└── .github/workflows/deploy.yml
 ```
-
-纯静态，无构建步骤，无框架依赖 —— 直接上传 OSS 即可运行。
-
-## 多语言（i18n）
-
-- **13 种语言**：中文(zh) / 英文(en) / 日(ja) / 韩(ko) / 俄(ru) / 西(es) / 阿拉伯(ar) / 法(fr) / 德(de) / 葡(pt) / 越(vi) / 印尼(id) / 土耳其(tr)
-- **纯离线**：翻译存于 `assets/i18n/<lang>.json`，无任何翻译 API 调用、零额度消耗
-- **机制**：页面文本用 `data-i18n="key"` 标记，`i18n.js` 按 `localStorage > 浏览器语言 > 中文` 加载对应 JSON 替换文本；阿拉伯语自动切 RTL
-- **切换器**：导航栏 🌐 下拉，按地区分组（亚太/全球/欧洲/中东），选择后记住
-- **SEO 策略**：静态 HTML 为中文（meta 中英混合），只有中英纳入 SEO；其余语言为前端即时切换、不单独做 SEO（符合“国内为主”定位）
-- **维护**：改文案时同步更新 `assets/i18n/*.json` 对应 key 即可；新增文本须在 HTML 加 `data-i18n` 并在所有语言 JSON 补该 key
-
-> 维护备注：中文与英文是重点语言，其他语言采用统一英文口径回退，后续如有稳定海外内容再逐步补充本地化译文。
 
 ## 本地预览
 
 ```bash
-cd qinboplastics
-python3 -m http.server 8765
-# 浏览器打开 http://localhost:8765
+cd /Users/xiamu/Code/qinboplastics
+python3 -m http.server 4173
 ```
 
-## 部署到阿里云 OSS
+浏览器访问：
 
-1. **开启静态网站托管**：OSS Bucket → 基础设置 → 静态页面 → 默认首页填 `index.html`
-2. **上传文件**：将本目录下所有文件（保持目录结构）上传到 Bucket 根目录
-3. **绑定域名**：传输管理 → 域名管理 → 绑定 `www.qinboplastics.com`（需已备案）
-4. **配置 HTTPS**：上传 SSL 证书或用阿里云免费证书
-5. **挂 CDN（强烈建议）**：加速国内访问 + 降低流量费
+```text
+http://127.0.0.1:4173/
+```
+
+## 维护说明
+
+### 修改产品
+
+常用文件：
+
+- `assets/data/products.js`：牌号、分类、品牌、描述、标签。
+- `assets/data/product-grade-props.js`、`assets/data/product-grade-props-k26.js`：关键物性信息。
+- `assets/data/product-brand-images.js`：牌号或品牌图片映射。
+- `assets/img/photos/real/`：原图。
+- `assets/img/photos/thumbs/`：列表缩略图。
+
+维护原则：
+
+- 官网对外只展示适合客户阅读的信息，不展示内部调研工具、置信度、数据来源争议等字样。
+- 图片无法确认到具体牌号时，优先使用同品牌/同系列料袋图，避免把明显错误型号图放到具体产品上。
+- 列表页优先使用缩略图，详情或需要放大时再用原图。
+
+### 修改文案
+
+- HTML 中可直接维护中文基础文案。
+- 需要多语言切换的文本必须加 `data-i18n="key"`。
+- 新增 key 后同步补齐 `assets/i18n/*.json`。
+- 中英文是重点语言，其他语言可保持较稳妥的通用表达。
+
+### 修改主题或 logo
+
+- 主题变量在 `assets/css/style.css` 顶部。
+- 主题切换逻辑在 `assets/js/main.js`。
+- logo 使用 `assets/img/logo-classic.png`，favicon 同步在 `assets/img/favicon.ico`、`assets/img/favicon-512.png`、`assets/img/apple-touch-icon.png`。
+
+### SEO 与站长平台
+
+- Google Search Console、Bing Webmaster Tools、百度搜索资源平台均已完成站点验证。
+- sitemap 地址：`https://www.qinboplastics.com/sitemap.xml`
+- 百度验证文件：`baidu_verify_codeva-KuJZnrnD3y.html`
+- 公司名“秦帛新材料 / Qinbo New Materials”是当前最核心的 SEO 词。
+- 产品牌号可作为长尾词补充，但不要为了堆关键词牺牲页面可信度。
+
+## 部署
+
+部署由 `.github/workflows/deploy.yml` 管理。
+
+- push 到 `main` 默认会触发部署到 OSS。
+- 手动部署可在 GitHub Actions 中运行 `Deploy to Aliyun OSS`。
+- workflow 只上传站点需要的文件：HTML、`assets/`、`en/`、`sitemap.xml`、`robots.txt`、百度验证文件。
+- `tmp/`、脚本、README 等维护资料不会被上传到 OSS。
+
+文档类提交如果不希望触发部署，请在 commit message 中加：
+
+```text
+[skip ci]
+```
+
+例如：
 
 ```bash
-# 也可用 ossutil 命令行批量上传：
-# ossutil cp -r ./ oss://你的bucket名/ --update
+git commit -m "docs: update README [skip ci]"
 ```
 
-### 占位资源说明
-- `assets/img/photos/real/` 为秦帛提供的真实实拍图（仓储/物流/品牌料袋/展会），已集成上线
-- `assets/img/photos/` 根目录早期 Unsplash 占位图已弃用，可删
-- logo 已处理为透明 SVG（`logo-classic.png` 红橙色经典版）+ favicon 全套
-- 所有 `____________` 处需填入真实信息（地址/电话/邮箱/联系人）；多语言下联系信息由 contact 页直接填真值即可（不走 i18n）
+## 域名与备案
 
-### 关于 ICP 备案
-- 当前：**新加坡 bucket + .com 域名 = 海外服务器，不需也无法备案**，做国际站。三大搜索引擎（百度/Bing/Google）均可收录，备案非收录硬性要求
-- 代价：未备案无法用阿里云**国内 CDN 加速**，国内访问新加坡 bucket 会偏慢；百度对海外未备案站抓取略慢、权重略低
-- 如后续要冲百度排名/提升国内速度，再考虑备案 + 国内 bucket + 国内 CDN，并在 footer 补上可点击跳 beian.miit.gov.cn 的备案号
+当前站点使用 `.com` 域名和海外 OSS Bucket。没有大陆备案也可以被 Google、Bing、百度收录；备案不是搜索引擎收录的硬性条件。
 
----
+限制是：未备案域名不能接入中国大陆 CDN，国内访问速度和百度抓取稳定性可能不如备案 + 国内 CDN 的方案。后续如果以国内搜索排名和访问速度为重点，可以再考虑备案、国内 Bucket 和国内 CDN。
 
-## 待办
+## 提交前检查
 
-已完成 ✅
-- [x] **真实图片**：已集成秦帛提供的 13 张实拍（仓储/物流/品牌料袋/展会），替换所有免版权占位图
-- [x] **公司 logo**：已抠图为透明 PNG + favicon
-- [x] **多语言**：13 语言离线 i18n，带语言切换器
+常用检查命令：
 
-待秦帛提供 🔽
-- [ ] **销售部联系方式**：姓名 / 电话 / 微信 / 邮箱 / 负责方向，保持官网直达销售口径。
-- [ ] 产品牌号与原厂物性表继续逐条核对（当前按通用/工程/特种工程/改性四大体系组织）
-- [ ] 继续补充具体牌号实拍图；无法确认型号时使用牌号结构卡，避免错图
-- [ ] 公司简介文案审核（当前为基于业务画像撰写的初稿）
-- [ ] 域名 SSL 证书配置（海外 bucket 可用阿里云免费证书或 CDN 证书）
+```bash
+node --check assets/js/main.js
+node --check assets/js/i18n.js
+node --check assets/js/products.js
+node --check assets/js/map.js
+git diff --check
+```
+
+前端视觉改动建议至少检查：
+
+- 首页桌面端和手机端。
+- 产品中心列表、筛选、详情弹窗。
+- 国内外贸易沙盘。
+- 联系页名片轮播。
+- 明亮/暗黑主题切换。
