@@ -109,16 +109,6 @@ body.inner .nav-toggle span{background:var(--ink)}
 .theme-toggle svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .site-header.scrolled .theme-toggle,body.inner .theme-toggle{color:var(--ink);border-color:var(--line)}
 .site-header.scrolled .theme-toggle:hover,body.inner .theme-toggle:hover{background:var(--bg-soft)}
-html[data-theme="dark"] .brand-mark,
-html[data-theme="dark"] .bc-logo{
-  border-radius:50%;
-  background:rgba(255,255,255,.94);
-  padding:3px;
-  box-shadow:0 4px 18px rgba(0,0,0,.22);
-}
-html[data-theme="dark"] .brand-mark{--logo-inset:3px}
-html[data-theme="dark"] .bc-logo{padding:4px}
-
 /* ===== HERO ===== */
 .hero{position:relative;height:100vh;min-height:620px;display:flex;align-items:center;overflow:hidden;color:#fff}
 .hero-media{position:absolute;inset:0;z-index:-1}
@@ -145,7 +135,15 @@ html[data-theme="dark"] .bc-logo{padding:4px}
 .hero-quick a:hover{background:rgba(255,255,255,.18);border-color:#fff}
 .hero-quick .hq-contact{margin-left:6px;border-color:rgba(255,255,255,.7)}
 [dir=rtl] .hero-quick .hq-contact{margin-left:0;margin-right:6px}
-@media(max-width:560px){.hero-search{flex-direction:column;background:transparent;border:none;padding:0;backdrop-filter:none;box-shadow:none;gap:12px}.hero-search input{height:52px}.hero-search .btn{width:100%}}
+@media(max-width:560px){
+  .hero-search{flex-direction:column;background:transparent;border:none;padding:0;backdrop-filter:none;box-shadow:none;gap:12px}
+  .hero-search input{
+    flex:none;width:100%;height:56px;min-height:56px;line-height:normal;
+    padding:0 18px;border-radius:12px;font-size:16px;
+    -webkit-appearance:none;appearance:none;box-shadow:0 10px 28px rgba(0,0,0,.16);
+  }
+  .hero-search .btn{width:100%;height:56px;min-height:56px}
+}
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 34px;border-radius:6px;font-size:15px;font-weight:600;transition:.28s var(--ease);border:1.5px solid transparent}
 .btn-primary{background:var(--accent);color:#fff}
 .btn-primary:hover{background:var(--accent-hover);transform:translateY(-2px)}
