@@ -156,7 +156,7 @@ qinboplastics/
     ├── js/i18n.js    # 离线多语言引擎（13 语言，无外部 API）
     ├── i18n/         # 翻译文件 zh/en/ja/ko/ru/es/ar/fr/de/pt/vi/id/tr.json
     └── img/
-        ├── logo.png / logo-white.png      # 公司 logo（透明，蓝/白两版）
+        ├── logo-classic.png               # 公司经典 logo（透明，红橙色矢量版）
         ├── favicon.ico / favicon-512.png / apple-touch-icon.png
         ├── photos/real/  # 秦帛真实实拍图（已上线使用）
         ├── photos/   # 早期免版权占位图（已弃用，可删）
@@ -200,7 +200,7 @@ python3 -m http.server 8765
 ### 占位资源说明
 - `assets/img/photos/real/` 为秦帛提供的真实实拍图（仓储/物流/品牌料袋/展会），已集成上线
 - `assets/img/photos/` 根目录早期 Unsplash 占位图已弃用，可删
-- logo 已处理为透明 PNG（`logo.png` 蓝色版 / `logo-white.png` 白色版）+ favicon 全套
+- logo 已处理为透明 SVG（`logo-classic.png` 红橙色经典版）+ favicon 全套
 - 所有 `____________` 处需填入真实信息（地址/电话/邮箱/联系人）；多语言下联系信息由 contact 页直接填真值即可（不走 i18n）
 
 ### 关于 ICP 备案

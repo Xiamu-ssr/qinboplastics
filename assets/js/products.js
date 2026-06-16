@@ -11,10 +11,10 @@
   var TXT = {
     zh: {
       all: "全部牌号", brands: "厂家", grades: "牌号", apps: "典型应用",
-      props: "参考物性 / 资料口径", same: "同料种可供牌号", empty: "未找到匹配的牌号，换个关键词试试（如 R370Y、8150、M90-44、奇美、阻燃）。",
+      props: "关键参考参数", same: "同料种可供牌号", empty: "未找到匹配的牌号，换个关键词试试（如 R370Y、8150、M90-44、奇美、阻燃）。",
       detail: "查看参数", quote: "询价", stock: "现货 / 可询", hot: "热门", family: "料种",
       allFamily: "全部料种",
-      note: "物性数据为公开资料与原厂 TDS 参考；正式选型以原厂最新 TDS、COA 与批次为准。",
+      note: "参数为公开资料与原厂 TDS 参考摘录，不等同完整物性表；正式选型以原厂最新 TDS、COA 与批次为准。",
       searchPh: "搜索牌号 / 料种 / 厂家 / 应用，如 R370Y、8150、M90-44、奇美",
       count: "共 {total} 个牌号，当前第 {page} / {pages} 页",
       prev: "上一页",
@@ -22,10 +22,10 @@
     },
     en: {
       all: "All Grades", brands: "Producer", grades: "Grade", apps: "Applications",
-      props: "Reference Properties / Data Basis", same: "Other grades in this family", empty: "No matching grade. Try R370Y, 8150, M90-44, Chimei or flame-retardant.",
+      props: "Key Reference Data", same: "Other grades in this family", empty: "No matching grade. Try R370Y, 8150, M90-44, Chimei or flame-retardant.",
       detail: "View data", quote: "Quote", stock: "In stock / inquiry", hot: "Hot", family: "Family",
       allFamily: "All Families",
-      note: "Property data references public sources and OEM TDS. Final selection follows the latest OEM TDS, COA and batch.",
+      note: "Data is a short reference excerpt from public sources and OEM TDS, not a complete property table. Final selection follows the latest OEM TDS, COA and batch.",
       searchPh: "Search grade / material / producer / use, e.g. R370Y, 8150, M90-44, Chimei",
       count: "{total} grades · page {page} / {pages}",
       prev: "Previous",
@@ -98,9 +98,15 @@
   function fallbackFor(m) {
     return FALLBACK_PHOTOS[m.cat] || FALLBACK_PHOTOS.commodity;
   }
+  var INTERNAL_PROP_RE = /^(资料来源|资料口径|来源|source|data basis|confidence|可信度)$/i;
+  function publicProps(list) {
+    return (list || []).filter(function (p) {
+      return p && p.k && !INTERNAL_PROP_RE.test(String(p.k).trim());
+    });
+  }
   function gradeProps(item) {
     var meta = metaFor(item.grade, item.brand);
-    return meta.props || item.material.props || [];
+    return publicProps(meta.props || item.material.props || []);
   }
   function gradeLabel(item) {
     return metaFor(item.grade, item.brand).display || item.grade;
