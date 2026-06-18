@@ -10,7 +10,7 @@
 - 线上域名：`https://www.qinboplastics.com`
 - 主要页面：首页、产品中心、国内外贸易、关于秦帛、联系我们。
 - 语言策略：中文和英文为 SEO 重点页面；其他语言由前端 i18n 自动切换。
-- 品牌视觉：经典 QB logo，明亮模式使用偏经典橙红的品牌色，暗黑模式保留深色界面但 logo 不换色。
+- 品牌视觉：经典 QB logo，明亮模式使用橙色强调，暗黑模式使用蓝色版 QB logo 与蓝色强调。
 - SEO 基础：已包含 `sitemap.xml`、`robots.txt`、canonical、hreflang、Open Graph、结构化数据，以及百度验证文件。
 
 ## 主要能力
@@ -78,6 +78,7 @@ qinboplastics/
 │   ├── i18n/                   # 13 语言 JSON
 │   └── img/
 │       ├── logo-classic.png
+│       ├── logo-classic-blue.png
 │       ├── favicon.ico
 │       ├── favicon-512.png
 │       ├── apple-touch-icon.png
@@ -132,7 +133,7 @@ http://127.0.0.1:4173/
 
 - 主题变量在 `assets/css/style.css` 顶部。
 - 主题切换逻辑在 `assets/js/main.js`。
-- logo 使用 `assets/img/logo-classic.png`，favicon 同步在 `assets/img/favicon.ico`、`assets/img/favicon-512.png`、`assets/img/apple-touch-icon.png`。
+- 明亮模式 logo 使用 `assets/img/logo-classic.png`，暗黑模式 logo 使用 `assets/img/logo-classic-blue.png`；favicon 同步在 `assets/img/favicon.ico`、`assets/img/favicon-512.png`、`assets/img/apple-touch-icon.png`。
 
 ### SEO 与站长平台
 

@@ -336,7 +336,7 @@
       html += '<div class="pm-sect"><h4>' + t("same") + '</h4><div class="pm-grades">' +
         family.map(function (x) { return '<code>' + esc(gradeLabel(x)) + '</code>'; }).join("") + '</div></div>';
     }
-    html += '<div class="pm-cta"><a href="contact.html" class="btn btn-primary">' +
+    html += '<div class="pm-cta"><a href="' + (L() === "zh" ? "contact.html" : "/en/contact.html") + '" class="btn btn-primary">' +
       (L() === "zh" ? "联系销售部" : "Contact sales") + '</a></div>';
 
     modal.querySelector(".pm-inner").innerHTML = html;
