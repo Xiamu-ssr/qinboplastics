@@ -68,7 +68,7 @@ function renderPage(kind, key, lang, payload) {
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-${isEn ? '<base href="../" />\n<script>window.QB_LANG_HINT="en";</script>' : ''}
+${isEn ? '<base href="/" />\n<script>window.QB_LANG_HINT="en";</script>' : ''}
 <title>${title}</title>
 <meta name="description" content="${description}" />
 <meta name="robots" content="index, follow" />
@@ -85,12 +85,12 @@ ${alternatesHtml}
 <script type="application/ld+json">
 ${JSON.stringify(schema, null, 2)}
 </script>
-<link rel="stylesheet" href="../assets/css/style.css?v=20260617-theme" />
+<link rel="stylesheet" href="/assets/css/style.css?v=20260617-theme" />
 </head>
 <body class="inner">
 <header class="site-header" id="siteHeader">
   <div class="container nav-inner">
-    <a href="${isEn ? '/en/' : 'index.html'}" class="brand"><span class="brand-mark"><img src="../assets/img/logo-classic.png" alt="秦帛新材料 QB" /></span><span class="brand-text"><strong>秦帛新材料</strong><em>QINBO NEW MATERIALS</em></span></a>
+    <a href="${isEn ? '/en/' : 'index.html'}" class="brand"><span class="brand-mark"><img src="/assets/img/logo-classic.png" alt="秦帛新材料 QB" /></span><span class="brand-text"><strong>秦帛新材料</strong><em>QINBO NEW MATERIALS</em></span></a>
     <nav class="nav-menu">
       <a href="${isEn ? '/en/' : 'index.html'}">首页</a>
       <a href="${isEn ? '/en/products.html' : 'products.html'}" class="active">产品中心</a>
@@ -140,7 +140,7 @@ for (const c of QB.cats) {
 <p>${BRAND_BASE}（QINBO NEW MATERIALS）专注 ${c.zh} 领域，覆盖 ${related.map(m => `${m.zh || m.abbr}（${m.abbr}）`).join('、')} 等主流材料族。贸易方式涵盖一般贸易、进口分销与转口贸易，华东多仓直发，可提供 ${c.zh} 选型、报价、货期与原厂 TDS / COA 配套服务。</p>
 <h3>${c.zh} 涵盖的材料族</h3>
 <ul>${related.map(m => `<li><a href="material-${m.id}.html">${m.zh || m.abbr}（${m.abbr}）</a> · ${m.abbr} 现货牌号与物性表</li>`).join('\n')}</ul>
-<p>返回 <a href="../products.html">产品中心</a> 查看所有 ${c.zh} 现货牌号。</p>
+<p>返回 <a href="/products.html">产品中心</a> 查看所有 ${c.zh} 现货牌号。</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },
@@ -171,7 +171,7 @@ for (const c of QB.cats) {
 <p>${BRAND_BASE} (QINBO NEW MATERIALS) supplies ${c.en.toLowerCase()}: ${related.map(m => `${m.en || m.abbr} (${m.abbr})`).join(', ')}. Import, distribution and warehouse-direct delivery across China and select overseas markets. ${c.en} grade search, technical datasheet and COA on request.</p>
 <h3>Material families in ${c.en}</h3>
 <ul>${related.map(m => `<li><a href="material-${m.id}.html">${m.en || m.abbr} (${m.abbr})</a> · in-stock ${m.abbr} grades and reference properties</li>`).join('\n')}</ul>
-<p>Browse all <a href="../products.html">${c.en} in-stock grades</a> in the product center.</p>
+<p>Browse all <a href="/products.html">${c.en} in-stock grades</a> in the product center.</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },
@@ -215,7 +215,7 @@ for (const m of materials) {
 <ul>${grades.slice(0, 12).map(g => `<li><a href="grade-${g}.html">${g}</a> · ${m.abbr} 报价 / 物性表</li>`).join('\n')}</ul>
 <h3>${m.abbr} 应用领域</h3>
 <ul>${(m.apps || []).map(a => `<li>${a}</li>`).join('\n')}</ul>
-<p>返回 <a href="../products.html">产品中心</a> 查看完整 ${m.abbr} 现货牌号列表。</p>
+<p>返回 <a href="/products.html">产品中心</a> 查看完整 ${m.abbr} 现货牌号列表。</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },
@@ -250,7 +250,7 @@ for (const m of materials) {
 <ul>${grades.slice(0, 12).map(g => `<li><a href="grade-${g}.html">${g}</a> · ${m.abbr} datasheet / price</li>`).join('\n')}</ul>
 <h3>${m.abbr} Applications</h3>
 <ul>${(m.apps || []).map(a => `<li>${a}</li>`).join('\n')}</ul>
-<p>Browse the full <a href="../products.html">${m.abbr} grade list</a>.</p>
+<p>Browse the full <a href="/products.html">${m.abbr} grade list</a>.</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },
@@ -307,7 +307,7 @@ for (const gid of allGrades) {
 <table>
 ${(meta.props || []).slice(0, 12).map(p => `<tr><th>${p.k}</th><td>${p.v}</td></tr>`).join('\n')}
 </table>
-<p>返回 <a href="../products.html">产品中心</a> 查看更多 ${abbr} 牌号；或前往 <a href="../contact.html">联系销售部</a> 获取 ${gid} 报价与货期。</p>
+<p>返回 <a href="/products.html">产品中心</a> 查看更多 ${abbr} 牌号；或前往 <a href="/contact.html">联系销售部</a> 获取 ${gid} 报价与货期。</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },
@@ -342,7 +342,7 @@ ${(meta.props || []).slice(0, 12).map(p => `<tr><th>${p.k}</th><td>${p.v}</td></
 <table>
 ${(meta.props || []).slice(0, 12).map(p => `<tr><th>${p.k}</th><td>${p.v}</td></tr>`).join('\n')}
 </table>
-<p>Browse <a href="../products.html">more ${abbr} grades</a>, or <a href="../contact.html">contact our sales team</a> for ${gid} price and lead time.</p>
+<p>Browse <a href="/products.html">more ${abbr} grades</a>, or <a href="/contact.html">contact our sales team</a> for ${gid} price and lead time.</p>
 `,
     alternates: [
       { hreflang: 'zh-CN', href: `${DOMAIN}/products/${slug}.html` },

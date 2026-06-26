@@ -44,6 +44,8 @@ jobs:
         run: |
           mkdir -p _site
           cp -r index.html about.html products.html trade.html contact.html baidu_verify_codeva-KuJZnrnD3y.html assets en _site/
+          # 兜底：把 assets 复制一份到 en/ 下，这样 en/index.html 即使没有 <base> 也能找到资源
+          cp -r assets _site/en/
           cp sitemap.xml robots.txt _site/
           node scripts/build_seo_pages.js
           echo "=== 新生成的 SEO 页数 ==="
