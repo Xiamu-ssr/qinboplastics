@@ -37,17 +37,21 @@ jobs:
             -k "${{ secrets.OSS_ACCESS_KEY_SECRET }}" \
             -L CH
 
-      # 4. 整理出纯净的网站目录（只含要上线的文件）
-      #    避开 ossutil --exclude 不支持目录路径的限制
-      - name: Prepare site files
+      # 4. 构建长尾 SEO 着陆页（4 大类 + 20+ 材料族 + 200+ 牌号，中英文）
+      #    脚本读 assets/data/products.js 自动生成 _site/products/ 和 _site/en/products/ 下的独立 HTML
+      #    并把全部新 URL 合并进 _site/sitemap.xml
+      - name: Build SEO landing pages
         run: |
           mkdir -p _site
           cp -r index.html about.html products.html trade.html contact.html baidu_verify_codeva-KuJZnrnD3y.html assets en _site/
           cp sitemap.xml robots.txt _site/
-          echo "=== 待上传文件 ==="
-          find _site -type f | sort
+          node scripts/build_seo_pages.js
+          echo "=== 新生成的 SEO 页数 ==="
+          find _site/products _site/en/products -type f | wc -l
+          echo "=== 新 sitemap 大小 ==="
+          wc -l _site/sitemap.xml
 
-      # 5. 上传到 OSS
+      # 6. 上传到 OSS
       #    cp -rf --update：递归上传，只覆盖有变化的文件（增量，快）
       #    --meta 显式声明 Content-Type，避免 OSS 误判为 application/xml（修 Google 看到 Translate this page 标签）
       - name: Upload to OSS
@@ -83,7 +87,7 @@ jobs:
           done
           echo "=== Content-Type 补完 ==="
 
-      # 6. 部署完成通知 IndexNow（Bing / Yandex / Seznam / Naver 立即来爬）
+      # 7. 部署完成通知 IndexNow（Bing / Yandex / Seznam / Naver 立即来爬）
       #    不需要 API key：IndexNow v2 用 8 位 keyLocation + 8~128 位 key；缺 keyLocation 时落空但不影响部署
       - name: Ping IndexNow
         if: hashFiles('sitemap.xml') != ''

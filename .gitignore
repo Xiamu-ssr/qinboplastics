@@ -13,3 +13,4 @@ scripts/geo/world.geojson
 
 # 公司原始素材(手册/证照扫描件), 不入仓库
 _source/
+_site/
