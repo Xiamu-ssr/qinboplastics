@@ -49,6 +49,67 @@ jobs:
 
       # 5. 上传到 OSS
       #    cp -rf --update：递归上传，只覆盖有变化的文件（增量，快）
+      #    --meta 显式声明 Content-Type，避免 OSS 误判为 application/xml（修 Google 看到 Translate this page 标签）
       - name: Upload to OSS
         run: |
+          # 先做默认的增量上传（保留 --update，节省流量）
           ./ossutil cp -rf --update _site/ oss://${{ secrets.OSS_BUCKET }}/
+          # 再补一刀：对 HTML/JS/CSS/XML/图片等显式设 Content-Type，覆盖 OSS 误判
+          echo "=== 补 Content-Type 头 ==="
+          for f in $(find _site -type f \( \
+                -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.json" -o \
+                -name "*.xml" -o -name "*.txt" -o -name "*.svg" -o -name "*.png" -o \
+                -name "*.jpg" -o -name "*.jpeg" -o -name "*.webp" -o -name "*.ico" -o \
+                -name "*.woff" -o -name "*.woff2" \
+              \)); do
+            case "$f" in
+              *.html)        CT="text/html; charset=utf-8" ;;
+              *.css)         CT="text/css; charset=utf-8" ;;
+              *.js)          CT="application/javascript; charset=utf-8" ;;
+              *.json)        CT="application/json; charset=utf-8" ;;
+              *.xml)         CT="application/xml; charset=utf-8" ;;
+              *.txt)         CT="text/plain; charset=utf-8" ;;
+              *.svg)         CT="image/svg+xml" ;;
+              *.png)         CT="image/png" ;;
+              *.jpg|*.jpeg)  CT="image/jpeg" ;;
+              *.webp)        CT="image/webp" ;;
+              *.ico)         CT="image/x-icon" ;;
+              *.woff)        CT="font/woff" ;;
+              *.woff2)       CT="font/woff2" ;;
+              *)             continue ;;
+            esac
+            remote="oss://${{ secrets.OSS_BUCKET }}/${f#_site/}"
+            ./ossutil set-meta "$remote" "Content-Type:$CT" 2>/dev/null || true
+          done
+          echo "=== Content-Type 补完 ==="
+
+      # 6. 部署完成通知 IndexNow（Bing / Yandex / Seznam / Naver 立即来爬）
+      #    不需要 API key：IndexNow v2 用 8 位 keyLocation + 8~128 位 key；缺 keyLocation 时落空但不影响部署
+      - name: Ping IndexNow
+        if: hashFiles('sitemap.xml') != ''
+        run: |
+          echo "=== Ping IndexNow ==="
+          # 提交通常变更的几个核心 URL
+          for url in \
+            "https://www.qinboplastics.com/" \
+            "https://www.qinboplastics.com/products.html" \
+            "https://www.qinboplastics.com/trade.html" \
+            "https://www.qinboplastics.com/about.html" \
+            "https://www.qinboplastics.com/contact.html" \
+            "https://www.qinboplastics.com/en/" \
+            "https://www.qinboplastics.com/en/products.html" \
+            "https://www.qinboplastics.com/sitemap.xml"; do
+            # IndexNow 单 URL 提交（无需 key 也尝试；部分搜索引擎会接受）
+            code=$(curl -s -o /dev/null -w "%{http_code}" -X GET \
+              "https://api.indexnow.org/indexnow?url=$url&key=qinbo2026" || echo 0)
+            echo "  IndexNow $url → $code"
+          done
+          # 主动 ping 各大搜索引擎的 sitemap
+          echo "=== Ping sitemap 端点 ==="
+          for endpoint in \
+            "https://www.google.com/ping?sitemap=https://www.qinboplastics.com/sitemap.xml" \
+            "https://www.bing.com/ping?sitemap=https://www.qinboplastics.com/sitemap.xml"; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$endpoint" || echo 0)
+            echo "  $endpoint → $code"
+          done
+          echo "=== 通知完成 ==="
