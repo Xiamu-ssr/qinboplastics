@@ -43,8 +43,19 @@ h1,h2,h3{line-height:1.2;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
 .nav-menu{display:flex;gap:6px;align-items:center}
 .nav-menu a{padding:8px 12px;border-radius:8px;color:var(--ink-2);font-size:14px;font-weight:500}
 .hero,.page-banner{padding:80px 0 60px;background:#0b0c10;color:#fff}
-.hero h1,.page-banner h1{font-size:44px;line-height:1.15;margin:0 0 16px}
-.hero p,.page-banner p{font-size:17px;color:var(--ink-soft);max-width:680px}
+.hero{position:relative;isolation:isolate}
+.hero-overlay{
+  position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:
+    linear-gradient(100deg,rgba(0,0,0,.95) 0%,rgba(0,0,0,.92) 40%,rgba(0,0,0,.78) 65%,rgba(0,0,0,.55) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.50) 0%,rgba(0,0,0,.10) 25%,rgba(0,0,0,0) 65%,rgba(0,0,0,.70) 100%);
+}
+.hero h1,.page-banner h1{font-size:44px;line-height:1.15;margin:0 0 16px;color:#fff}
+.hero h1{letter-spacing:-.01em}
+.hero .hero-content,.hero .hero-content *{color:#fff}
+.hero-search input{color:#121923}
+.hero p,.page-banner p{font-size:17px;color:#ecf2ff;max-width:680px;opacity:.96}
+.hero-scroll{z-index:2}
 .qb-load-fail{display:none;position:fixed;left:0;right:0;bottom:0;padding:10px 16px;background:#fff8e1;color:#7a5b00;border-top:1px solid #f0d479;font-size:13px;z-index:9999;text-align:center}
 .qb-load-fail.show{display:block}
 @media (max-width:768px){.container{padding:0 16px}.nav-menu{display:none}.hero h1,.page-banner h1{font-size:30px}}
