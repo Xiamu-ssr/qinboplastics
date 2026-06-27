@@ -119,11 +119,11 @@ body.inner .nav-toggle span{background:var(--ink)}
   position:absolute;
   inset:0;
   z-index:1;
-  /* 明亮 / 暗黑统一：同一套强对比蒙版，优先保障文字清晰 */
-  background:
-    linear-gradient(100deg,rgba(0,0,0,.95) 0%,rgba(0,0,0,.92) 40%,rgba(0,0,0,.78) 65%,rgba(0,0,0,.55) 100%),
-    linear-gradient(180deg,rgba(0,0,0,.50) 0%,rgba(0,0,0,.10) 25%,rgba(0,0,0,0) 65%,rgba(0,0,0,.70) 100%);
   pointer-events:none;
+  /* 参考“原版”更温和的亮度衰减，保证明亮模式不压暗 */
+  background:
+    linear-gradient(100deg,rgba(0,0,0,.92) 0%,rgba(0,0,0,.78) 38%,rgba(0,0,0,.56) 70%,rgba(0,0,0,.42) 100%),
+    linear-gradient(180deg,rgba(0,0,0,.30) 0%,rgba(0,0,0,.05) 30%,rgba(0,0,0,.55) 100%);
 }
 .hero-content{position:relative;z-index:2;color:#fff}
 .hero-eyebrow{font-size:13px;letter-spacing:.25em;opacity:.92;margin-bottom:24px;font-weight:600;color:var(--hero-accent)}
